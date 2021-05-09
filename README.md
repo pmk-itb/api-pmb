@@ -6,6 +6,12 @@
 - At the root folder, execute on terminal/cmd: `yarn install`.
 - When you want to add deps: `yarn add <packagename>`.
 
+## Get started
+
+- Make a file named **.env**
+- Copy **.env.example** to **.env**
+- Run `yarn dev`
+
 ## Commit convention
 
 Check out these links:
