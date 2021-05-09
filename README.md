@@ -8,4 +8,7 @@
 
 ## Commit convention
 
-> Check out [this link](https://github.com/conventional-changelog/commitlint/#what-is-commitlint).
+Check out these links:
+
+- https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+- https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
