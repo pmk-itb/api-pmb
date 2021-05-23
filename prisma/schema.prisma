@@ -9,3 +9,29 @@ datasource db {
 generator client {
   provider = "prisma-client-js"
 }
+
+model Department {
+  id        Int      @default(autoincrement()) @id
+  code      String   @db.VarChar(7)
+  name      String   @db.VarChar(255)
+  @@map("department")
+}
+
+model Major {
+  id        Int      @default(autoincrement()) @id
+
+  @@map("major")
+
+}
+
+model Member {
+  id        Int      @default(autoincrement()) @id
+
+  @@map("member")
+}
+
+model Discipleship {
+  id        Int      @default(autoincrement()) @id
+
+  @@map("discipleship")
+}
