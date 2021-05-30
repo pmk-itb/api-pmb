@@ -35,3 +35,10 @@ model Discipleship {
 
   @@map("discipleship")
 }
+
+model Parent {
+  id        Int      @default(autoincrement()) @id
+
+  @@map("parent")
+}
+
