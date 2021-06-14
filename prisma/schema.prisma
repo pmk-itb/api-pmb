@@ -10,35 +10,52 @@ generator client {
   provider = "prisma-client-js"
 }
 
+// Department one-to-many with major
 model Department {
   id        Int      @default(autoincrement()) @id
   code      String   @db.VarChar(7)
   name      String   @db.VarChar(255)
+  majors    Major[]   
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
   @@map("department")
 }
 
+// Depatment one-to-many with major
+// TO-DO: Major one-to-many with member
 model Major {
-  id        Int      @default(autoincrement()) @id
+  id            Int      @default(autoincrement()) @id
 
+  department    Department @relation(fields: [department_id], references: [id])
+  department_id Int
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
   @@map("major")
 
 }
 
+// TO-DO: Major one-to-many with member
 model Member {
   id        Int      @default(autoincrement()) @id
 
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
   @@map("member")
 }
 
 model Discipleship {
   id        Int      @default(autoincrement()) @id
 
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
   @@map("discipleship")
 }
 
 model Parent {
   id        Int      @default(autoincrement()) @id
 
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
   @@map("parent")
 }
 
