@@ -55,10 +55,11 @@ model Parent {
   @@map("parent")
 }
 
-model SmallGroup {
+model Discipleship {
   id        Int      @default(autoincrement()) @id
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  @@map("discipleship")
 }
 
