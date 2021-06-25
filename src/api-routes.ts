@@ -1,12 +1,12 @@
-import { Router } from 'express';
+import { Request, Response, Router } from 'express';
 
 const router = Router();
 
-router.get('/', function (_req, res) {
+router.get('/', function (_req: Request, res: Response) {
   res.send('This is home page');
 });
 
-router.get('/about', function (_req, res) {
+router.get('/about', function (_req: Request, res: Response) {
   res.send('This is about');
 });
 
