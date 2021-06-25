@@ -15,6 +15,7 @@ model Department {
   id        Int      @default(autoincrement()) @id
   code      String   @db.VarChar(7)
   name      String   @db.VarChar(255)
+  location  String?  @db.VarChar(255)
   // department has many majors
   majors    Major[]   
   createdAt DateTime @default(now())
@@ -22,9 +23,14 @@ model Department {
   @@map("department")
 }
 
-// Depatment one-to-many with major
+// Department one-to-many with major
 model Major {
   id            Int      @default(autoincrement()) @id
+  // e.g.: IF, DK, TM, MR, FTI-G, FTTM-C
+  code          String   @db.VarChar(7)
+  // e.g.: Teknik Industri, Arsitektur
+  name          String   @db.VarChar(255)
+  nim_prefix    Int
   // major belongs to one department
   department    Department @relation(fields: [department_id], references: [id])
   department_id Int
@@ -39,9 +45,45 @@ model Major {
 model Member {
   id        Int      @default(autoincrement()) @id
 
+  // NIM aktif (== tpb_nim jika masih tpb)
+  nim       Int?    @unique
+  tpb_nim   Int?    @unique
+  name      String
+  nickname  String
   // member belongs to one major
   major     Major    @relation(fields: [major_id], references: [id])
   major_id  Int
+  // MALE / FEMALE
+  gender    Gender
+  birth_date  DateTime?
+  year      Int
+  line      String? @db.VarChar(31)
+  phone     String? @db.VarChar(31)
+  email     String? @db.VarChar(255)
+  current_address   String? @db.VarChar(1023)
+  origin_province   String? @db.VarChar(255)
+  origin_address    String? @db.VarChar(1023)
+  
+  origin_school     String? @db.VarChar(255)
+  current_church    String? @db.VarChar(255)
+  origin_church     String? @db.VarChar(255)
+
+  // active/graduated/dropped_out
+  status    String?  @db.VarChar(255) @default("active")
+  notes     String?  @db.Text
+
+  // Member has 1 parent
+  parent    Parent  @relation(fields: [parent_id], references: [id])
+  parent_id Int
+
+  // Member jadi 'AKTB' di 1 Discipleship
+  discipleship  Discipleship?   @relation(name: "AKTB", fields: [discipleship_id], references: [id])
+  discipleship_id Int?
+
+  // Member jadi 'PKTB' di 1 Discpleship
+  fellowship    Discipleship?   @relation(name: "PKTB", fields: [fellowship_id], references: [id])
+  fellowship_id Int?
+
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   @@map("member")
@@ -50,15 +92,27 @@ model Member {
 model Parent {
   id        Int      @default(autoincrement()) @id
 
+  // A Parent may have many children (members)
+  child     Member[]
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   @@map("parent")
 }
 
-model SmallGroup {
+model Discipleship {
   id        Int      @default(autoincrement()) @id
+  member_id Member[]  @relation(name: "AKTB")    // gimana kalau ada AKTB yang bukan dari PMK ITB
+  leader_id Member?   @relation(name: "PKTB")    // gimana kalau leader bukan dari PMK ITB?
+  institution String?   @db.VarChar(255)
+  start_date  DateTime?
+  // pending/ok/need_attention
+  status    String   @db.VarChar(31)
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
 
+enum Gender {
+  MALE
+  FEMALE
+}
