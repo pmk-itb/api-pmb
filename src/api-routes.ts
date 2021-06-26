@@ -12,6 +12,7 @@ router.get('/about', function (_req, res) {
   res.send('This is about');
 });
 
+// Example API to get department
 router.get('/departments', async (_req: Request, res: Response) => {
   const departments = await prisma.department.findMany({
     select: {
@@ -24,6 +25,21 @@ router.get('/departments', async (_req: Request, res: Response) => {
     },
   });
   res.json(departments);
+});
+
+// Example API endpoint to create department
+router.post('/departments', async (req: Request, res: Response) => {
+  console.log(req.body);
+  const { code, name, location } = req.body;
+  const post = await prisma.department.create({
+    data: {
+      code,
+      name,
+      // location will be string at first and then changed to enum automatically
+      location,
+    },
+  });
+  res.json(post);
 });
 
 export = router;
