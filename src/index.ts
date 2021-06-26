@@ -1,18 +1,17 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
 import * as dotenv from 'dotenv';
-import routeFunc = require('./routes');
-// import * as routes from './routes';
-// import { PrismaClient } from '@prisma/client';
+import api from './api-routes';
 
 dotenv.config();
 
 const app = express();
-// const prisma = new PrismaClient();
 const port = process.env.PORT;
-const router = express.Router();
-const routes = routeFunc(router);
 
-app.use('/api', routes);
+app.use('/api', api);
+
+app.get('/', (_req: Request, res: Response) => {
+  res.send('Welcome to API!');
+});
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}.`);

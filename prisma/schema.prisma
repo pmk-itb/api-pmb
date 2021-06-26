@@ -12,14 +12,15 @@ generator client {
 
 // Department one-to-many with major
 model Department {
-  id        Int      @default(autoincrement()) @id
-  code      String   @db.VarChar(7)
+  id        Int      @id @default(autoincrement())
+  code      String   @db.VarChar(10)
   name      String   @db.VarChar(255)
   location  String?  @db.VarChar(255)
   // department has many majors
-  majors    Major[]   
+  majors    Major[]
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
   @@map("department")
 }
 
@@ -36,14 +37,17 @@ model Major {
   department_id Int
   // major has many members
   members       Member[]
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
-  @@map("major")
+  code          String     @db.VarChar(10)
+  name          String     @db.VarChar(100)
+  nim_prefix    Int
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
 
+  @@map("major")
 }
 
 model Member {
-  id        Int      @default(autoincrement()) @id
+  id Int @id @default(autoincrement())
 
   // NIM aktif (== tpb_nim jika masih tpb)
   nim       Int?    @unique
@@ -90,7 +94,7 @@ model Member {
 }
 
 model Parent {
-  id        Int      @default(autoincrement()) @id
+  id Int @id @default(autoincrement())
 
   // A Parent may have many children (members)
   child     Member[]
@@ -110,6 +114,7 @@ model Discipleship {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  @@map("discipleship")
 }
 
 enum Gender {
