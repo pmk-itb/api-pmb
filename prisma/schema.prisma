@@ -37,9 +37,6 @@ model Major {
   department_id Int
   // major has many members
   members       Member[]
-  code          String     @db.VarChar(10)
-  name          String     @db.VarChar(100)
-  nim_prefix    Int
   createdAt     DateTime   @default(now())
   updatedAt     DateTime   @updatedAt
 
