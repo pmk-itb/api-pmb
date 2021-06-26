@@ -1,3 +1,5 @@
+import { Location } from '@prisma/client';
+
 export const departments = [
   {
     code: 'FITB',
@@ -36,6 +38,7 @@ export const departments = [
     // FMIPA
     code: 'FMIPA',
     name: 'Fakultas Matematika dan Ilmu Pengetahuan Alam',
+    location: Location.GANESA,
     majors: {
       create: [
         {
