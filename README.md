@@ -11,7 +11,7 @@ yarn global add prettier
 yarn global add eslint
 ```
 
-- Open <i>settings.json</i> of your VSCode instance and add this bunch of lines.
+- Open `settings.json` of your VSCode instance and add this bunch of lines.
 
 ```json
 {
