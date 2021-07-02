@@ -2,18 +2,19 @@ import { Location } from '@prisma/client';
 
 export const departments = [
   {
-    code: 'FITB',
-    name: 'Fakultas Ilmu dan Teknologi Kebumian',
+    code: 'FITB-G',
+    name: 'Fakultas Ilmu dan Teknologi Kebumian - Ganesa',
+    location: Location.GANESA,
     majors: {
       create: [
         {
-          code: 'FITB',
-          name: 'TPB FITB',
+          code: 'FITB-G',
+          name: 'TPB FITB-G',
           nim_prefix: 163,
         },
         {
-          code: 'OS',
-          name: 'Oseanografi',
+          code: 'OS-G',
+          name: 'Oseanografi - Ganesa',
           nim_prefix: 129,
         },
         {
@@ -35,7 +36,25 @@ export const departments = [
     },
   },
   {
-    // FMIPA
+    code: 'FITB-C',
+    name: 'Fakultas Ilmu dan Teknologi Kebumian - Cirebon',
+    location: Location.CIREBON,
+    majors: {
+      create: [
+        {
+          code: 'FITB-C',
+          name: 'TPB FITB-C',
+          nim_prefix: 163,
+        },
+        {
+          code: 'OS-C',
+          name: 'Oseanografi - Cirebon',
+          nim_prefix: 129,
+        },
+      ],
+    },
+  },
+  {
     code: 'FMIPA',
     name: 'Fakultas Matematika dan Ilmu Pengetahuan Alam',
     location: Location.GANESA,
@@ -75,13 +94,14 @@ export const departments = [
     },
   },
   {
-    code: 'FSRD',
-    name: 'Fakultas Seni Rupa dan Desain',
+    code: 'FSRD-G',
+    name: 'Fakultas Seni Rupa dan Desain - Ganesa',
+    location: Location.GANESA,
     majors: {
       create: [
         {
-          code: 'FSRD',
-          name: 'TPB FSRD',
+          code: 'FSRD-G',
+          name: 'TPB FSRD-G',
           nim_prefix: 168,
         },
         {
@@ -90,8 +110,8 @@ export const departments = [
           nim_prefix: 170,
         },
         {
-          code: 'KR',
-          name: 'Kriya',
+          code: 'KR-G',
+          name: 'Kriya - Ganesa',
           nim_prefix: 172,
         },
         {
@@ -113,13 +133,33 @@ export const departments = [
     },
   },
   {
-    code: 'FTI',
-    name: 'Fakultas Teknologi Industri',
+    code: 'FSRD-C',
+    name: 'Fakultas Seni Rupa dan Desain - Cirebon',
+    location: Location.CIREBON,
     majors: {
       create: [
         {
-          code: 'FTI',
-          name: 'TPB FTI',
+          code: 'FSRD-C',
+          name: 'TPB FSRD-C',
+          nim_prefix: 168,
+        },
+        {
+          code: 'KR-C',
+          name: 'Kriya - Cirebon',
+          nim_prefix: 172,
+        },
+      ],
+    },
+  },
+  {
+    code: 'FTI-G',
+    name: 'Fakultas Teknologi Industri - Ganesa',
+    location: Location.GANESA,
+    majors: {
+      create: [
+        {
+          code: 'FTI-G',
+          name: 'TPB FTI-G',
           nim_prefix: 167,
         },
         {
@@ -138,14 +178,28 @@ export const departments = [
           nim_prefix: 134,
         },
         {
-          code: 'PG',
-          name: 'Teknik Pangan',
-          nim_prefix: 143,
-        },
-        {
           code: 'MR',
           name: 'Manajemen Rekayasa',
           nim_prefix: 144,
+        },
+      ],
+    },
+  },
+  {
+    code: 'FTI-J',
+    name: 'Fakultas Teknologi Industri - Jatinangor',
+    location: Location.JATINANGOR,
+    majors: {
+      create: [
+        {
+          code: 'FTI-J',
+          name: 'TPB FTI-J',
+          nim_prefix: 167,
+        },
+        {
+          code: 'PG',
+          name: 'Teknik Pangan',
+          nim_prefix: 143,
         },
         {
           code: 'TB',
@@ -156,8 +210,28 @@ export const departments = [
     },
   },
   {
+    code: 'FTI-C',
+    name: 'Fakultas Teknologi Industri - Cirebon',
+    location: Location.CIREBON,
+    majors: {
+      create: [
+        {
+          code: 'FTI-C',
+          name: 'TPB FTI-C',
+          nim_prefix: 167,
+        },
+        {
+          code: 'TI-C',
+          name: 'Teknik Industri - Cirebon',
+          nim_prefix: 134,
+        },
+      ],
+    },
+  },
+  {
     code: 'FTMD',
     name: 'Fakultas Teknik Mesin dan Dirgantara',
+    location: Location.GANESA,
     majors: {
       create: [
         {
@@ -184,28 +258,29 @@ export const departments = [
     },
   },
   {
-    code: 'FTTM',
-    name: 'Fakultas Teknik Pertambangan dan Perminyakan',
+    code: 'FTTM-G',
+    name: 'Fakultas Teknik Pertambangan dan Perminyakan - Ganesa',
+    location: Location.GANESA,
     majors: {
       create: [
         {
-          code: 'FTTM',
-          name: 'TPB FTTM',
+          code: 'FTTM-G',
+          name: 'TPB FTTM-G',
           nim_prefix: 164,
         },
         {
-          code: 'TA',
-          name: 'Teknik Pertambangan',
+          code: 'TA-G',
+          name: 'Teknik Pertambangan - Ganesa',
           nim_prefix: 121,
         },
         {
-          code: 'TM',
-          name: 'Teknik Perminyakan',
+          code: 'TM-G',
+          name: 'Teknik Perminyakan - Ganesa',
           nim_prefix: 122,
         },
         {
-          code: 'TG',
-          name: 'Teknik Geofisika',
+          code: 'TG-G',
+          name: 'Teknik Geofisika - Ganesa',
           nim_prefix: 123,
         },
         {
@@ -217,13 +292,43 @@ export const departments = [
     },
   },
   {
-    code: 'FTSL',
-    name: 'Fakultas Teknik Sipil dan Lingkungan',
+    code: 'FTTM-C',
+    name: 'Fakultas Teknik Pertambangan dan Perminyakan - Cirebon',
+    location: Location.CIREBON,
     majors: {
       create: [
         {
-          code: 'FTSL',
-          name: 'TPB FTSL',
+          code: 'FTTM-C',
+          name: 'TPB FTTM-C',
+          nim_prefix: 164,
+        },
+        {
+          code: 'TA-C',
+          name: 'Teknik Pertambangan - Cirebon',
+          nim_prefix: 121,
+        },
+        {
+          code: 'TM-C',
+          name: 'Teknik Perminyakan - Cirebon',
+          nim_prefix: 122,
+        },
+        {
+          code: 'TG-C',
+          name: 'Teknik Geofisika - Cirebon',
+          nim_prefix: 123,
+        },
+      ],
+    },
+  },
+  {
+    code: 'FTSL-G',
+    name: 'Fakultas Teknik Sipil dan Lingkungan - Ganesa',
+    location: Location.GANESA,
+    majors: {
+      create: [
+        {
+          code: 'FTSL-G',
+          name: 'TPB FTSL-G',
           nim_prefix: 166,
         },
         {
@@ -241,6 +346,20 @@ export const departments = [
           name: 'Teknik Kelautan',
           nim_prefix: 155,
         },
+      ],
+    },
+  },
+  {
+    code: 'FTSL-J',
+    name: 'Fakultas Teknik Sipil dan Lingkungan - Jatinangor',
+    location: Location.JATINANGOR,
+    majors: {
+      create: [
+        {
+          code: 'FTSL-J',
+          name: 'TPB FTSL-J',
+          nim_prefix: 166,
+        },
         {
           code: 'IL',
           name: 'Rekayasa Infrastruktur Lingkungan',
@@ -255,13 +374,14 @@ export const departments = [
     },
   },
   {
-    code: 'SAPPK',
-    name: 'Sekolah Arsitektur, Perencanaan dan Pengembangan Kebijakan',
+    code: 'SAPPK-G',
+    name: 'Sekolah Arsitektur, Perencanaan dan Pengembangan Kebijakan - Ganesa',
+    location: Location.GANESA,
     majors: {
       create: [
         {
-          code: 'SAPPK',
-          name: 'TPB SAPPK',
+          code: 'SAPPK-G',
+          name: 'TPB SAPPK-G',
           nim_prefix: 199,
         },
         {
@@ -270,8 +390,27 @@ export const departments = [
           nim_prefix: 152,
         },
         {
-          code: 'PL',
-          name: 'Perencanaan Wilayah dan Kota',
+          code: 'PL-G',
+          name: 'Perencanaan Wilayah dan Kota - Ganesa',
+          nim_prefix: 154,
+        },
+      ],
+    },
+  },
+  {
+    code: 'SAPPK-C',
+    name: 'Sekolah Arsitektur, Perencanaan dan Pengembangan Kebijakan - Cirebon',
+    location: Location.CIREBON,
+    majors: {
+      create: [
+        {
+          code: 'SAPPK-C',
+          name: 'TPB SAPPK-C',
+          nim_prefix: 199,
+        },
+        {
+          code: 'PL-C',
+          name: 'Perencanaan Wilayah dan Kota - Cirebon',
           nim_prefix: 154,
         },
       ],
@@ -280,6 +419,7 @@ export const departments = [
   {
     code: 'SBM',
     name: 'Sekolah Bisnis dan Manajemen',
+    location: Location.GANESA,
     majors: {
       create: [
         {
@@ -303,6 +443,7 @@ export const departments = [
   {
     code: 'SF',
     name: 'Sekolah Farmasi',
+    location: Location.GANESA,
     majors: {
       create: [
         {
@@ -323,10 +464,68 @@ export const departments = [
       ],
     },
   },
-  /**/
+  {
+    code: 'SITH-S',
+    name: 'Sekolah Ilmu dan Teknologi Hayati - Sains',
+    location: Location.GANESA,
+    majors: {
+      create: [
+        {
+          code: 'SITH-S',
+          name: 'TPB SITH-S',
+          nim_prefix: 161,
+        },
+        {
+          code: 'BI',
+          name: 'Biologi',
+          nim_prefix: 106,
+        },
+        {
+          code: 'BM',
+          name: 'Mikrobiologi',
+          nim_prefix: 104,
+        },
+      ],
+    },
+  },
+  {
+    code: 'SITH-R',
+    name: 'Sekolah Ilmu dan Teknologi Hayati - Rekayasa',
+    location: Location.JATINANGOR,
+    majors: {
+      create: [
+        {
+          code: 'SITH-R',
+          name: 'TPB SITH-R',
+          nim_prefix: 161,
+        },
+        {
+          code: 'BE',
+          name: 'Rekayasa Hayati',
+          nim_prefix: 112,
+        },
+        {
+          code: 'BA',
+          name: 'Rekayasa Pertanian',
+          nim_prefix: 114,
+        },
+        {
+          code: 'BW',
+          name: 'Rekayasa Kehutanan',
+          nim_prefix: 115,
+        },
+        {
+          code: 'BP',
+          name: 'Teknologi Pasca Panen',
+          nim_prefix: 119,
+        },
+      ],
+    },
+  },
   {
     code: 'STEI',
     name: 'Sekolah Teknik Elektro dan Informatika',
+    location: Location.GANESA,
     majors: {
       create: [
         {
