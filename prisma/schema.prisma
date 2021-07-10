@@ -22,7 +22,7 @@ model Department {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  @@map("department")
+  @@map("departments")
 }
 
 enum Location {
@@ -48,7 +48,7 @@ model Major {
   createdAt     DateTime   @default(now())
   updatedAt     DateTime   @updatedAt
 
-  @@map("major")
+  @@map("majors")
 }
 
 model Member {
@@ -78,8 +78,8 @@ model Member {
   origin_church  String? @db.VarChar(255)
 
   // active/graduated/dropped_out
-  status String? @default("active") @db.VarChar(255)
-  notes  String? @db.Text
+  status MemberStatus? @default(ACTIVE)
+  notes  String?       @db.Text
 
   // Member has 1 parent
   parent    Parent @relation(fields: [parent_id], references: [id])
@@ -95,34 +95,50 @@ model Member {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  @@map("member")
+  @@map("members")
+}
+
+enum Gender {
+  MALE
+  FEMALE
+}
+
+enum MemberStatus {
+  ACTIVE
+  GRADUATED
+  DROPPED_OUT
+  ON_LEAVE
+  TRANSFERRED
+  DECEASED
 }
 
 model Parent {
   id Int @id @default(autoincrement())
 
   // A Parent may have many children (members)
-  child     Member[]
+  children  Member[]
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  @@map("parent")
+  @@map("parents")
 }
 
 model Discipleship {
-  id          Int       @id @default(autoincrement())
-  member_id   Member[]  @relation(name: "AKTB") // gimana kalau ada AKTB yang bukan dari PMK ITB
-  leader_id   Member?   @relation(name: "PKTB") // gimana kalau leader bukan dari PMK ITB?
-  institution String?   @db.VarChar(255)
+  id          Int                @id @default(autoincrement())
+  member_id   Member[]           @relation(name: "AKTB")
+  // gimana kalo ini pake nama lengkap leader nya aja, jadi tipe nya string
+  leader_id   Member?            @relation(name: "PKTB") // gimana kalau leader bukan dari PMK ITB?
+  institution String?            @db.VarChar(255)
   start_date  DateTime?
   // pending/ok/need_attention
-  status      String    @db.VarChar(31)
+  status      DiscipleshipStatus @db.VarChar(31)
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  @@map("discipleship")
+  @@map("discipleships")
 }
 
-enum Gender {
-  MALE
-  FEMALE
+enum DiscipleshipStatus {
+  PENDING
+  OK
+  NEED_ATTENTION
 }
