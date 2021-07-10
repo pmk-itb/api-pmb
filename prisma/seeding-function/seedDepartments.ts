@@ -1,7 +1,5 @@
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '../seed';
 import { departments } from '../seeding-data/departments';
-
-const prisma = new PrismaClient();
 
 const deptData = departments;
 

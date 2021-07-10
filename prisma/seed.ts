@@ -1,7 +1,7 @@
 import { PrismaClient } from '@prisma/client';
 import { seedDepartments } from './seeding-function/seedDepartments';
 
-const prisma = new PrismaClient();
+export const prisma = new PrismaClient();
 
 seedDepartments()
   .catch((e) => {
