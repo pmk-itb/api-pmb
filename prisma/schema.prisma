@@ -34,19 +34,19 @@ enum Location {
 
 // Department one-to-many with major
 model Major {
-  id            Int        @id @default(autoincrement())
+  id           Int        @id @default(autoincrement())
   // e.g.: IF, DK, TM, MR, FTI-G, FTTM-C
-  code          String     @db.VarChar(7)
+  code         String     @db.VarChar(7)
   // e.g.: Teknik Industri, Arsitektur
-  name          String     @db.VarChar(255)
-  nim_prefix    Int
+  name         String     @db.VarChar(255)
+  nimPrefix    Int
   // major belongs to one department
-  department    Department @relation(fields: [department_id], references: [id])
-  department_id Int
+  department   Department @relation(fields: [departmentId], references: [id])
+  departmentId Int
   // major has many members
-  members       Member[]
-  createdAt     DateTime   @default(now())
-  updatedAt     DateTime   @updatedAt
+  members      Member[]
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
 
   @@map("majors")
 }
@@ -55,43 +55,39 @@ model Member {
   id Int @id @default(autoincrement())
 
   // NIM aktif (== tpb_nim jika masih tpb)
-  nim             Int?      @unique
-  tpb_nim         Int?      @unique
-  name            String
-  nickname        String
+  nim            Int?      @unique
+  tpbNim         Int?      @unique
+  name           String
+  nickname       String
   // member belongs to one major
-  major           Major     @relation(fields: [major_id], references: [id])
-  major_id        Int
+  major          Major     @relation(fields: [majorId], references: [id])
+  majorId        Int
   // MALE / FEMALE
-  gender          Gender
-  birth_date      DateTime?
-  year            Int
-  line            String?   @db.VarChar(31)
-  phone           String?   @db.VarChar(31)
-  email           String?   @db.VarChar(255)
-  current_address String?   @db.VarChar(1023)
-  origin_province String?   @db.VarChar(255)
-  origin_address  String?   @db.VarChar(1023)
+  gender         Gender
+  birthDate      DateTime?
+  year           Int
+  line           String?   @db.VarChar(31)
+  phone          String?   @db.VarChar(31)
+  email          String?   @db.VarChar(255)
+  currentAddress String?   @db.VarChar(1023)
+  originProvince String?   @db.VarChar(255)
+  originAddress  String?   @db.VarChar(1023)
 
-  origin_school  String? @db.VarChar(255)
-  current_church String? @db.VarChar(255)
-  origin_church  String? @db.VarChar(255)
+  originSchool  String? @db.VarChar(255)
+  currentChurch String? @db.VarChar(255)
+  originChurch  String? @db.VarChar(255)
 
   // active/graduated/dropped_out
-  status MemberStatus? @default(ACTIVE)
-  notes  String?       @db.Text
+  status MemberStatus @default(ACTIVE)
+  notes  String?      @db.Text
 
   // Member has 1 parent
-  parent    Parent @relation(fields: [parent_id], references: [id])
-  parent_id Int
+  parent   Parent @relation(fields: [parentId], references: [id])
+  parentId Int
 
   // Member jadi 'AKTB' di 1 Discipleship
-  discipleship    Discipleship? @relation(name: "AKTB", fields: [discipleship_id], references: [id])
-  discipleship_id Int?
-
-  // Member jadi 'PKTB' di 1 Discpleship
-  fellowship    Discipleship? @relation(name: "PKTB", fields: [fellowship_id], references: [id])
-  fellowship_id Int?
+  discipleship   Discipleship? @relation(fields: [discipleshipId], references: [id])
+  discipleshipId Int?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -124,17 +120,23 @@ model Parent {
 
 model Discipleship {
   id          Int                @id @default(autoincrement())
-  member_id   Member[]           @relation(name: "AKTB")
-  // gimana kalo ini pake nama lengkap leader nya aja, jadi tipe nya string
-  leader_id   Member?            @relation(name: "PKTB") // gimana kalau leader bukan dari PMK ITB?
+  members     Member[]
+  leader      Leader?            @relation(fields: [leaderId], references: [id])
+  leaderId    Int?
   institution String?            @db.VarChar(255)
-  start_date  DateTime?
+  startDate   DateTime?
   // pending/ok/need_attention
-  status      DiscipleshipStatus @db.VarChar(31)
+  status      DiscipleshipStatus
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   @@map("discipleships")
+}
+
+model Leader {
+  id           Int           @id @default(autoincrement())
+  name         String        @db.VarChar(255)
+  discipleship Discipleship?
 }
 
 enum DiscipleshipStatus {
