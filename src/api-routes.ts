@@ -42,4 +42,15 @@ router.post('/departments', async (req: Request, res: Response) => {
   res.json(post);
 });
 
+router.get('/test', async (_req: Request, res: Response) => {
+  // try to plucking all depts
+  const allDepartments = await prisma.department.findMany({});
+  let selectHTML = '<select>';
+  allDepartments.forEach((element) => {
+    selectHTML += '<option value=' + element.id + '>' + element.name + '</option>';
+  });
+  selectHTML += '</select>';
+  res.send(selectHTML);
+});
+
 export = router;
