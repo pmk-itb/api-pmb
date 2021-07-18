@@ -1,14 +1,15 @@
 import { prisma } from '../seed';
 import faker from 'faker';
 import { Gender } from '@prisma/client';
+import { randomInt } from 'crypto';
 
 export async function seedMembers(): Promise<void> {
   console.log(`Start seeding members...`);
 
   for (let i = 0; i < 9; i++) {
     const data = {
-      nim: 13518001 + i,
-      tpbNim: 16518001 + i,
+      nim: 13518001 + randomInt(0, 149),
+      tpbNim: 16518001 + randomInt(0, 400),
       name: faker.name.findName(),
       nickname: faker.name.firstName(),
       majorId: i + 1,
@@ -28,9 +29,14 @@ export async function seedMembers(): Promise<void> {
       notes: faker.random.words(),
       parentId: i + 1,
     };
-    const member = await prisma.member.create({
-      data,
-    });
+    const member = await prisma.member
+      .create({
+        data,
+      })
+      .catch((e) => {
+        console.log(e);
+        return data;
+      });
     console.log(`Created member with code: ${member.name}`);
   }
   console.log('Seeding finished');

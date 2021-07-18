@@ -87,8 +87,11 @@ model Member {
   parentId Int
 
   // Member jadi 'AKTB' di 1 Discipleship
-  discipleship   Discipleship? @relation(fields: [discipleshipId], references: [id])
+  discipleship   Discipleship? @relation(name: "mentee", fields: [discipleshipId], references: [id])
   discipleshipId Int?
+
+  // Member jadi PKTB di 1 Discipleship (one-to-one)
+  fellowship Discipleship? @relation(name: "mentor")
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -136,27 +139,17 @@ enum Relationship {
 
 model Discipleship {
   id          Int                @id @default(autoincrement())
-  members     Member[]
-  leader      Leader?            @relation(fields: [leaderId], references: [id])
+  members     Member[]           @relation(name: "mentee")
+  leader      Member?            @relation(name: "mentor", fields: [leaderId], references: [id])
   leaderId    Int?
   institution String?            @db.VarChar(255)
   startDate   DateTime?
   // pending/ok/need_attention
-  status      DiscipleshipStatus
+  status      DiscipleshipStatus @default(OK)
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   @@map("discipleships")
-}
-
-model Leader {
-  id           Int           @id @default(autoincrement())
-  name         String        @db.VarChar(255)
-  isITB        Boolean
-  discipleship Discipleship?
-
-
-  @@map("leaders")
 }
 
 enum DiscipleshipStatus {
