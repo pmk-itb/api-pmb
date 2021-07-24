@@ -2,15 +2,39 @@
 
 ## Install dependencies
 
-- Make sure you've installed `yarn`.
+- Make sure you've installed `yarn` and connect the PATH.
 - At the root folder, execute on terminal/cmd: `yarn install`.
-- When you want to add deps: `yarn add <packagename>`.
+- Install `prettier` and `eslint` as global dependency.
+
+```
+yarn global add prettier
+yarn global add eslint
+```
+
+- Open `settings.json` of your VSCode instance and add this bunch of lines.
+
+```json
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"]
+}
+```
 
 ## Get started
 
 - Make a file named **.env**
-- Copy **.env.example** to **.env**
-- Run `yarn dev`
+- Copy **.env.example** to **.env** and set the local config for your development.
+- Run `yarn run dev`
+
+## db push with rollback
+
+To perform db push with rollback, run this command
+
+```sh
+npx prisma db push --force-reset
+```
 
 ## Commit convention
 
