@@ -19,8 +19,8 @@ model Department {
   location  Location
   // department has many majors
   majors    Major[]
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now()) @db.Timestamptz
+  updatedAt DateTime @updatedAt @db.Timestamptz
 
   @@map("departments")
 }
@@ -45,8 +45,8 @@ model Major {
   departmentId Int
   // major has many members
   members      Member[]
-  createdAt    DateTime   @default(now())
-  updatedAt    DateTime   @updatedAt
+  createdAt    DateTime   @default(now()) @db.Timestamptz
+  updatedAt    DateTime   @updatedAt @db.Timestamptz
 
   @@map("majors")
 }
@@ -64,7 +64,7 @@ model Member {
   majorId        Int
   // MALE / FEMALE
   gender         Gender
-  birthDate      DateTime
+  birthDate      DateTime @db.Timestamptz
   year           Int
   line           String?  @db.VarChar(31)
   phone          String?  @db.VarChar(31)
@@ -93,8 +93,8 @@ model Member {
   // Member jadi PKTB di 1 Discipleship (one-to-one)
   fellowship Discipleship? @relation(name: "mentor")
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now()) @db.Timestamptz
+  updatedAt DateTime @updatedAt @db.Timestamptz
   @@map("members")
 }
 
@@ -120,8 +120,8 @@ model Parent {
 
   // A Parent may have many children (members)
   children  Member[]
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now()) @db.Timestamptz
+  updatedAt DateTime @updatedAt @db.Timestamptz
   @@map("parents")
 }
 
@@ -143,12 +143,12 @@ model Discipleship {
   leader      Member?            @relation(name: "mentor", fields: [leaderId], references: [id])
   leaderId    Int?
   institution String?            @db.VarChar(255)
-  startDate   DateTime?
+  startDate   DateTime?          @db.Timestamptz
   // pending/ok/need_attention
   status      DiscipleshipStatus @default(OK)
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now()) @db.Timestamptz
+  updatedAt DateTime @updatedAt @db.Timestamptz
   @@map("discipleships")
 }
 

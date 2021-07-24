@@ -10,9 +10,14 @@ export async function seedDiscipleships(): Promise<void> {
       institution: institutionArr[randomInt(0, 4)],
       startDate: new Date(),
     };
-    const discipleship = await prisma.discipleship.create({
-      data,
-    });
-    console.log(`Created discipleship with code: ${discipleship.id}`);
+    const discipleship = await prisma.discipleship
+      .create({
+        data,
+      })
+      .catch((e) => {
+        console.log(e);
+        return data;
+      });
+    console.log(`Created discipleship with leader id: ${discipleship.leaderId}`);
   }
 }

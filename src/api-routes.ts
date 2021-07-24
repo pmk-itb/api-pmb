@@ -44,13 +44,25 @@ router.post('/departments', async (req: Request, res: Response) => {
 
 router.get('/test', async (_req: Request, res: Response) => {
   // try to plucking all depts
-  const allDepartments = await prisma.department.findMany({});
-  let selectHTML = '<select>';
-  allDepartments.forEach((element) => {
-    selectHTML += '<option value=' + element.id + '>' + element.name + '</option>';
+  // const allDepartments = await prisma.department.findMany({});
+  // let selectHTML = '<select>';
+  // allDepartments.forEach((element) => {
+  //   selectHTML += '<option value=' + element.id + '>' + element.name + '</option>';
+  // });
+  // selectHTML += '</select>';
+  // res.send(selectHTML);
+
+  const variable = await prisma.member.findMany({
+    where: {
+      birthDate: {
+        gt: new Date(1999),
+      },
+    },
+    include: {
+      major: true,
+    },
   });
-  selectHTML += '</select>';
-  res.send(selectHTML);
+  res.json(variable);
 });
 
 export = router;

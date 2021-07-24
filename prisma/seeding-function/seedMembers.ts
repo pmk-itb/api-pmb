@@ -14,7 +14,7 @@ export async function seedMembers(): Promise<void> {
       nickname: faker.name.firstName(),
       majorId: i + 1,
       gender: Gender.MALE,
-      birthDate: faker.date.past(),
+      birthDate: new Date(2000, 8, 2),
       year: 2018,
       line: faker.internet.userName(),
       phone: faker.phone.phoneNumber(),
