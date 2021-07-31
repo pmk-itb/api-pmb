@@ -1,14 +1,28 @@
 // import { format } from "path/posix"
 
-export let formatName = (inputName) =>{
+let formatName = (inputName) =>{
     let names = inputName.split(" ");
     console.log(names);
     let formattedName = "";
     //capitalize each word
     for (const name of names){
         formattedName += name.charAt(0).toUpperCase() + name.slice(1) + " "
-        console.log(name);
+        // console.log(name);
     }
-    console.log(formattedName);
+    // console.log(formattedName);
+    return formattedName;
 }
 
+let formatTelp = (no_telp) => {
+    let telp = "";
+    if(String(no_telp).includes("+")){
+        //replace +62 with 0
+        telp = "0" + no_telp.slice(3,)
+    }
+    else{
+        telp = no_telp
+    }
+    console.log(telp)
+}
+
+formatTelp("+6287883880242")
