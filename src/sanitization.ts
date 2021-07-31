@@ -7,9 +7,7 @@ let formatName = (inputName) =>{
     //capitalize each word
     for (const name of names){
         formattedName += name.charAt(0).toUpperCase() + name.slice(1) + " "
-        // console.log(name);
     }
-    // console.log(formattedName);
     return formattedName;
 }
 
@@ -20,9 +18,7 @@ let formatTelp = (no_telp) => {
         telp = "0" + no_telp.slice(3,)
     }
     else{
-        telp = no_telp
+        telp = no_telp;
     }
-    console.log(telp)
+    return(telp);
 }
-
-formatTelp("+6287883880242")
