@@ -28,6 +28,14 @@ yarn global add eslint
 - Copy **.env.example** to **.env** and set the local config for your development.
 - Run `yarn run dev`
 
+## db push with rollback
+
+To perform db push with rollback, run this command
+
+```sh
+npx prisma db push --force-reset
+```
+
 ## Commit convention
 
 Check out these links:
