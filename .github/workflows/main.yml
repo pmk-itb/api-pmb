@@ -36,11 +36,14 @@ jobs:
           cache: 'yarn'
       - run: yarn --frozen-lockfile
       - run: yarn run build
-      - name: Connect to PostgreSQL
-        run: node postgres-client.js
+      - name: Init database
+        run: yarn run test:push
         env:
-          POSTGRES_HOST: localhost
-          POSTGRES_PORT: 5432
+          DATABASE_URL: postgresql://postgres:password@localhost:5432/api-pmb-test?schema=public
+      - name: Seeding database
+        run: yarn run test:seed
+        env:
+          DATABASE_URL: postgresql://postgres:password@localhost:5432/api-pmb-test?schema=public
       - name: Unit Testing
         run: yarn run test
         env:
