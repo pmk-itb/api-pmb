@@ -39,6 +39,11 @@ jobs:
           cache: 'yarn'
       - run: yarn --frozen-lockfile
       - run: yarn run build
+      - name: Connect to PostgreSQL
+      - run: tsnode postgres-client.ts
+      - env:
+          POSTGRES_HOST: localhost
+          POSTGRES_PORT: 5432
       - name: Unit Testing
         run: yarn run test
         env:
