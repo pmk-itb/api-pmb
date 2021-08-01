@@ -11,13 +11,13 @@ describe('Test the url', () => {
     return request(app).get('/api/about').expect(200);
   });
 
-  it('should response 200 when hit /api/departments', async (done) => {
+  it('should response 200 when hit /api/departments', async () => {
     const response = await request(app).get('/api/departments');
-    expect(response.statusCode).toBe(200);
-    done();
+    console.log(response);
+    await expect(response.statusCode).toBe(200);
   });
 
-  it('should be able to create department from /api/departments', async (done) => {
+  it('should be able to create department from /api/departments', async () => {
     const data = {
       code: 'STEI',
       name: 'Sekolah Teknik dan Informatika',
@@ -25,13 +25,11 @@ describe('Test the url', () => {
     };
 
     const response = await request(app).post('/api/departments').send(data);
-    expect(response.statusCode).toBe(200);
-    done();
+    await expect(response.statusCode).toBe(200);
   });
 
-  it('should response 200 when hit /api/test', async (done) => {
+  it('should response 200 when hit /api/test', async () => {
     const response = await request(app).get('/api/test');
-    expect(response.statusCode).toBe(200);
-    done();
+    await expect(response.statusCode).toBe(200);
   });
 });
