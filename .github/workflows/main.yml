@@ -14,9 +14,7 @@ jobs:
       postgres:
         image: postgres
         env:
-          POSTGRES_USER: postgres
           POSTGRES_PASSWORD: password
-          POSTGRES_DB: api-pmb-test
         ports:
           - 5432:5432
         options: >-
@@ -42,10 +40,10 @@ jobs:
       - name: Connect to PostgreSQL
         run: node postgres-client.js
         env:
-          POSTGRES_HOST: localhost
+          POSTGRES_HOST: postgres
           POSTGRES_PORT: 5432
       - name: Unit Testing
         run: yarn run test
         env:
           PORT: 8000
-          DATABASE_URL: postgresql://postgres:password@localhost:5432/api-pmb-test?schema=public
+          DATABASE_URL: postgresql://postgres:password@postgres:5432/api-pmb-test?schema=public
