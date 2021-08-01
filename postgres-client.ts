@@ -2,8 +2,8 @@
 import { Client } from 'pg';
 
 const pgClient = new Client({
-  host: process.env.POSTGRES_HOST,
-  port: process.env.POSTGRES_PORT,
+  host: 'localhost',
+  port: 5432,
   user: 'postgres',
   password: 'password',
   database: 'api-pmb-test',
