@@ -12,7 +12,8 @@ describe('Test the url', () => {
   });
 
   it('should response 200 when hit /api/departments', async () => {
-    await request(app).get('/api/departments').expect(200);
+    const response = await request(app).get('/api/departments');
+    expect(response.statusCode).toBe(200);
   });
 
   it('should be able to create department from /api/departments', async () => {
@@ -22,10 +23,12 @@ describe('Test the url', () => {
       location: Location.GANESA,
     };
 
-    await request(app).post('/api/departments').send(data).expect(200);
+    const response = await request(app).post('/api/departments').send(data);
+    expect(response.statusCode).toBe(200);
   });
 
   it('should response 200 when hit /api/test', async () => {
-    await request(app).get('/api/test').expect(200);
+    const response = await request(app).get('/api/test');
+    expect(response.statusCode).toBe(200);
   });
 });
