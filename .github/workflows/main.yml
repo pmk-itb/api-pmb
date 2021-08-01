@@ -14,6 +14,7 @@ jobs:
         image: postgres
         env:
           POSTGRES_PASSWORD: password
+          POSTGRES_DB: api-pmb-test
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
@@ -36,7 +37,7 @@ jobs:
           cache: 'yarn'
       - run: yarn --frozen-lockfile
       - run: yarn run build
-      - name: Init database
+      - name: Push tables to database
         run: yarn run test:push
         env:
           DATABASE_URL: postgresql://postgres:password@localhost:5432/api-pmb-test?schema=public
