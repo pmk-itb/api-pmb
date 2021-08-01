@@ -65,4 +65,4 @@ router.get('/test', async (_req: Request, res: Response) => {
   res.json(variable);
 });
 
-export = router;
+export { router, prisma };
