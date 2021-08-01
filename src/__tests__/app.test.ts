@@ -22,6 +22,7 @@ describe('Test the url', () => {
       name: 'Sekolah Teknik dan Informatika',
       location: Location.GANESA,
     };
+
     return request(app).post('/api/departments').send(data).expect(200);
   });
 
