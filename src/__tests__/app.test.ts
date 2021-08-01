@@ -11,12 +11,13 @@ describe('Test the url', () => {
     return request(app).get('/api/about').expect(200);
   });
 
-  it('should response 200 when hit /api/departments', async () => {
+  it('should response 200 when hit /api/departments', async (done) => {
     const response = await request(app).get('/api/departments');
     expect(response.statusCode).toBe(200);
+    done();
   });
 
-  it('should be able to create department from /api/departments', async () => {
+  it('should be able to create department from /api/departments', async (done) => {
     const data = {
       code: 'STEI',
       name: 'Sekolah Teknik dan Informatika',
@@ -25,10 +26,12 @@ describe('Test the url', () => {
 
     const response = await request(app).post('/api/departments').send(data);
     expect(response.statusCode).toBe(200);
+    done();
   });
 
-  it('should response 200 when hit /api/test', async () => {
+  it('should response 200 when hit /api/test', async (done) => {
     const response = await request(app).get('/api/test');
     expect(response.statusCode).toBe(200);
+    done();
   });
 });
