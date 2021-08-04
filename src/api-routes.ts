@@ -1,5 +1,6 @@
 import { Request, Response, Router } from 'express';
 import { PrismaClient } from '.prisma/client';
+import { store } from './controllers/admin.controller';
 
 const prisma = new PrismaClient();
 const router = Router();
@@ -41,6 +42,8 @@ router.post('/departments', async (req: Request, res: Response) => {
   });
   res.json(post);
 });
+
+router.post('/admin/register', [store]);
 
 router.get('/test', async (_req: Request, res: Response) => {
   // try to plucking all depts
