@@ -6,10 +6,14 @@
   "author": "Samuel <samnap11@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/index.ts",
-    "test": "jest",
+    "dev": "dotenv -e .env.development nodemon src/index.ts",
+    "test": "dotenv -e .env.test -- jest --coverage",
     "build": "tsc -p tsconfig.json",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "dev:push": "dotenv -e .env.development -- prisma db push --force-reset",
+    "test:push": "dotenv -e .env.test -- prisma db push --force-reset",
+    "dev:seed": "dotenv -e .env.development -- prisma db seed --preview-feature",
+    "test:seed": "dotenv -e .env.test -- prisma db seed --preview-feature"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
@@ -18,25 +22,32 @@
     "@types/faker": "^5.5.7",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.3.0",
+    "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^4.22.1",
     "@typescript-eslint/parser": "^4.22.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^7.25.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "faker": "^5.5.3",
     "husky": "^6.0.0",
-    "jest": "^26.6.3",
+    "jest": "^27.0.6",
+    "jest-mock-extended": "^1.0.18",
     "lint-staged": "^10.5.4",
     "nodemon": "^2.0.7",
     "prettier": "^2.2.1",
     "prisma": "^2.22.1",
-    "ts-jest": "^26.5.5",
+    "superagent": "^6.1.0",
+    "supertest": "^6.1.4",
+    "ts-jest": "^27.0.4",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
   },
   "dependencies": {
     "@prisma/client": "^2.22.1",
     "dotenv": "^9.0.1",
+    "dotenv-cli": "^4.0.0",
     "express": "^4.17.1"
   }
 }
