@@ -10,14 +10,6 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Admin {
-  id       Int    @id @default(autoincrement())
-  username String @unique @db.VarChar(255)
-  password String @db.VarChar(255)
-
-  @@map("admins")
-}
-
 // Department one-to-many with major
 model Department {
   id        Int      @id @default(autoincrement())
