@@ -5,7 +5,10 @@ import { prisma } from '../api-routes';
 
 describe('Test the url', () => {
   it('should response 200 when hit /api', () => {
-    return request(app).get('/api').expect(200);
+    const key = {
+      Authorization: process.env.API_KEY,
+    };
+    return request(app).get('/api').set(key).expect(200);
   });
 
   it('should response 200 when hit /api/about', () => {
