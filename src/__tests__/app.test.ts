@@ -6,7 +6,7 @@ import { prisma } from '../api-routes';
 describe('Test the url', () => {
   it('should response 200 when hit /api', () => {
     const key = {
-      Authorization: process.env.API_KEY,
+      Authorization: 'Bearer ' + process.env.API_KEY,
     };
     return request(app).get('/api').set(key).expect(200);
   });
