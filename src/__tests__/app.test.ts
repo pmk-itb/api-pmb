@@ -4,7 +4,17 @@ import app from '../app';
 import { prisma } from '../api-routes';
 
 describe('Test the url', () => {
-  it('should response 200 when hit /api', () => {
+  it('should response 401 when hit/api without token', () => {
+    return request(app).get('/api').expect(401);
+  });
+
+  it('should response 403 when hit /api using incorrect token', () => {
+    const key = {
+      Authorization: 'Bearer incorrectToken123',
+    };
+    return request(app).get('/api').set(key).expect(403);
+  });
+  it('should response 200 when hit /api using correct token', () => {
     const key = {
       Authorization: 'Bearer ' + process.env.API_KEY,
     };
