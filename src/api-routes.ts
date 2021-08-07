@@ -4,11 +4,11 @@ import { PrismaClient } from '.prisma/client';
 const prisma = new PrismaClient();
 const router = Router();
 
-router.get('/', function (_req, res) {
+router.get('/', function (_req: Request, res: Response) {
   res.send('This is home page');
 });
 
-router.get('/about', function (_req, res) {
+router.get('/about', function (_req: Request, res: Response) {
   res.send('This is about');
 });
 
@@ -42,4 +42,27 @@ router.post('/departments', async (req: Request, res: Response) => {
   res.json(post);
 });
 
-export = router;
+router.get('/test', async (_req: Request, res: Response) => {
+  // try to plucking all depts
+  // const allDepartments = await prisma.department.findMany({});
+  // let selectHTML = '<select>';
+  // allDepartments.forEach((element) => {
+  //   selectHTML += '<option value=' + element.id + '>' + element.name + '</option>';
+  // });
+  // selectHTML += '</select>';
+  // res.send(selectHTML);
+
+  const variable = await prisma.member.findMany({
+    where: {
+      birthDate: {
+        gt: new Date(1999),
+      },
+    },
+    include: {
+      major: true,
+    },
+  });
+  res.json(variable);
+});
+
+export { router, prisma };

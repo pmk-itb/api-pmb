@@ -1,4 +1,3 @@
-import express from 'express';
 import * as dotenv from 'dotenv';
 import api from './api-routes';
 import { PrismaClient } from '@prisma/client';
@@ -16,6 +15,7 @@ const port = process.env.PORT;
 // app.use(express.json());
 app.use('/api', api);
 app.use(bodyParser.json());
+
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}.`);
