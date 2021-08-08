@@ -37,7 +37,7 @@
     "jest-mock-extended": "^1.0.18",
     "lint-staged": "^10.5.4",
     "nodemon": "^2.0.7",
-    "prettier": "^2.2.1",
+    "prettier": "^2.3.2",
     "prisma": "^2.22.1",
     "superagent": "^6.1.0",
     "supertest": "^6.1.4",
