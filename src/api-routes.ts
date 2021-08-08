@@ -1,5 +1,6 @@
 import { Request, Response, Router } from 'express';
 import { PrismaClient } from '.prisma/client';
+import regionalDataRouter from './routes/regionalData';
 
 const prisma = new PrismaClient();
 const router = Router();
@@ -29,7 +30,6 @@ router.get('/departments', async (_req: Request, res: Response) => {
 
 // Example API endpoint to create department
 router.post('/departments', async (req: Request, res: Response) => {
-  console.log(req.body);
   const { code, name, location } = req.body;
   const post = await prisma.department.create({
     data: {
@@ -64,5 +64,7 @@ router.get('/test', async (_req: Request, res: Response) => {
   });
   res.json(variable);
 });
+
+router.use(regionalDataRouter);
 
 export { router, prisma };
