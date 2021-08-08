@@ -2,6 +2,7 @@ import { Request, Response, Router } from 'express';
 import { apiKeyNeeded, validTokenNeeded } from './middlewares/auth.middleware';
 import { Member, PrismaClient } from '@prisma/client';
 import { sanitizeData } from './middlewares/sanitization.middleware';
+import regionalDataRouter from './routes/regionalData';
 
 const prisma = new PrismaClient();
 const router = Router();
@@ -161,5 +162,7 @@ router.post('/members', [
     }
   },
 ]);
+
+router.use(regionalDataRouter);
 
 export { router, prisma };
