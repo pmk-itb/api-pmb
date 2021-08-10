@@ -5,20 +5,21 @@ import { apiKeyNeeded, validTokenNeeded } from './middlewares/auth.middleware';
 const prisma = new PrismaClient();
 const router = Router();
 
-router.get('/', [
-  apiKeyNeeded,
-  validTokenNeeded,
-  function (_req: Request, res: Response) {
-    res.send('This is home page');
-  },
-]);
+router.all('*', [apiKeyNeeded, validTokenNeeded]);
+
+router.get('/', function (_req: Request, res: Response) {
+  console.log('GET /api');
+  res.send('This is home page');
+});
 
 router.get('/about', function (_req: Request, res: Response) {
+  console.log('GET /api/about');
   res.send('This is about');
 });
 
 // Example API to get department
 router.get('/departments', async (_req: Request, res: Response) => {
+  console.log('GET /api/departments');
   const departments = await prisma.department.findMany({
     select: {
       name: true,
@@ -34,7 +35,8 @@ router.get('/departments', async (_req: Request, res: Response) => {
 
 // Example API endpoint to create department
 router.post('/departments', async (req: Request, res: Response) => {
-  console.log(req.body);
+  console.log('POST /api/departments');
+  // console.log(req.body);
   const { code, name, location } = req.body;
   const post = await prisma.department.create({
     data: {
@@ -48,6 +50,7 @@ router.post('/departments', async (req: Request, res: Response) => {
 });
 
 router.get('/test', async (_req: Request, res: Response) => {
+  console.log('GET /api/test');
   // try to plucking all depts
   // const allDepartments = await prisma.department.findMany({});
   // let selectHTML = '<select>';
