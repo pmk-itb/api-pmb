@@ -19,8 +19,8 @@ model Department {
   location  Location
   // department has many majors
   majors    Major[]
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now()) @db.Timestamptz
+  updatedAt DateTime @updatedAt @db.Timestamptz
 
   @@map("departments")
 }
@@ -45,8 +45,8 @@ model Major {
   departmentId Int
   // major has many members
   members      Member[]
-  createdAt    DateTime   @default(now())
-  updatedAt    DateTime   @updatedAt
+  createdAt    DateTime   @default(now()) @db.Timestamptz
+  updatedAt    DateTime   @updatedAt @db.Timestamptz
 
   @@map("majors")
 }
@@ -55,23 +55,24 @@ model Member {
   id Int @id @default(autoincrement())
 
   // NIM aktif (== tpb_nim jika masih tpb)
-  nim            Int?      @unique
-  tpbNim         Int?      @unique
+  nim            Int?     @unique
+  tpbNim         Int?     @unique
   name           String
   nickname       String
   // member belongs to one major
-  major          Major     @relation(fields: [majorId], references: [id])
+  major          Major    @relation(fields: [majorId], references: [id])
   majorId        Int
   // MALE / FEMALE
   gender         Gender
-  birthDate      DateTime?
+  birthDate      DateTime @db.Timestamptz
   year           Int
-  line           String?   @db.VarChar(31)
-  phone          String?   @db.VarChar(31)
-  email          String?   @db.VarChar(255)
-  currentAddress String?   @db.VarChar(1023)
-  originProvince String?   @db.VarChar(255)
-  originAddress  String?   @db.VarChar(1023)
+  line           String?  @db.VarChar(31)
+  phone          String?  @db.VarChar(31)
+  email          String?  @db.VarChar(255)
+  currentAddress String?  @db.VarChar(1023)
+  originProvince String?  @db.VarChar(255)
+  originCity     String?  @db.VarChar(255)
+  originAddress  String?  @db.VarChar(1023)
 
   originSchool  String? @db.VarChar(255)
   currentChurch String? @db.VarChar(255)
@@ -86,11 +87,14 @@ model Member {
   parentId Int
 
   // Member jadi 'AKTB' di 1 Discipleship
-  discipleship   Discipleship? @relation(fields: [discipleshipId], references: [id])
+  discipleship   Discipleship? @relation(name: "mentee", fields: [discipleshipId], references: [id])
   discipleshipId Int?
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  // Member jadi PKTB di 1 Discipleship (one-to-one)
+  fellowship Discipleship? @relation(name: "mentor")
+
+  createdAt DateTime @default(now()) @db.Timestamptz
+  updatedAt DateTime @updatedAt @db.Timestamptz
   @@map("members")
 }
 
@@ -109,34 +113,43 @@ enum MemberStatus {
 }
 
 model Parent {
-  id Int @id @default(autoincrement())
+  id           Int          @id @default(autoincrement())
+  name         String
+  phone        String
+  relationship Relationship
 
   // A Parent may have many children (members)
   children  Member[]
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now()) @db.Timestamptz
+  updatedAt DateTime @updatedAt @db.Timestamptz
   @@map("parents")
+}
+
+enum Relationship {
+  AYAH
+  IBU
+  WALI
+  KAKAK
+  ADIK
+  BIBI
+  PAMAN
+  KAKEK
+  NENEK
 }
 
 model Discipleship {
   id          Int                @id @default(autoincrement())
-  members     Member[]
-  leader      Leader?            @relation(fields: [leaderId], references: [id])
+  members     Member[]           @relation(name: "mentee")
+  leader      Member?            @relation(name: "mentor", fields: [leaderId], references: [id])
   leaderId    Int?
   institution String?            @db.VarChar(255)
-  startDate   DateTime?
+  startDate   DateTime?          @db.Timestamptz
   // pending/ok/need_attention
-  status      DiscipleshipStatus
+  status      DiscipleshipStatus @default(OK)
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now()) @db.Timestamptz
+  updatedAt DateTime @updatedAt @db.Timestamptz
   @@map("discipleships")
-}
-
-model Leader {
-  id           Int           @id @default(autoincrement())
-  name         String        @db.VarChar(255)
-  discipleship Discipleship?
 }
 
 enum DiscipleshipStatus {
