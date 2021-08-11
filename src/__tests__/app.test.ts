@@ -10,13 +10,13 @@ describe('Test the url', () => {
   });
   it('should response 403 when hit /api using incorrect token', () => {
     const key = {
-      API_KEY: 'incorrectToken123',
+      Authorization: 'Bearer incorrectToken123',
     };
     return request(app).get('/api').set(key).expect(403);
   });
   it('should response 200 when hit /api using correct token', () => {
     const key = {
-      API_KEY: process.env.API_KEY,
+      Authorization: 'Bearer ' + process.env.API_KEY,
     };
     return request(app).get('/api').set(key).expect(200);
   });
@@ -27,13 +27,13 @@ describe('Test the url', () => {
   });
   it('should response 403 when hit /api/about using incorrect token', () => {
     const key = {
-      API_KEY: 'incorrecttoken123',
+      Authorization: 'Bearer incorrectToken123',
     };
     return request(app).get('/api/about').set(key).expect(403);
   });
   it('should response 200 when hit /api/about using correct token', () => {
     const key = {
-      API_KEY: process.env.API_KEY,
+      Authorization: 'Bearer ' + process.env.API_KEY,
     };
     return request(app).get('/api/about').set(key).expect(200);
   });
@@ -45,14 +45,14 @@ describe('Test the url', () => {
   });
   it('should response 403 when hit /api/departments using incorrect token', async () => {
     const key = {
-      API_KEY: 'incorrecttoken123',
+      Authorization: 'Bearer incorrectToken123',
     };
     const response = await request(app).get('/api/departments').set(key);
     expect(response.statusCode).toBe(403);
   });
   it('should response 200 when hit /api/departments using correct token', async () => {
     const key = {
-      API_KEY: process.env.API_KEY,
+      Authorization: 'Bearer ' + process.env.API_KEY,
     };
     const response = await request(app).get('/api/departments').set(key);
     expect(response.statusCode).toBe(200);
@@ -80,7 +80,7 @@ describe('Test the url', () => {
       location: Location.GANESA,
     };
     const key = {
-      API_KEY: 'incorrecttoken123',
+      Authorization: 'Bearer incorrectToken123',
     };
     const response = await request(app).post('/api/departments').set(key).send(data);
     expect(response.statusCode).toBe(403);
@@ -92,7 +92,7 @@ describe('Test the url', () => {
       location: Location.GANESA,
     };
     const key = {
-      API_KEY: process.env.API_KEY,
+      Authorization: 'Bearer ' + process.env.API_KEY,
     };
     const response = await request(app).post('/api/departments').set(key).send(data);
     expect(response.statusCode).toBe(200);
@@ -104,13 +104,13 @@ describe('Test the url', () => {
   });
   it('should response 403 when hit /api/test using incorrect token', () => {
     const key = {
-      API_KEY: 'incorrecttoken123',
+      Authorization: 'Bearer incorrectToken123',
     };
     return request(app).get('/api/test').set(key).expect(403);
   });
   it('should response 200 when hit /api/test', () => {
     const key = {
-      API_KEY: process.env.API_KEY,
+      Authorization: 'Bearer ' + process.env.API_KEY,
     };
     return request(app).get('/api/test').set(key).expect(200);
   });

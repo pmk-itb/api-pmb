@@ -50,5 +50,4 @@ jobs:
         env:
           PORT: 8000
           DATABASE_URL: postgresql://postgres:password@localhost:5432/api-pmb-test?schema=public
-          API_KEY: G0/wuYeGu4qBu7SlfIbDfg==$nYJyL8qI80dsXUna/iPOOPMpvS/qF0JuFjohuXag6Ir/XUOYBXyw79klM55QsORp/NZfXEFm5abPSQ/IOzsM3g==
-          API_PASSWORD: this-is-password
+          API_KEY: G0/wuYeGu4qBu7SlfIbDfg==\$nYJyL8qI80dsXUna/iPOOPMpvS/qF0JuFjohuXag6Ir/XUOYBXyw79klM55QsORp/NZfXEFm5abPSQ/IOzsM3g==
