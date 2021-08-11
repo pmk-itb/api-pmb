@@ -12,7 +12,7 @@ export const validTokenNeeded = (req: Request, res: Response, next: NextFunction
   if (authorization.split(' ')[0] === 'Bearer') {
     const currentApiKey = authorization.split(' ')[1];
     if (isValidKey(currentApiKey)) {
-      console.log('You are authorized!' + currentApiKey);
+      // console.log('You are authorized!' + currentApiKey);
       return next();
     } else {
       return res.status(403).send('Forbidden');
@@ -27,10 +27,10 @@ export const apiKeyNeeded = (_req: Request, res: Response, next: NextFunction): 
   // const initialKey = process.env.API_PASSWORD;
 
   if (!_req.get('Authorization')) {
-    console.log('You got no authorization header bruh');
+    // console.log('You got no authorization header bruh');
     return res.status(401).send('Unauthorized');
   }
-  console.log('Authorization header exist');
+  // console.log('Authorization header exist');
   return next();
 };
 
@@ -38,8 +38,8 @@ const isValidKey = (currentApiKey: string): boolean => {
   // const passwordFields = currentApiKey.split('$');
   // const salt = passwordFields[0];
   // const hash = createHmac('sha512', salt).update(initialKey).digest('base64');
-  console.log('currentApiKey ' + currentApiKey);
-  console.log('.env.API_KEY ' + process.env.API_KEY);
+  // console.log('currentApiKey ' + currentApiKey);
+  // console.log('.env.API_KEY ' + process.env.API_KEY);
   return currentApiKey === process.env.API_KEY; // string used as API key
 };
 // API_KEY: (put \ before $ to escape the character)
