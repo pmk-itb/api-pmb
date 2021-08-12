@@ -14,7 +14,8 @@
     "test:push": "dotenv -e .env.test -- prisma db push --force-reset",
     "dev:seed": "dotenv -e .env.development -- prisma db seed --preview-feature",
     "test:seed": "dotenv -e .env.test -- prisma db seed --preview-feature",
-    "heroku-postbuild": "tsc -p tsconfig.json"
+    "heroku-postbuild": "tsc -p tsconfig.json",
+    "ts-node": "ts-node --compiler-options \"{\\\"module\\\":\\\"commonjs\\\"}\""
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
