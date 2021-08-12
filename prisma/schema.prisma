@@ -64,7 +64,7 @@ model Member {
   majorId        Int
   // MALE / FEMALE
   gender         Gender
-  birthDate      DateTime @db.Timestamptz
+  birthDate      DateTime @db.Date
   year           Int
   line           String?  @db.VarChar(31)
   phone          String?  @db.VarChar(31)

@@ -1,5 +1,5 @@
 import { Request, Response, Router } from 'express';
-import { PrismaClient } from '.prisma/client';
+import { PrismaClient, Relationship } from '@prisma/client';
 
 const prisma = new PrismaClient();
 const router = Router();
@@ -14,17 +14,23 @@ router.get('/about', function (_req: Request, res: Response) {
 
 // Example API to get department
 router.get('/departments', async (_req: Request, res: Response) => {
-  const departments = await prisma.department.findMany({
+  // aliasing with majors which name starts with TPB
+  const majors = await prisma.major.findMany({
     select: {
+      id: true,
       name: true,
-      majors: {
-        select: {
-          name: true,
-        },
+    },
+    where: {
+      name: {
+        startsWith: 'TPB',
       },
     },
   });
-  res.json(departments);
+  res.json(majors);
+});
+
+router.get('/relationships', async (_req: Request, res: Response) => {
+  res.json(Object.getOwnPropertyNames(Relationship));
 });
 
 // Example API endpoint to create department
@@ -75,18 +81,13 @@ router.post('/members', async (req, res) => {
     majorId,
     gender,
     birthDate,
-    year,
     line,
     phone,
     email,
-    currentAddress,
     originProvince,
-    originAddress,
+    originCity,
     originSchool,
-    currentChurch,
     originChurch,
-    status,
-    notes,
     parentName,
     parentPhone,
     parentRelationship,
@@ -101,16 +102,6 @@ router.post('/members', async (req, res) => {
     },
   });
 
-  const upsertDiscipleship = await prisma.discipleship.upsert({
-    create: {
-      status: 'PENDING',
-    },
-    update: {},
-    where: {
-      id: discipleshipId,
-    },
-  });
-
   const member = await prisma.member.create({
     data: {
       nim,
@@ -119,55 +110,49 @@ router.post('/members', async (req, res) => {
       nickname,
       major: { connect: { id: majorId } },
       gender,
-      birthDate: birthDate,
-      year,
+      birthDate,
+      year: 2021,
       line,
       phone,
       email,
-      currentAddress: currentAddress,
-      originProvince: originProvince,
-      originAddress: originAddress,
-      originSchool: originSchool,
-      currentChurch: currentChurch,
-      originChurch: originChurch,
-      status,
-      notes,
+      originProvince,
+      originCity,
+      originSchool,
+      currentChurch: originChurch,
+      originChurch,
       parent: { connect: { id: createParent.id } },
       discipleship: { connect: { id: discipleshipId } },
     },
   });
 
-  res.json({
-    createParent,
-    upsertDiscipleship,
-    member,
-  });
+  res
+    .json({
+      createParent,
+      member,
+    })
+    .status(201);
 });
 /**
 Test case create Member (JSON):
 {
+  {
   "nim":13519001,
   "name":"Joko Santoso",
   "nickname":"Joko",
   "majorId":73,
   "gender":"MALE",
   "birthDate":"2000-01-01T00:00:00Z",
-  "year":2019,
   "line":"jk",
   "phone":"021500500",
   "email":"a@gmail.com",
-  "currentAddress":"Jl. A No. 3",
   "originProvince":"Jakarta",
-  "originAddress":"Jl.B No. 15",
   "originSchool":"SMAN 1 Jakarta",
-  "currentChurch":"HKBP B",
   "originChurch":"HKBP A",
-  "status":"ACTIVE",
-  "notes":"-",
   "parentName":"Test Parent",
   "parentPhone":"08111111111",
   "parentRelationship":"AYAH",
   "discipleshipId":1
+}
 }
 */
 
