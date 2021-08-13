@@ -1,0 +1,3137 @@
+{
+  "1": {
+    "Nanggroe Aceh Darussalam": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Langsa",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Lhokseumawe",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Sabang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Banda Aceh",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bener Meriah",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Aceh Tamiang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Nagan Jaya",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Aceh Jaya",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Gayo Lues",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Aceh Barat Daya",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bireun",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Aceh Singkil",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Simeulue",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Aceh Utara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pidie",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Aceh Besar",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Aceh Barat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tengah",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Aceh Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Aceh Tenggara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Aceh Selatan",
+        "Sekolah": []
+      }
+    ]
+  },
+  "10": {
+    "Kep Riau": [
+      {
+        "Gereja": ["GKB Kahal"],
+        "Kabupaten": "Kota Tanjung Pinang",
+        "Sekolah": ["SMAN 1 Tanjung Pinang"]
+      },
+      {
+        "Gereja": [
+          "GBI Tabgha",
+          "Gereja Pantekosta di Indonesia",
+          "HKBP Mahanaim",
+          "GSJA",
+          "GPIB",
+          "Gereja Kristen Oikoumene Indonesia"
+        ],
+        "Kabupaten": "Kota Batam",
+        "Sekolah": [
+          "SMAN 1 Batam",
+          "SMAN 8 Batam",
+          "SMA Taruna Nusantara",
+          "SMA Yos Sudarso",
+          "SMAN 5 Batam",
+          "SMAN 4 Batam",
+          "SMAN 3 Batam",
+          "SMAS Unggul Del",
+          "SMA Katolik Yos Sudarso"
+        ]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lingga",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Natuna",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Karimun",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kepulauan Riau",
+        "Sekolah": []
+      }
+    ]
+  },
+  "11": {
+    "DKI Jakarta": [
+      {
+        "Gereja": [
+          "GKI Raya Hankam",
+          "Gereja Bethel Indonesia Prj (praise Revival For Jesus)",
+          "Gereja Tiberias Indonesia",
+          "Gereja Kristen Indonesia",
+          "HKBP Pondok Bambu",
+          "Gereja Bala Keselamatan",
+          "Gereja Kristen Protestan Simalungun",
+          "HKBP ",
+          "HKBP Tebet",
+          "Huria Kristen Batak Protestan",
+          "Jatiwangi",
+          "GPIB Menara Iman",
+          "Gereja Kristen Baptis Jakarta",
+          "HKBP Kramat Jati",
+          "Huria Kristen Batak Protestan (hkbp)",
+          "GKJ Gandaria",
+          "GBI Tamini Square - Rayon 1i",
+          "HKBP Cipayung Cilangkap",
+          "Gereja Kristen Jawa Jakarta",
+          "GKI Kayu Putih",
+          "JPCC",
+          "GBKP Cililitan",
+          "GKPI Rawamangun",
+          "GKI Cipinang Indah",
+          "HKBP Perumnas Klender",
+          "Huria Kristen Indonesia",
+          "HKBP Kayu Putih",
+          "HKBP Rawamangun",
+          "Gereja HKBP Jatinegara"
+        ],
+        "Kabupaten": "Kodya Jakarta Timur",
+        "Sekolah": [
+          "SMAN 61 Jakarta",
+          "SMAK 3 Penabur Jakarta",
+          "SMAN 71 Jakarta",
+          "SMAN 61 Jakarta",
+          "SMAN 81 Jakarta",
+          "SMAN 39 Jakarta",
+          "SMAN 48 Jakarta",
+          "SMAN 8 Jakarta",
+          "SMAK 1 Penabur Jakarta",
+          "SMAS Don Bosco 2",
+          "SMAN 53 Jakarta",
+          "SMAN 28 Jakarta",
+          "SMAN 14 Jakarta",
+          "SMA Unggulan MH Thamrin",
+          "SMAN 91 Jakarta",
+          "SMA Penabur Kelapa Gading",
+          "SMAK 7 BPK Penabur",
+          "SMAN 21 Jakarta",
+          "SMAN 12 Jakarta",
+          "SMAN 31 Jakarta",
+          "SMAN 88 Jakarta",
+          "SMA Ef Academy "
+        ]
+      },
+      {
+        "Gereja": [
+          "Gereja Kristen Indonesia",
+          "GBI Jagakarsa",
+          "GBI",
+          "Gereja Batak Karo Protestan",
+          "GKI Pondok Indah",
+          "Gereja Kristen Pasundan",
+          "GKP Bekasi",
+          "GKI Keb. Lama",
+          "HKBP Menteng",
+          "Gereja Bethel Indonesia",
+          "GBI Poins Square",
+          "HKBP Kebayoran Baru",
+          "HKBP",
+          "GBI Gandaria City",
+          "NCH",
+          "GPIB Bukit Moria",
+          "Gereja Kristen Indonesia Pondok Indah",
+          "GPDI Barito",
+          "Gereja Kemah Tabernakel",
+          "Gereja Duta Injil",
+          "Gereja Injili Kasih Indonesia",
+          "GKI Kebayoran Baru"
+        ],
+        "Kabupaten": "Kodya Jakarta Selatan",
+        "Sekolah": [
+          "SMA Santa Ursula Jakarta",
+          "SMAN 28 Jakarta",
+          "SMA Kanisius",
+          "SMAN 34 Jakarta",
+          "SMAS Santa Ursula",
+          "SMAN 26 Jakarta",
+          "SMA Unggulan MH Thamrin",
+          "SMAN 68 Jakarta",
+          "SMAN 8 Jakarta",
+          "SMA Jakarta Intercultural School",
+          "SMA Seruni Don Bosco",
+          "SMA Pangudi Luhur",
+          "SMAN 86 Jakarta",
+          "SMA Highscope Indonesia Cilandak",
+          "SMA BPK Penabur Bintaro Jaya",
+          "SMAK 1 Penabur Jakarta",
+          "SMA Kolese Kanisius",
+          "SMA Kolese Gonzaga"
+        ]
+      },
+      {
+        "Gereja": [
+          "Gereja Kristus Yesus Pluit",
+          "GKY Puri",
+          "GKY Greenville",
+          "GBI Kasih Kristus",
+          "GKY Citra",
+          "GBI Rem Jakarta",
+          "Gereja Yesus Sejati",
+          "Abbalove",
+          "Gereja Bethel Indonesia Taman Semanan Indah",
+          "GKI Puri Indah",
+          "Gereja Kristen Indonesia (gki Nurdin)",
+          "Gereja Bethel Indonesia",
+          "NDC",
+          "GPIB Shalom",
+          "Gereja Pantekosta Di Indonesia",
+          "NDC Nafiri",
+          "GKI Surya Utama",
+          "NDC Central Park",
+          "HKBP Kebun Jeruk",
+          "Gereja Kristus Yesus Jemaat Greenville",
+          "Gereja Kristus Bojong Indah",
+          "Gereja Kalam Kudus",
+          "GBI Gatot Subroto",
+          "ECC Jakarta",
+          "Nafiri Discipleship Church",
+          "GKI Citra 1",
+          "GSRI Jembatan 5",
+          "GMI Imanuel",
+          "GKDI",
+          "JPCC",
+          "Gereja Kristus Tuhan Jemaat Bethany",
+          "GKI",
+          "GPDI Sahabat Allah",
+          "GPIB"
+        ],
+        "Kabupaten": "Kodya Jakarta Barat",
+        "Sekolah": [
+          "SMA IPEKA Pluit",
+          "SMA IPEKA Tomang",
+          "SMA Kasih Kemuliaan",
+          "SMAK 6 Penabur",
+          "SMAN 78 Jakarta",
+          "SMAN 2 Jakarta",
+          "SMAK 1 BPK Penabur Jakarta",
+          "SMAK Tiara Kasih",
+          "SMAK 4 Penabur Jakarta",
+          "SMA IPEKA Puri",
+          "SMA Tiara Kasih",
+          "SMAS Dian Harapan Daan Mogot",
+          "SMAN 33 Jakarta"
+        ]
+      },
+      {
+        "Gereja": [
+          "Gereja Kristus di Indonesia",
+          "Tiberias",
+          "Abbalove Industri",
+          "GKY Sunter",
+          "HKBP",
+          "GBI Gilgal",
+          "GJKI",
+          "Gereja Kemah Tabernakel",
+          "GKI Sunter",
+          "GBI Tampak Siring",
+          "GBI Moi",
+          "Gereja Tiberias Indonesia ",
+          "GKY Pluit",
+          "GBI Prj",
+          "Abbalove ",
+          "JPCC",
+          "GPDI Bethlehem",
+          "HKBP Immanuel Kelapa Gading"
+        ],
+        "Kabupaten": "Kodya Jakarta Utara",
+        "Sekolah": [
+          "SMAK 3 Penabur Jakarta",
+          "SMAK 5 Penabur",
+          "SMA IPEKA Sunter",
+          "SMAN 13 Jakarta",
+          "SMAS Permai",
+          "SMAK 2 Penabur Jakarta",
+          "SMA Kristen IPEKA Sunter",
+          "SMA Pelangi Kasih",
+          "SMAK 5 Penabur Jakarta",
+          "SMA IPEKA Pluit",
+          "SMAN 91 Jakarta",
+          "SMA IPEKA Sunter 2",
+          "SMA Tunas Bangsa Sunter",
+          "SMA Don Bosco 2",
+          "SMAN 21 Jakarta",
+          "SMA Santa Ursula"
+        ]
+      },
+      {
+        "Gereja": [
+          "Gereja Kristen Karunia Injili",
+          "Gereja Kemah Abraham",
+          "GBI Prj",
+          "GBI Karang Anyar",
+          "GBI",
+          "Gereja Reformed Injili Indonesia",
+          "GPIB Pniel",
+          "GKI Gading Indah",
+          "GKI Kwitang",
+          "Gepembri Kelapa Gading",
+          "GBI CITY Tower",
+          "GKJ Pondok Gede",
+          "Gereja Protestan Indonesia Bagian Barat",
+          "Gereja Bethel Indonesia",
+          "GKI"
+        ],
+        "Kabupaten": "Kodya Jakarta Pusat",
+        "Sekolah": [
+          "SMAK Karunia",
+          "SMAN 68 Jakarta",
+          "SMAK 2 BPK Penabur Jakarta",
+          "SMAK 5 BPK Penabur Kelapa Gading",
+          "SMAK Calvin",
+          "SMAK 3 BPK Penabur Jakarta",
+          "SMA Don Bosco 2",
+          "SMAN 67 Jakarta",
+          "SMA Pahoa"
+        ]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab.adm.kep.seribu",
+        "Sekolah": []
+      }
+    ]
+  },
+  "12": {
+    "Jawa Barat": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Banjar",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Kristen Indonesia Veteran Tasikmalaya"],
+        "Kabupaten": "Kota Tasikmalaya",
+        "Sekolah": ["SMA Negeri 1 Tasikmalaya"]
+      },
+      {
+        "Gereja": [
+          "Baptist Cimahi",
+          "GKI Cimahi",
+          "Gereja Kristen Perjanjian Baru",
+          "GKJ Bandung",
+          "GPDI Padalarang",
+          "GKPB Fajar Pengharapan",
+          "GII Hok Im Tong - Gardujati"
+        ],
+        "Kabupaten": "Kota Cimahi",
+        "Sekolah": [
+          "SMAK 3 BPK Penabur Bandung",
+          "SMAK 2 BPK Penabur",
+          "SMAK 1 BPK Penabur Bandung",
+          "SMKS Farmasi BPK Penabur Bandung"
+        ]
+      },
+      {
+        "Gereja": [
+          "Gereja GKI Maulana Yusuf",
+          "Gereja Protestan Indonesia Bagian Barat",
+          "Gereja Kristen Indonesia Depok",
+          "GKI Pondok Indah",
+          "HKBP Depok Timur",
+          "GSJA Cws Rajawali",
+          "Gereja Bethel Indonesia",
+          "GKI Pamulang",
+          "GBI Lewi Pondok Gede",
+          "GPIB Pelita Hidup",
+          "GKI"
+        ],
+        "Kabupaten": "Kota Depok",
+        "Sekolah": [
+          "SMA Santo Aloysius 1",
+          "SMAN 5 Depok",
+          "SMAN 1 Depok",
+          "SMA Tirtamarta",
+          "SMAN 4 Depok",
+          "SMAS Mardi Yuana",
+          "SMAN 2 Kota Tangerang Selatan",
+          "SMAN 39 Jakarta",
+          "SMA Binus School Serpong",
+          "SMA Unggulan MH Thamrin"
+        ]
+      },
+      {
+        "Gereja": [
+          "GSJA Imanuel",
+          "GBI Lippo Cikarang",
+          "GKI Camar",
+          "HKBP Jakasampurna",
+          "GKO Bekasi 1",
+          "GERE Protesta di Indonesia Bagian Barat",
+          "Gereja Kristen Indonesia",
+          "HKBP",
+          "HKBP Setia Mekar",
+          "GBI Tampak Siring",
+          "Gereja HKBP Kemang Pratama",
+          "GKI Agus Salim",
+          "Gereja Kristen Indonesia",
+          "HKBP Jatiwaringin",
+          "GBI Baranangsiang",
+          "HKBP Taman Wisma Asri",
+          "GKI Kemang Pratama",
+          "Abbalove",
+          "GKI Raya Hankam",
+          "Gereja Pentakosta Sion Indonesia",
+          "GRII",
+          "Huria Kristen Batak Protestan",
+          "HKBP Ujung Menteng",
+          "Gereja Sidang Jemaat Kristus",
+          "GBI Rehobot",
+          "GBKP",
+          "Gereja Isa Almasih Pegangsaan",
+          "HLBP Pejuang Ressort Palmarum",
+          "GKI Layur",
+          "GPI Petra",
+          "GKPS Salemba",
+          "Gereja Protestan Indonesia Di Bagian Barat"
+        ],
+        "Kabupaten": "Kota Bekasi",
+        "Sekolah": [
+          "SMA Kristen Saint John",
+          "SMA Dian Harapan ",
+          "SMAN 5 Bekasi",
+          "SMAN 71 Jakarta",
+          "SMAN 1 Bekasi",
+          "SMAN 48 Jakarta",
+          "SMAN 2 Bekasi",
+          "SMA IPEKA Grand Wisata",
+          "SMAN 8 Jakarta",
+          "SMA Unggul Del",
+          "SMAN 61 Jakarta",
+          "SMAN 81 Jakarta",
+          "SMA Penabur Summarecon Bekasi",
+          "SMA Marsudirini Bekasi",
+          "SMA Kristen 7 Penabur",
+          "SMA Negeri 14 Jakarta",
+          "SMAK BPK Penabur Harapan Indah",
+          "SMAK 1 BPK Penabur Jakarta",
+          "SMAN 4 Bekasi",
+          "SMAK 7 BPK Penabur Jakarta",
+          "SMAS Kristen IPEKA Grand Wisata"
+        ]
+      },
+      {
+        "Gereja": ["GBI Pekiringan", "Gereja Kristen Indonesia", "GBI Doulos", "GBI Sukawarna", "GKI Pengampon"],
+        "Kabupaten": "Kota Cirebon",
+        "Sekolah": ["SMA Penabur Cirebon", "SMA Terang Bangsa", "SMA Kalam Kudus Bandung"]
+      },
+      {
+        "Gereja": [
+          "GKI",
+          "Gereja Injili Indonesia Dago",
+          "Gereja Kristen Kemah Daud",
+          "CLCC",
+          "GII Hok Im Tong Gardujati",
+          "GKI Cibunut",
+          "Gereja Kristen Perjanjian Baru",
+          "GBI Aruna",
+          "GKI Gading Serpong",
+          "GBI Prj",
+          "GII Hok Im Tong Bandung",
+          "GIA Taman Kopo Indah",
+          "Gereja Rehobth",
+          "GKI Guntur",
+          "GII Hok Im Tong",
+          "GGP Shalom Bandung",
+          "GKPB Fajar Pengharapan",
+          "GMI ",
+          "Gereja Sidang Jemaat Kristus",
+          "Gereja Baptis Independent Indonesia Anugerah",
+          "GKKD Cimahi",
+          "GKIM Amanat Kristus",
+          "GKI Taman Cibunut",
+          "Elshadai Creative Community (ecc)",
+          "GKJ Kiaracondong",
+          "GKI Kebon Jati 100",
+          "BFA",
+          "Gereja Tiberias Indonesia",
+          "GKI Arcamanik",
+          "HKBP",
+          "HKBP Bandung Timur",
+          "Gereja HKBP Tarakan",
+          "HKBP Riau Martadinata Bandung",
+          "GKMI Bandung",
+          "GPK",
+          "Gereja Mawar Sharon",
+          "Gereja Kristen Protestan Simalungun",
+          "GBI Sport Center Harapan Indah",
+          "Bethesda",
+          "GBI Sunter Mall",
+          "Gkkkb",
+          "GBI Stairway From Heaven",
+          "GBI Emunah Solo Baru",
+          "CITY Light Community Church (clcc)",
+          "GII",
+          "Huria Kristen Batak Protestan",
+          "Gereja Pantekosta Di Indonesia",
+          "Gereja Kristen Indonesia",
+          "GII Hok Im Tong Rahayu",
+          "Gereja Kristen Simalungun Protestan",
+          "GKI Maulana Yusuf",
+          "Gereja Bethel Indonesia",
+          "HKBP Betesda Baleendah",
+          "GBI",
+          "HKI Dame Bandung",
+          "GKI Kebo Jati",
+          "GII Hok Im Tong Setrasari",
+          "GKPO Imanuel",
+          "HKBP Riau",
+          "Gereja Kristen Pasundan Jemaat Bandung",
+          "Gereja Injil Indonesia",
+          "GKPB Fp",
+          "GII Dago",
+          "GKI Anugerah",
+          "GBI Sumber Sari",
+          "Gereja Kristen Kalam Kudus",
+          "GKJ Bandung",
+          "GKIM Ka Im Tong",
+          "Gereja Gerakan Pentakosta Shalom Bandung",
+          "Gereja Injili Karo Indonesia",
+          "GBI Baranangsiang",
+          "GKKD ",
+          "GII Kebon Jati",
+          "GKIM Hosanna",
+          "GBI Ppl",
+          "GKP Awiligar",
+          "Gereja Kristen Indonesia Anugerah, Bandung",
+          "Gereja Bethel Tabernacle Cisokan",
+          "GJKI Penuaian",
+          "GII Kebonjati ",
+          "Gereja Kristen Indonesia Kebonjati",
+          "Gereja Kalam Kudus Kopo Permai",
+          "GII Hok Im Tong Dago"
+        ],
+        "Kabupaten": "Kota Bandung",
+        "Sekolah": [
+          "SMA St. Albertus Malang",
+          "SMA Negeri 5 Bandung",
+          "SMAK 1 BPK Penabur Bandung",
+          "SMAK 1 BPK Penabur",
+          "SMA Santa Maria 1 Bandung",
+          "SMA Kristen Yahya",
+          "SMA SmasK 1 BPK Penabur Bandung",
+          "SMAK 2 BPK Penabur Bandung",
+          "SMA Penabur Gading Serpong",
+          "SMAK 3 Penabur Jakarta",
+          "SMA BPK Penabur Holis",
+          "SMAN 1 Bina Bakti",
+          "SMA Gamaliel Bandung",
+          "SMA Santo Aloysius ",
+          "SMA Cahaya Bangsa Classical School",
+          "SMA Santa Maria 3 Cimahi",
+          "SMAN 4 Bandung",
+          "SMA Santo Aloysius 1",
+          "SMA Santa Angela",
+          "SMAN 12 Bandung",
+          "SMA Kalam Kudus",
+          "SMA Negeri 3 Bandung",
+          "SMAN 20 Bandung",
+          "SMAN 5 Bandung",
+          "SMAN 16 Bandung",
+          "SMA Negeri 1 Tarakan",
+          "SMAN 11 Bandung",
+          "SMAN 8 Bandung",
+          "SMAN 1 Bekasi",
+          "SMA Smas Jubilee Jakarta",
+          "SMAN 3 Surakarta",
+          "SMA IPEKA Pluit",
+          "SMA Ignatius Global School Palembang",
+          "SMAN 81 Jakarta",
+          "SMAN 2 Bandung",
+          "SMA Kalam Kudus Bandung",
+          "SMA Trinitas Bandung",
+          "SMA Unggul Del",
+          "SMAN 3 Bandung",
+          "SMA Talenta",
+          "SMAN 1 Baleendah",
+          "SMA Bina Bangsa School Bandung",
+          "SMAN 8 Jakarta",
+          "SMA Bina Bangsa School",
+          "SMA Santo Aloysius 1 Bandung",
+          "SMA Pkbm Brighton",
+          "SMAN 2 Bina Bakti",
+          "SMAN 1 Bandung",
+          "SMAN 9 Bandung",
+          "SMA Negeri 9 Bandung",
+          "SMAK 2 BPK Penabur",
+          "SMA Sma1 BPK Penabur",
+          "SMA Yahya",
+          "SMA Kristen Gamaliel, Bandung",
+          "SMA Gamaliel",
+          "SMA Smas Kalam Kudus Bandung"
+        ]
+      },
+      {
+        "Gereja": ["GII", "GKI Zaenal Zahse"],
+        "Kabupaten": "Kota Sukabumi",
+        "Sekolah": ["SMA Santo Aloysius Sa", "SMA BPK Penabur Sukabumi"]
+      },
+      {
+        "Gereja": [
+          "HKBP Resort Khusus Bogor",
+          "GBI",
+          "GPIB Jemaat Petra Bogor",
+          "JPCC",
+          "HKBP Villa Duta",
+          "GKI Kotawisata",
+          "GKI Pengadilan",
+          "Gereja Beritakan Injil Bogor",
+          "GBI Jemaat Induk Senayan",
+          "Gereja Tiberias"
+        ],
+        "Kabupaten": "Kota Bogor",
+        "Sekolah": [
+          "SMAN 6 Bogor",
+          "SMA Regina Pacis Bogor",
+          "SMA Negeri 1 Bogor",
+          "SMA Penabur Kota Wisata",
+          "SMAN 3 Bogor",
+          "SMAN 99 Jakarta",
+          "SMA Budi Mulia Bogor",
+          "SMA Nasional Plus BPK Penabur Bogor",
+          "SMA Bunda Hati Kudus"
+        ]
+      },
+      {
+        "Gereja": [
+          "Gereja Tiberias Indonesia",
+          "Gereja Bethel Indonesia",
+          "Gereja Kristen Indonesia (wahid Hasyim)",
+          "GKPB Mdc Lippo Cikarang",
+          "Gereja Kristen Indonesia",
+          "GPDI Cikarang Utara",
+          "GKI Harapan Indah",
+          "GKPB Fajar Pengharapan Mdc",
+          "Gereja Bethel Indonesia Rayon 8",
+          "GPIB Immanuel Bekasi",
+          "Gereja Batak Karo Protestan",
+          "Tiberias Moi",
+          "Gereja Isa Almasih Rajawali",
+          "GBI Jl. Gatot Subroto"
+        ],
+        "Kabupaten": "Kab. Bekasi",
+        "Sekolah": [
+          "SMA Negeri 8 Jakarta",
+          "SMA Pkbm Kak Seto",
+          "SMA Dian Harapan Lippo Cikarang",
+          "SMA Don Bosco Iii",
+          "SMA Dian Harapan Cikarang",
+          "SMAN 1 Cikarang Utara",
+          "SMA John Paul 2019s School",
+          "SMA Penabur Summarecon Bekasi",
+          "SMA Sekolah Dian Harapan Lippo Cikarang",
+          "SMAN 1 Kota Bekasi",
+          "SMAN 1 Bekasi",
+          "SMA Penabur Harapan Indah",
+          "SMA Penabur Summarecon",
+          "SMAN 2 Tambun Selatan"
+        ]
+      },
+      {
+        "Gereja": ["GPDI Resinda", "GBI Sion Karawang"],
+        "Kabupaten": "Kab. Karawang",
+        "Sekolah": ["SMA Smas Yos Sudarso Karawang", "SMAN 1 Karawang"]
+      },
+      {
+        "Gereja": ["GKJ Margoyudan Solo"],
+        "Kabupaten": "Kab. Purwakarta",
+        "Sekolah": ["SMA Never 3 Surakarta"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Subang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Indramayu",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sumedang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Majalengka",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GKI Jamblang", "GPIB Bethel Bandung"],
+        "Kabupaten": "Kab. Cirebon",
+        "Sekolah": ["SMA Penabur Cirebon", "SMAK 1 BPK Penabur"]
+      },
+      {
+        "Gereja": ["Gereja Kristen Kemah Daud", "Gereja Pantekosta Di Indonesia"],
+        "Kabupaten": "Kab. Kuningan",
+        "Sekolah": ["SMAK 7 Penabur", "SMA N 2 Kuningan"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Ciamis",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tasikmalaya",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Injili Indonesia"],
+        "Kabupaten": "Kab. Garut",
+        "Sekolah": ["SMA Negeri 1 Garut"]
+      },
+      {
+        "Gereja": [
+          "GII Hok Im Tong Holis",
+          "Gereja Kristen Kalam Kudus Bandung",
+          "Gereja Kristen Kalam Kudus Tki",
+          "Gereja Kristen Kalam Kudus",
+          "Gmahk Pondok Mas",
+          "GII Hit Taman Rahayu",
+          "GBI Sukawarna",
+          "GPIB",
+          "Tiberias",
+          "GKI Anugerah",
+          "HKBP",
+          "GKI",
+          "GKJ Bandung",
+          "Gspdi Filadelfia"
+        ],
+        "Kabupaten": "Kab. Bandung",
+        "Sekolah": [
+          "SMAK 1 BPK Penabur Bandung",
+          "SMA Kalam Kudus Bandung",
+          "SMA BPK Penabur Holis",
+          "SMA Kalam Kudus",
+          "SMA Advent Bandung",
+          "SMA Santo Aloysius 2",
+          "SMA Labschool Kebayoran",
+          "SMA Harapan Bangsa",
+          "SMAN 3 Bandung",
+          "SMA Cahaya Bangsa Classical School",
+          "SMA Sevilla Pulomas",
+          "SMAK 2 BPK Penabur Bandung"
+        ]
+      },
+      {
+        "Gereja": ["Gereja Yesus Sejati "],
+        "Kabupaten": "Kab. Cianjur",
+        "Sekolah": ["SMAK 1 BPK Penabur Bandung"]
+      },
+      {
+        "Gereja": ["GKI Penginjil"],
+        "Kabupaten": "Kab. Sukabumi",
+        "Sekolah": ["SMA BPK Penabur Sukabumi"]
+      },
+      {
+        "Gereja": [
+          "GKI Kota Wisata",
+          "JPCC",
+          "Gereja Kristus Yesus",
+          "Huria Kristen Batak Protestan",
+          "Gereja Masehi Advent Hari Ketujuh",
+          "HKBP Sudirman Jakarta",
+          "Gereja HKBP Jatiasih",
+          "Gereja Kristen Indonesia Kota Wisata"
+        ],
+        "Kabupaten": "Kab. Bogor",
+        "Sekolah": [
+          "SMA Gonzaga",
+          "SMA Negeri 1 Cileungsi",
+          "SMAN 65 Jakarta",
+          "SMAK 7 Penabur Jakarta",
+          "SMA Negeri 5 Kota Bekasi",
+          "SMAN 6 Bogor",
+          "SMA Negeri 11 Bekasi ",
+          "SMA Penabur Kota Wisata"
+        ]
+      }
+    ]
+  },
+  "13": {
+    "Jawa Tengah": [
+      {
+        "Gereja": ["GSJA"],
+        "Kabupaten": "Kota Tegal",
+        "Sekolah": ["SMA N 1 Tegal"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Pekalongan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Semarang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Jemaat Kristus Indonesia", "GKJ Ampel"],
+        "Kabupaten": "Kota Salatiga",
+        "Sekolah": ["SMA Taruna Nusantara", "SMAN 1 Salatiga"]
+      },
+      {
+        "Gereja": [
+          "Gereja Reformed Injili Indonesia",
+          "GBIKA Surakarta, Jawa Tengah",
+          "JKI Maranatha Ungaran",
+          "Gereja Kristen Jawa",
+          "GKJ Karanganyar"
+        ],
+        "Kabupaten": "Kota Surakarta",
+        "Sekolah": ["SMA Negeri 3 Surakarta", "SMAN 3 Surakarta", "SMA Negeri 4 Ungaran", "SMA N 1 Surakarta"]
+      },
+      {
+        "Gereja": ["GBI", "GKJ Magelang"],
+        "Kabupaten": "Kota Magelang",
+        "Sekolah": ["SMAN 1 Magelang", "SMA N 1 Magelang"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Brebes",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tegal",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pemalang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pekalongan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Batang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kendal",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Temanggung",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GOOD News CITY Church", "JKI Higer Than Ever", "GKI Beringin Semarang", "Jemaat Kristen Indonesia"],
+        "Kabupaten": "Kab. Semarang",
+        "Sekolah": ["SMA Kristen Yski", "SMA Kolese Loyola", "SMA Negeri 3 Semarang"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Demak",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Jepara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kudus",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Bethany Indonesia Banyutowo", "GITJ Juwana", "GITJ Margorejo"],
+        "Kabupaten": "Kab. Pati",
+        "Sekolah": ["SMAN 3 Semarang", "SMAN 1 Salatiga", "SMA N 1 Tayu"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Rembang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Blora",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GKJ Purwodadi"],
+        "Kabupaten": "Kab. Grobogan",
+        "Sekolah": ["SMA Sma1 Purwodadi"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sragen",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Karanganyar",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Wonogiri",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GKJ Sukoharjo"],
+        "Kabupaten": "Kab. Sukoharjo",
+        "Sekolah": ["SMA Negeri 1 Surakarta"]
+      },
+      {
+        "Gereja": ["GKJ Wonosari", "GKI Klaten", "Gereja Kristen Jawa "],
+        "Kabupaten": "Kab. Klaten",
+        "Sekolah": ["SMA N 1 Sukoharjo", "SMAN 1 Klaten", "SMA Negeri 1 Klaten"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Boyolali",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GKI Muntilan"],
+        "Kabupaten": "Kab. Magelang",
+        "Sekolah": ["SMAN 1 Magelang"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Wonosobo",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GMS"],
+        "Kabupaten": "Kab. Purworejo",
+        "Sekolah": ["SMAN 1 Purworejo"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kebumen",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Banjarnegara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GKI Gatot Subroto Purwokerto"],
+        "Kabupaten": "Kab. Purbalingga",
+        "Sekolah": ["SMA Negeri 1 Purwokerto"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Banyumas",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["HKBP Cilacap"],
+        "Kabupaten": "Kab. Cilacap",
+        "Sekolah": ["SMAN 1 Cilacap"]
+      }
+    ]
+  },
+  "14": {
+    "DI Yogyakarta": [
+      {
+        "Gereja": ["GPDI Hayam Wuruo", "GKI Ngupasan"],
+        "Kabupaten": "Kota Yogyakarta",
+        "Sekolah": ["SMA Sma9 Yk", "SMA N 3 Yogya"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sleman",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Gunung Kidul",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bantul",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kulon Progo",
+        "Sekolah": []
+      }
+    ]
+  },
+  "15": {
+    "Jawa Timur": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Batu",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [
+          "Gereja Bethany Nginden Surabaya",
+          "Gereja Kalam Kudus",
+          "GTI Bukit Zaitun",
+          "Gereja Bethany Nginden",
+          "Mawar Sharon",
+          "Gereja Kristen Indonesia",
+          "Gereja Kristen Indonesia Merisi Indah",
+          "GSKI Jemaat Bethany Manyar",
+          "Gereja Bethany Indonesia",
+          "GKJW Wiyung",
+          "YHS",
+          "GKA Gloria",
+          "GKI Pregbun"
+        ],
+        "Kabupaten": "Kota Surabaya",
+        "Sekolah": [
+          "SMA Katolik Stella Maris Surabaya",
+          "SMA Frateran Surabaya",
+          "SMAN 2 Surabaya",
+          "SMAN 16 Surabaya",
+          "SMA Kristen Petra 1 Surabaya",
+          "SMAN 5 Surabaya",
+          "SMAN 15 Surabaya",
+          "SMA Negeri 5 Surabaya",
+          "SMA Kristen Petra 2 Surabaya",
+          "SMA Petra 1",
+          "SMA St Louis 2 Surabaya",
+          "SMA Negeri 16 Surabaya",
+          "SMA St Louis 1 "
+        ]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Madiun",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Mojokerto",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Pasuruan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Probolinggo",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GKI Batu", "GKI Bromo"],
+        "Kabupaten": "Kota Malang",
+        "Sekolah": ["SMA Bina Bangsa School Malang", "SMAN 5 Malang"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Blitar",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Utusan Pantekosta"],
+        "Kabupaten": "Kota Kediri",
+        "Sekolah": ["SMAN 2 Kediri"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sumenep",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pamekasan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sampang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bangkalan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Gresik",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lamongan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tuban",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bojonegoro",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Utusan Pantekosta El-shaddai"],
+        "Kabupaten": "Kab. Ngawi",
+        "Sekolah": ["SMA Kolese Santo Yusup Malang"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Magetan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Madiun",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Nganjuk",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Jombang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Mojokerto",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Kristen Protestan Simalungun", "Gereja Kristen Injili Nusantara"],
+        "Kabupaten": "Kab. Sidoarjo",
+        "Sekolah": ["SMAN 4 Denpasar", "SMA Negeri 1 Krian"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pasuruan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Probolinggo",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Situbondo",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bondowoso",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Banyuwangi",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Jember",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lumajang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Kristen Indonesia"],
+        "Kabupaten": "Kab. Malang",
+        "Sekolah": ["SMAN 1 Lawang"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kediri",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Blitar",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tulungagung",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Trenggalek",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Ponorogo",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pacitan",
+        "Sekolah": []
+      }
+    ]
+  },
+  "16": {
+    "Banten": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Cilegon",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [
+          "Gereja HKBP",
+          "GRII",
+          "Gereja Kristus Sarua Permai",
+          "GBI Modernland",
+          "Gereja Kristen Indonesia Pamulang",
+          "GKI Kota Modern",
+          "Gereja Methodist Indonesia",
+          "Tiberias ",
+          "GKI",
+          "GKY",
+          "GKI Pamulang",
+          "Gereja Injili Indonesia (gii) Hok Im Tong",
+          "GKI Serpong",
+          "Huria Kristen Batak Protestan",
+          "Christ Cathedral",
+          "HKBP Perumnas",
+          "Gereja Bethel Indonesia Modernland",
+          "Gereja Kristen Indonesia",
+          "Gereja Reformed Injili Indonesia",
+          "Gereja Bethel Indonesia",
+          "Gereja Kristus Yesus",
+          "HKBP",
+          "GBI Fatmawati",
+          "NDC",
+          "Gereja Kristen Indonesia Serpong",
+          "GBI Pasar Baru Tangerang",
+          "Gereja Injili Indonesia (gii Hok Im Tong)"
+        ],
+        "Kabupaten": "Kota Tangerang",
+        "Sekolah": [
+          "SMA Kolese Kanisius Jakarta",
+          "SMA Penabur Gs",
+          "SMAN 3 Tangerang Selatan",
+          "SMA Candle Light",
+          "SMAN 2 Tangerang Selatan",
+          "SMAN 1 Tangerang",
+          "SMA Penabur Gading Serpong",
+          "SMA Pahoas",
+          "SMA K Yos Sudarso ",
+          "SMA Mutiara Bangsa",
+          "SMA Negeri 70 Jakarta",
+          "SMA Penabur Kota Tangerang",
+          "SMA Penabur Bintaro Jaya",
+          "SMA Stella Maris Bsd",
+          "SMAN 90 Jakarta",
+          "SMA Negeri 3 Kota Tangerang Selatan",
+          "SMA Candle Tree",
+          "SMAN 1 Tangsel",
+          "SMA Bina Nusantara Serpong",
+          "SMA Santa Ursula Bsd",
+          "SMA Smas Athalia"
+        ]
+      },
+      {
+        "Gereja": ["GKI Serang"],
+        "Kabupaten": "Kab. Serang",
+        "Sekolah": ["SMAN 2 Bandung"]
+      },
+      {
+        "Gereja": [
+          "Gereja Bethel Indonesia",
+          "Gereja Mawar Sharon",
+          "Gereja Kristen Sangkakala Indonesia",
+          "GKI Gading Serpong",
+          "Cross Harvest Church",
+          "Abbalove Ministries Gading Serpong",
+          "GBI Basilea Christ Cathedral",
+          "GKI Citra Raya",
+          "GBI",
+          "HKBP Serpong",
+          "GKI Serpong",
+          "Gereja Kristen Indonesia ",
+          "Gereja Injili Indonesia (semanggi)",
+          "NDC Ministry"
+        ],
+        "Kabupaten": "Kab. Tangerang",
+        "Sekolah": [
+          "SMA Penabur Gading Serpong",
+          "SMA Tarakanita Citra Raya",
+          "SMA Tarakanita Gading Serpong",
+          "SMA Tarakanita Tangerang",
+          "SMA Penabur Kota Tangerang",
+          "SMA Citra Berkat",
+          "SMAN 7 Tangerang Selatan",
+          "SMA Negeri 3 Jakarta",
+          "SMA Penabur Bintaro"
+        ]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lebak",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pandeglang",
+        "Sekolah": []
+      }
+    ]
+  },
+  "17": {
+    "Bali": [
+      {
+        "Gereja": ["GPT Baithani", "GBI Rock"],
+        "Kabupaten": "Kota Denpasar",
+        "Sekolah": ["SMA N 4 Denpasar", "SMAN 1 Denpasar"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Buleleng",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Karangasem",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bangli",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Klungkung",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Gianyar",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Kristen Indonesia (gki)"],
+        "Kabupaten": "Kab. Badung",
+        "Sekolah": ["SMA Dyatmika School Bali"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tabanan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Jembarana",
+        "Sekolah": []
+      }
+    ]
+  },
+  "18": {
+    "Nusa Tenggara Barat": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Bima",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GPIB", "GPIB Wr Supratman"],
+        "Kabupaten": "Kota Mataram",
+        "Sekolah": ["SMAN 1 Mataram"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sumbawa Barat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bima",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Dompu",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sumbawa",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lombok Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lombok Tengah",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lombok Barat",
+        "Sekolah": []
+      }
+    ]
+  },
+  "19": {
+    "Nusa Tenggara Timur": [
+      {
+        "Gereja": ["GMIT Moria Liliba"],
+        "Kabupaten": "Kota Kupang",
+        "Sekolah": ["SMAN 3 Kupang"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Manggarai Barat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Rote Ndao",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lembata",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sumba Barat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sumba Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Manggarai",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Ngada",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Ende",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sikka",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Flores Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Alor",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Belu",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Timor Tengah Utara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Timor Tengah Selatan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kupang",
+        "Sekolah": []
+      }
+    ]
+  },
+  "2": {
+    "Sumatera Utara": [
+      {
+        "Gereja": ["Gereja Kristen Protestan Indonesia"],
+        "Kabupaten": "Kota Padang Sidempuan",
+        "Sekolah": ["SMA Unggul Del"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Tebing Tinggi",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Kristus Yesus "],
+        "Kabupaten": "Kota Binjai",
+        "Sekolah": ["SMA Methodist-3"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Tanjung Balai",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Sibolga",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [
+          "GKPS",
+          "Huria Kristen Batak Protestan",
+          "GBI ",
+          "Gereja Batak Karo Protestan",
+          "HKBP ",
+          "Gereja Methodist Indonesia",
+          "Gereja Kristen Protestan Simalungun",
+          "HKBP Sipinggol-pinggol",
+          "HKBP Martoba Pematangsiantar",
+          "Huria Kristen Indonesia",
+          "Gereja Bethel Indonesia",
+          "Gereja Huria Kristen Batak Protestan"
+        ],
+        "Kabupaten": "Kota Pematang Siantar",
+        "Sekolah": [
+          "SMAN 4 Pematangsiantar",
+          "SMA Smas Unggul Del",
+          "SMA Unggul Del",
+          "SMA Smas Budi Mulia Pematangsiantar",
+          "SMA Negeri 4 Pematangsiantar",
+          "SMA Del",
+          "SMA Budi Mulia Pematangsiantar",
+          "SMA Sma3 Pematang Siantar",
+          "SMA Smas Budi Mulia"
+        ]
+      },
+      {
+        "Gereja": [
+          "GKPI Medan Kota",
+          "Gereja Kristen Protestan Pakpak Dairi",
+          "Gereja Kristen Protestan Simalungun",
+          "HKBP Sri Gunting Indah",
+          "GBI Wtc",
+          "GBKP",
+          "HKBP",
+          "Tidak Ada",
+          "Gereja Mawar Sharon",
+          "Huria Kristen Batak Protestan",
+          "Gereja Batak Karo Protestan",
+          "Chapel Usu",
+          "HKBP Sudirman Medan",
+          "HKBP Riau",
+          "HKBP Uskup Agung Sugiopranoto Medan",
+          "GBKP Medan",
+          "Gereja Methodist Indonesia Mu En",
+          "Gereja Pentakosta Di Indonesia",
+          "Gereja Protestan Di Indonesia Bagian Barat (gpib)",
+          "Gereja Gratia Methodist ",
+          "Gereja Bethel Indonesia",
+          "HBKP",
+          "GBKP Km.8 Medan",
+          "Gereja Kristen Protestan Indonesia",
+          "GPIB",
+          "HKBP Polonia",
+          "Gereja Methodist Indonesia"
+        ],
+        "Kabupaten": "Kota Medan",
+        "Sekolah": [
+          "SMA Smas Unggul Del",
+          "SMA Negeri 4 Medan",
+          "SMA Unggul Del",
+          "SMA Sutomo 1 Medan",
+          "SMA St Thomas 1",
+          "SMA Sutomo 1",
+          "SMA Budi Mulia Pematang Siantar",
+          "SMA St. Thomas 1 Medan",
+          "SMA Negeri 1 Medan",
+          "SMA Santo Thomas 1 Medan",
+          "SMA Smas Katolik Budi Murni 2 Medan",
+          "SMA Santothomas 1 Medan",
+          "SMA Swasta Methodist-3",
+          "SMAN 2 Balige",
+          "SMAN 3 Medan",
+          "SMA 5",
+          "SMAN 1 Medan",
+          "SMA N 2 Balige",
+          "SMAN 4 Medan"
+        ]
+      },
+      {
+        "Gereja": ["GPIB"],
+        "Kabupaten": "Kab. Serdang Bedagai",
+        "Sekolah": ["SMA Unggul Del"]
+      },
+      {
+        "Gereja": ["HKBP", "HKBP Tuk Tuk", "HKBP Bolon, Samosir"],
+        "Kabupaten": "Kab. Samosir",
+        "Sekolah": ["SMA Bintang Timur Pematangsiantar", "SMA N 2 Balige", "SMA Negeri 2 Balige"]
+      },
+      {
+        "Gereja": ["HKBP Siononompu", "Gereja Huria Kristen Indonesia", "HKI", "HKBP", "Huria Kristen Batak Protestan"],
+        "Kabupaten": "Kab. Humbang Hasundutan",
+        "Sekolah": [
+          "SMA N 2 Lintongnihuta",
+          "SMAN 2 Balige",
+          "SMA Smas Unggul Del",
+          "SMA Negeri 2 Lintongnihuta",
+          "SMA Negeri 1 Doloksanggul"
+        ]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pakpak Barat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Nias Selatan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Mandailing Natal",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [
+          "HKBP Balige",
+          "GBKP",
+          "HKBP Tambunan Baruara",
+          "HKBP Soposurung",
+          "GKPI",
+          "HKBP Paronan Nagodang",
+          "Gereja Kristen Protestan Indonesia"
+        ],
+        "Kabupaten": "Kab. Toba Samosir",
+        "Sekolah": ["SMAS Unggul Del", "SMAN 2 Balige"]
+      },
+      {
+        "Gereja": ["GKPI", "HKBP 1 Sidikalang ", "HKBP Panji Porsea"],
+        "Kabupaten": "Kab. Dairi",
+        "Sekolah": ["SMAS Unggul Del ", "SMAN 1 Sidikalang", "SMAS Budi Mulia Pematangsiantar"]
+      },
+      {
+        "Gereja": ["GMI", "HKBP Sei Tawar"],
+        "Kabupaten": "Kab. Labuhan Batu",
+        "Sekolah": ["SMAN 3 Rantau Utara", "SMAS Unggul Del"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Asahan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GKPS Tigarunggu"],
+        "Kabupaten": "Kab. Simalungun",
+        "Sekolah": ["SMAN 1 Kabanjahe", "SMAN 2 Balige", "SMAS Unggul Del"]
+      },
+      {
+        "Gereja": ["Gereja Methodist Indonesia"],
+        "Kabupaten": "Kab. Deli Serdang",
+        "Sekolah": ["SMAS Methodist 3"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Karo",
+        "Sekolah": ["SMAN 1 Kabanjahe"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Langkat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Nias",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GKPA"],
+        "Kabupaten": "Kab. Tapanuli Selatan",
+        "Sekolah": ["SMAS Budi Mulia Pematangsiantar"]
+      },
+      {
+        "Gereja": ["HKBP Pearaja Tarutung", "HKBP Tarutung Kota", "HKI", "Huria Kristen Indonesia"],
+        "Kabupaten": "Kab. Tapanuli Utara",
+        "Sekolah": ["SMAN 3 Tarutung", "SMAS Budi Mulia Pematangsiantar", "SMAN 2 Lintongnihuta"]
+      },
+      {
+        "Gereja": ["HKBP Sibuluan"],
+        "Kabupaten": "Kab. Tapanuli Tengah",
+        "Sekolah": ["SMAN 1 sibolga"]
+      }
+    ]
+  },
+  "20": {
+    "Kalimantan Barat": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Singkawang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Isa Almasih Indonesia"],
+        "Kabupaten": "Kota Pontianak",
+        "Sekolah": ["SMA Immanuel Pontianak"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sekadau",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Melawi",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Landak",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bengkayang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kapuas Hulu",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sintang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Ketapang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sanggau",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pontianak",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sambas",
+        "Sekolah": []
+      }
+    ]
+  },
+  "21": {
+    "Kalimantan Tengah": [
+      {
+        "Gereja": ["Gereja Mawar Sharon", "GKE"],
+        "Kabupaten": "Kota Palangkaraya",
+        "Sekolah": ["SMA Kolese Santo Yusup Malang"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Barito Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Murung Raya",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pulang Pisau",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Gunung Mas",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lamandau",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sukamara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Seruyan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Katingin",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Barito Utara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Barito Selatan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kapuas",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kotawaringin Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kotawaringin Barat",
+        "Sekolah": []
+      }
+    ]
+  },
+  "22": {
+    "Kalimantan Selatan": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Banjarbaru",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Banjarmasin",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Balangan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tanah Bambu",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tabalong",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Hulu Sungai Utara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Hulu Sungai Tengah",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Hulu Sungai Selatan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tapin",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Barito Kuala",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Banjar",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kotabaru",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tanah Laut",
+        "Sekolah": []
+      }
+    ]
+  },
+  "23": {
+    "Kalimantan Timur": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Bontang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Toraja Jemaat Juata Tarakan", "GKKA"],
+        "Kabupaten": "Kota Tarakan",
+        "Sekolah": ["SMAN 1 Tarakan"]
+      },
+      {
+        "Gereja": ["Gereja Kemah Injil Indonesia"],
+        "Kabupaten": "Kota Samarinda",
+        "Sekolah": ["SMAN 1 Samarinda", "SMAS Unggul Del"]
+      },
+      {
+        "Gereja": ["GBIS Sangkakala", "GBI Rock Balikpapan", "GBI Antiokhia"],
+        "Kabupaten": "Kota Balikpapan",
+        "Sekolah": ["SMAN 1 Balikpapan", "SMAN 5 Bandung"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Penajam Paser Utara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kutai Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kutai Barat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Malinau",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Nunukan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bulungan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["HKBP Tanjung Redeb"],
+        "Kabupaten": "Kab. Berau",
+        "Sekolah": ["SMAN 1 Berau"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kutai Kertanegara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pasir",
+        "Sekolah": []
+      }
+    ]
+  },
+  "24": {
+    "Kalimantan Utara": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Tarakan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bulungan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Malinau",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Nunukan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tana Tidung",
+        "Sekolah": []
+      }
+    ]
+  },
+  "25": {
+    "Sulawesi Utara": [
+      {
+        "Gereja": ["Gereja Masehi Injili Di Minahasa"],
+        "Kabupaten": "Kota Tomohon",
+        "Sekolah": ["SMAN 1 Tomohon"]
+      },
+      {
+        "Gereja": ["Gereja Pantekosta Di Indonesia Victory"],
+        "Kabupaten": "Kota Bitung",
+        "Sekolah": ["SMA Lokon St.nikolaus Tomohon"]
+      },
+      {
+        "Gereja": [
+          "GPDI Agathos",
+          "Gmahk Kairagi Pioneer",
+          "Gereja Masehi Injili Di Minahasa (gmim)",
+          "GMIM Bukit Moria Rike"
+        ],
+        "Kabupaten": "Kota Manado",
+        "Sekolah": [
+          "SMAN 9 Binsus Manado",
+          "SMAN 1 Manado",
+          "SMAN 9 Manado",
+          "High School Of Manado Independent School"
+        ]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Minahasa Utara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Minahasa Selatan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kepulauan Talaud",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kepulauan Sangihe",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Minahasa",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bolaang Mangondow",
+        "Sekolah": []
+      }
+    ]
+  },
+  "26": {
+    "Sulawesi Tengah": [
+      {
+        "Gereja": ["Gereja Kristus Tuhan", "Gereja Protestan Indonesia Donggala"],
+        "Kabupaten": "Kota Palu",
+        "Sekolah": ["SMAN Model Terpadu Madani Palu", "SMAN 1 Palu"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tojo Una Una",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Parigi Moutong",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Banggai Kepulauan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Morowali",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Buol",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Toloi Toli",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Donggala",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GKST"],
+        "Kabupaten": "Kab. Poso",
+        "Sekolah": ["SMA Katolik Rajawali"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Banggai",
+        "Sekolah": []
+      }
+    ]
+  },
+  "27": {
+    "Sulawesi Selatan": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Palopo",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Pare Pare",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Toraja Jemaat Pniel Perumnas"],
+        "Kabupaten": "Kota Makasar",
+        "Sekolah": ["SMAN 1 Makassar", "SMAN 5 Bandung", "SMAS Bosowa School Makassar"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Luwu Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Luwu Utara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GPT Kristus Gembala Rantepao", "Gereja Toraja"],
+        "Kabupaten": "Kab. Tana Toraja",
+        "Sekolah": ["SMAN 2 Toraja Utara", "SMAS Katolik St. Albertus Malang"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Luwu",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Enrekang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pinrang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sidenreng Rapang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Wajo",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Soppeng",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Barru",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pangkajene Kep.",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Maros",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bone",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sinjai",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Gowa",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Takalar",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Jeneponto.",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bantaeng",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bulukumba",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Selayar",
+        "Sekolah": []
+      }
+    ]
+  },
+  "28": {
+    "Sulawesi Tenggara": [
+      {
+        "Gereja": ["Gereja Sidang Jemaat Kristus"],
+        "Kabupaten": "Kota Bau Bau",
+        "Sekolah": ["SMA Zion Makassar"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Kendari",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kolaka Utara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Wakatobi",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bombana",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Konawe Selatan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Buton",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Muna",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Konawe",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kolaka",
+        "Sekolah": []
+      }
+    ]
+  },
+  "29": {
+    "Gorontalo ": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Gorontalo",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pahuwato",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bone Bolango",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Boalemo",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Gorontalo",
+        "Sekolah": []
+      }
+    ]
+  },
+  "30": {
+    "Sulawesi Barat": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Majene",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Polowali Mamasa",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Mamasa",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Mamuju",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Mamuju Utara",
+        "Sekolah": []
+      }
+    ]
+  },
+  "3": {
+    "Sumatera Barat": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Pariaman",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Payakumbuh",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["HKBP"],
+        "Kabupaten": "Kota Bukittinggi",
+        "Sekolah": ["SMAN 1 Bukittinggi"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Padang Panjang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Sawhlunto",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Solok",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Padang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pasaman Barat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Solok Selatan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Dharmasraya",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kepulauan Mentawai",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pasaman",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lima Puluh Kota",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Agam",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Padang Pariaman",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tanah Datar",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sw.lunto",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Solok",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab.pesisir Selatan",
+        "Sekolah": []
+      }
+    ]
+  },
+  "31": {
+    "Maluku": [
+      {
+        "Gereja": ["Gereja Protestan Maluku", "GBI Rock"],
+        "Kabupaten": "Kota Ambon",
+        "Sekolah": ["SMA Lentera Harapan Ambon", "SMA Siwalima Ambon"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kepulauan Aru",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Seram Bagian Barat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Seram Bagian Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Buru",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Maluku Tenggara Brt",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Maluku Tenggara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Protestan Maluku"],
+        "Kabupaten": "Kab. Maluku Tengah",
+        "Sekolah": ["SMAN 1 Leihitu Barat"]
+      }
+    ]
+  },
+  "32": {
+    "Maluku Utara": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Tidore Kepulauan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Ternate",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Halmahera Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kepulauan Sula",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Halmahera Selatan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Halmahera Utara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Halmahera Tengah",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Halmahera Barat",
+        "Sekolah": []
+      }
+    ]
+  },
+  "33": {
+    "Papua": [
+      {
+        "Gereja": ["Gereja Kristen Indonesia", "GKI Petrus", "Gereja Pantekosta Di Indonesia (gpdi)", "GII Dago"],
+        "Kabupaten": "Kota Jayapura",
+        "Sekolah": ["SMAN 3 Jayapura", "SMAN 4 Jayapura", "SMAN 2 Jayapura"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Supiori",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Asmat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Mappi",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Boven Digoel",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Waropen",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tolikara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Yahukimo",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Pegunungan Bintang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Keerom",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sarmi",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Mimika",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Paniai",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Puncak Jaya",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Biak Numfor",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Yapen Waropen",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Nabire",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Jayapura",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Jayawijaya",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Merauke",
+        "Sekolah": []
+      }
+    ]
+  },
+  "34": {
+    "Papua Barat": [
+      {
+        "Gereja": ["Gereja Sidang Jemaat Kristus"],
+        "Kabupaten": "Kota Sorong",
+        "Sekolah": ["SMAN 3 Kota Sorong"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kaima",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Teluk Wondama",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Teluk Bentuni",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Raja Ampat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sorong Selatan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Kristen Injili Di Tanah Papua"],
+        "Kabupaten": "Kab. Fak Fak",
+        "Sekolah": ["SMAN 1 Fakfak"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Manokwari",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sorong",
+        "Sekolah": []
+      }
+    ]
+  },
+  "4": {
+    "Riau": [
+      {
+        "Gereja": ["Gereja Methodist Indonesia "],
+        "Kabupaten": "Kota Dumai",
+        "Sekolah": ["SMAN 2 Balige"]
+      },
+      {
+        "Gereja": [
+          "Gereja Pantekosta Di Indonesia",
+          "Gereja Batak Karo Protestant",
+          "HKBP Hangtuah Pekanbaru",
+          "Gereja Kristen Kalam Kudus",
+          "Gereja Mawar Sharon",
+          "GPIB Immanuel Pekanbaru",
+          "HKBP Pekanbaru Kota"
+        ],
+        "Kabupaten": "Kota Pekan Baru",
+        "Sekolah": ["SMAN 8 Pekanbaru ", "SMA Santa Maria Pekanbaru", "SMAN 1 Pekanbaru"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kuantan Singingi",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Siak",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Rokan Hilir",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["HKBP Ressot Estomihi"],
+        "Kabupaten": "Kab. Rokan Hulu",
+        "Sekolah": ["SMAN 1 Rambah"]
+      },
+      {
+        "Gereja": ["GPDI", "Gereja Batak Karo Protestan (gbkp)"],
+        "Kabupaten": "Kab. Pelalawan",
+        "Sekolah": ["SMAS Unggul Del", "SMAS Mutiara Harapan"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Indragiri Hilir",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [
+          "HKBP Simpang Padang",
+          "HKBP Duri Ressort Duri",
+          "Huria Kristen Indonesia",
+          "Gereja Protestan Indonesia Bagian Barat"
+        ],
+        "Kabupaten": "Kab. Bengkalis",
+        "Sekolah": ["SMAN 2 Mandau", "SMAS Unggul Del", "SMA Cendana Mandau"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Indragiri Hulu",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kampar",
+        "Sekolah": []
+      }
+    ]
+  },
+  "5": {
+    "Jambi": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kerinci",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tebo",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bungo",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tanjung Jabung Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tanjung Jabung Barat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Muaro Jambi",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Batanghari",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Sarolangun",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Merangin",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Jambi",
+        "Sekolah": []
+      }
+    ]
+  },
+  "6": {
+    "Sumatera Selatan": [
+      {
+        "Gereja": ["HKBP Kasih Prabumulih"],
+        "Kabupaten": "Kota Prabumulih",
+        "Sekolah": ["SMAN 2 Prabumulih"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Lubuk Linggau",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Pagar Alam",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gereja Baptis Palembang", "Gereja Kristus Yesus"],
+        "Kabupaten": "Kota Palembang",
+        "Sekolah": ["SMA Ignatius Global School Palembang", "SMA Xaverius 1 Palembang"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Ogan Ilir",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Oku Selatan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Oku Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Banyuasin",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Musi Banyuasin",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Musi Rawas",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lahat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Muara Enim",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Ogan Komering Ilir",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Ogan Komering Ulu",
+        "Sekolah": []
+      }
+    ]
+  },
+  "7": {
+    "Bengkulu": [
+      {
+        "Gereja": ["Gereja Methodist Indonesia", "HKBP", "GKII Bengkulu"],
+        "Kabupaten": "Kota Bengkulu",
+        "Sekolah": ["SMA Sint Carolus Bengkulu", "SMAN 5 Bengkulu ", "SMA Kolese Santo Yusup Malang"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kepahiang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lebong",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["HKBP"],
+        "Kabupaten": "Kab. Muko Muko",
+        "Sekolah": ["SMAS Unggul Del"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Seluma",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Kaur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bengkulu Utara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Rejang Lebong",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bengkulu Selatan",
+        "Sekolah": []
+      }
+    ]
+  },
+  "8": {
+    "Lampung": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Metro",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["GBI Kartini", "Gereja Pantekosta Di Indonesia 'ora Etlabora'", "JKI", "Gereja Mawar Sharon"],
+        "Kabupaten": "Kota Bandar Lampung",
+        "Sekolah": [
+          "SMA Fransiskus Bandar Lampung",
+          "SMA Fransiskus Bandarlampung",
+          "SMA Xaverius Bandarlampung",
+          "SMA Xaverius Bandar Lampung"
+        ]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Way Kanan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lampung Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["HKBP Pringsewu"],
+        "Kabupaten": "Kab. Tanggamus",
+        "Sekolah": ["SMAN 1 Pringsewu"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Tulang Bawang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lampung Barat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lampung Utara",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lampung Tengah",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Lampung Selatan",
+        "Sekolah": []
+      }
+    ]
+  },
+  "9": {
+    "Kep Bangka Belitung": [
+      {
+        "Gereja": [],
+        "Kabupaten": "Kota Pangkal Pinang",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bangka Timur",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bangka Barat",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bangka Tengah",
+        "Sekolah": []
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bangka Selatan",
+        "Sekolah": []
+      },
+      {
+        "Gereja": ["Gepekris"],
+        "Kabupaten": "Kab. Belitung",
+        "Sekolah": ["SMAN 1 Tanjungpandan"]
+      },
+      {
+        "Gereja": [],
+        "Kabupaten": "Kab. Bangka",
+        "Sekolah": []
+      }
+    ]
+  }
+}
