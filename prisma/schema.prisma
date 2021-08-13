@@ -115,7 +115,7 @@ enum MemberStatus {
 model Parent {
   id           Int          @id @default(autoincrement())
   name         String
-  phone        String
+  phone        String       @unique
   relationship Relationship
 
   // A Parent may have many children (members)

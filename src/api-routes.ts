@@ -94,43 +94,50 @@ router.post('/members', async (req, res) => {
     discipleshipId,
   } = req.body;
 
-  const createParent = await prisma.parent.create({
-    data: {
+  const createParent = await prisma.parent.upsert({
+    where: {
+      phone: parentPhone,
+    },
+    update: {},
+    create: {
       name: parentName,
       phone: parentPhone,
       relationship: parentRelationship,
     },
   });
 
-  const member = await prisma.member.create({
-    data: {
-      nim,
-      tpbNim: nim,
-      name,
-      nickname,
-      major: { connect: { id: majorId } },
-      gender,
-      birthDate,
-      year: 2021,
-      line,
-      phone,
-      email,
-      originProvince,
-      originCity,
-      originSchool,
-      currentChurch: originChurch,
-      originChurch,
-      parent: { connect: { id: createParent.id } },
-      discipleship: { connect: { id: discipleshipId } },
-    },
-  });
-
-  res
-    .json({
-      createParent,
-      member,
-    })
-    .status(201);
+  try {
+    const member = await prisma.member.create({
+      data: {
+        nim,
+        tpbNim: nim,
+        name,
+        nickname,
+        major: { connect: { id: majorId } },
+        gender,
+        birthDate,
+        year: 2021,
+        line,
+        phone,
+        email,
+        originProvince,
+        originCity,
+        originSchool,
+        currentChurch: originChurch,
+        originChurch,
+        parent: { connect: { id: createParent.id } },
+        discipleship: { connect: { id: discipleshipId } },
+      },
+    });
+    res.status(201).json({
+      message: 'Created a member.',
+      data: member,
+    });
+  } catch (e) {
+    res.status(400).json({
+      message: e.message,
+    });
+  }
 });
 /**
 Test case create Member (JSON):
