@@ -1,6 +1,7 @@
 import request from 'supertest';
 import app from '../app';
 import { prisma } from '../api-routes';
+import { Parent } from '@prisma/client';
 
 describe('Test the url', () => {
   it('should response 200 when hit /api', () => {
@@ -89,9 +90,9 @@ describe('Test the url', () => {
     expect(response.statusCode).toBe(201);
     expect(response.body.data.year).toBe(2021);
     expect(response.body.data.tpbNim).toBe(response.body.data.nim);
-    expect(parent.children.length).toBe(2);
-    expect(parent.children[0].tpbNim).toBe(16521225);
-    expect(parent.children[1].tpbNim).toBe(16521226);
+    expect(parent?.children.length).toBe(2);
+    expect(parent?.children[0].tpbNim).toBe(16521225);
+    expect(parent?.children[1].tpbNim).toBe(16521226);
   });
 
   it('should response 400 when hit /api/members, but with existing nim', async () => {
