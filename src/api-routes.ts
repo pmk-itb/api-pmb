@@ -139,28 +139,5 @@ router.post('/members', async (req, res) => {
     });
   }
 });
-/**
-Test case create Member (JSON):
-{
-  {
-  "nim":13519001,
-  "name":"Joko Santoso",
-  "nickname":"Joko",
-  "majorId":73,
-  "gender":"MALE",
-  "birthDate":"2000-01-01T00:00:00Z",
-  "line":"jk",
-  "phone":"021500500",
-  "email":"a@gmail.com",
-  "originProvince":"Jakarta",
-  "originSchool":"SMAN 1 Jakarta",
-  "originChurch":"HKBP A",
-  "parentName":"Test Parent",
-  "parentPhone":"08111111111",
-  "parentRelationship":"AYAH",
-  "discipleshipId":1
-}
-}
-*/
 
 export { router, prisma };

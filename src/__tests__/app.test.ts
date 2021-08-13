@@ -117,7 +117,7 @@ describe('Test the url', () => {
 
     const response = await request(app).post('/api/members').send(data);
     expect(response.statusCode).toBe(400);
-    expect(response.body.code).toBe('P2002');
+    expect(response.body.message.code).toBe('P2002');
   });
 
   it('should response 200 when hit /api/test', async () => {
