@@ -115,9 +115,12 @@ describe('Test the url', () => {
       discipleshipId: 1,
     };
 
+    const expectedFailMessage =
+      '\nInvalid `prisma.member.create()` invocation:\n\n\n  Unique constraint failed on the fields: (`nim`)';
+
     const response = await request(app).post('/api/members').send(data);
     expect(response.statusCode).toBe(400);
-    expect(response.body.message.code).toBe('P2002');
+    expect(response.body.message).toBe(expectedFailMessage);
   });
 
   it('should response 200 when hit /api/test', async () => {
