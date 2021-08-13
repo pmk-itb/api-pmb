@@ -16,17 +16,6 @@ describe('Test the url', () => {
     expect(response.statusCode).toBe(200);
   });
 
-  // it('should be able to create department from /api/departments', async () => {
-  //   const data = {
-  //     code: 'STEI',
-  //     name: 'Sekolah Teknik dan Informatika',
-  //     location: Location.GANESA,
-  //   };
-
-  //   const response = await request(app).post('/api/departments').send(data);
-  //   expect(response.statusCode).toBe(200);
-  // });
-
   it('should response 201 when hit /api/members succeeded', async () => {
     const data = {
       nim: 16521225,
