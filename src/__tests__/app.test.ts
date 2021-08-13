@@ -75,7 +75,7 @@ describe('Test the url', () => {
     };
 
     const response = await request(app).post('/api/members').send(data);
-    expect(response.statusCode).toBe(201);
+    expect(response.statusCode).toBe(400);
     expect(response.body.code).toBe('P2002');
   });
 
