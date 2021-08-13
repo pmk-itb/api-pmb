@@ -1,7 +1,6 @@
 import request from 'supertest';
 import app from '../app';
 import { prisma } from '../api-routes';
-import { Parent } from '@prisma/client';
 
 describe('Test the url', () => {
   it('should response 200 when hit /api', () => {
