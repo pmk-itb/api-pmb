@@ -64,7 +64,7 @@ model Member {
   majorId        Int
   // MALE / FEMALE
   gender         Gender
-  birthDate      DateTime @db.Timestamptz
+  birthDate      DateTime @db.Date
   year           Int
   line           String?  @db.VarChar(31)
   phone          String?  @db.VarChar(31)
@@ -115,7 +115,7 @@ enum MemberStatus {
 model Parent {
   id           Int          @id @default(autoincrement())
   name         String
-  phone        String
+  phone        String       @unique
   relationship Relationship
 
   // A Parent may have many children (members)
