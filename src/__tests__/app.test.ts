@@ -51,6 +51,47 @@ describe('Test the url', () => {
     const response = await request(app).post('/api/members').send(data);
     expect(response.statusCode).toBe(201);
     expect(response.body.data.year).toBe(2021);
+    expect(response.body.data.tpbNim).toBe(response.body.data.nim);
+  });
+
+  it('should response 201 when hit /api/members succeeded with same parent phone and update the members of parent', async () => {
+    const data = {
+      nim: 16521226,
+      name: 'Stefanus Gusega Gunawan',
+      nickname: 'Evan',
+      majorId: 71,
+      gender: 'MALE',
+      birthDate: '2000-09-02T00:00:00Z',
+      line: 'stefanusline',
+      phone: '0881234567890',
+      email: 'stefanus@mail.com',
+      originProvince: 'Jawa Timur',
+      originCity: 'Kota Surabaya',
+      originSchool: 'SMA Negeri 5 Surabaya',
+      originChurch: 'GBIS Damai Sejahtera',
+      parentName: 'Orang Tua',
+      parentPhone: '0811234567890',
+      parentRelationship: 'AYAH',
+      discipleshipId: 1,
+    };
+
+    const response = await request(app).post('/api/members').send(data);
+
+    const parent = await prisma.parent.findFirst({
+      where: {
+        phone: '0811234567890',
+      },
+      include: {
+        children: true,
+      },
+    });
+
+    expect(response.statusCode).toBe(201);
+    expect(response.body.data.year).toBe(2021);
+    expect(response.body.data.tpbNim).toBe(response.body.data.nim);
+    expect(parent.children.length).toBe(2);
+    expect(parent.children[0].tpbNim).toBe(16521225);
+    expect(parent.children[1].tpbNim).toBe(16521226);
   });
 
   it('should response 400 when hit /api/members, but with existing nim', async () => {
