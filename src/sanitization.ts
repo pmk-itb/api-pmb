@@ -1,6 +1,6 @@
 // import { format } from "path/posix"
 
-export let formatName = (inputName) =>{
+export let formatName = (inputName: string) =>{
     let names = inputName.split(" ");
     console.log(names);
     let formattedName = "";
@@ -11,7 +11,7 @@ export let formatName = (inputName) =>{
     return formattedName;
 }
 
-export let formatTelp = (no_telp) => {
+export let formatTelp = (no_telp: string) => {
     let telp = "";
     if(String(no_telp).includes("+")){
         //replace +62 with 0
@@ -23,7 +23,7 @@ export let formatTelp = (no_telp) => {
     return(telp);
 }
 
-export let formatSekolah = (sekolah) => {
+export let formatSekolah = (sekolah: string) => {
     let nama_sekolah = sekolah.split(" ");
     let formatted_nama_sekolah = ""
 
@@ -50,7 +50,7 @@ export let formatSekolah = (sekolah) => {
     return formatted_nama_sekolah;
 }
 
-export let formatGereja = (gereja) => {
+export let formatGereja = (gereja: string) => {
     let nama_gereja = gereja.split(" ");
     let formatted_nama_gereja = ""
 
