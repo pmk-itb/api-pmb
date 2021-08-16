@@ -114,7 +114,6 @@ enum MemberStatus {
 
 model Parent {
   id           Int          @id @default(autoincrement())
-  name         String
   phone        String       @unique
   relationship Relationship
 

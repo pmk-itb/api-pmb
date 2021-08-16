@@ -103,7 +103,6 @@ router.post('/members', async (req, res) => {
     originCity,
     originSchool,
     originChurch,
-    parentName,
     parentPhone,
     parentRelationship,
     discipleshipId,
@@ -115,7 +114,6 @@ router.post('/members', async (req, res) => {
     },
     update: {},
     create: {
-      name: parentName,
       phone: parentPhone,
       relationship: parentRelationship,
     },
