@@ -1,5 +1,5 @@
 import { Request, Response, Router } from 'express';
-import { PrismaClient } from '@prisma/client';
+import { Member, PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 const router = Router();
@@ -32,6 +32,45 @@ router.get('/departments', async (_req: Request, res: Response) => {
 // router.get('/relationships', async (_req: Request, res: Response) => {
 //   res.json(Object.getOwnPropertyNames(Relationship));
 // });
+
+router.get('/mentors', async (_req: Request, res: Response) => {
+  const nonItbMentors = (await prisma.discipleship.findMany({
+    select: {
+      id: true,
+      leaderName: true,
+    },
+    where: {
+      leaderId: null,
+    },
+  })) as {
+    id: number;
+    leaderName: string;
+  }[];
+
+  const itbMentorsRaw = await prisma.discipleship.findMany({
+    select: {
+      id: true,
+      leader: {
+        select: {
+          name: true,
+        },
+      },
+    },
+    where: {
+      leaderName: null,
+    },
+  });
+
+  const itbMentors = itbMentorsRaw.map((obj) => {
+    const leader = obj.leader as Member;
+    return {
+      id: obj.id,
+      leaderName: leader.name,
+    };
+  });
+
+  res.json(nonItbMentors.concat(itbMentors));
+});
 
 router.get('/test', async (_req: Request, res: Response) => {
   const variable = await prisma.member.findMany({
