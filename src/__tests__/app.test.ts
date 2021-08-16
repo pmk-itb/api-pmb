@@ -112,6 +112,11 @@ describe('Test the url', () => {
     expect(response.body.message).toBe(expectedFailMessage);
   });
 
+  it('should response 200 when hit /api/mentors', async () => {
+    const response = await request(app).get('/api/test');
+    expect(response.statusCode).toBe(200);
+  });
+
   it('should response 200 when hit /api/test', async () => {
     const response = await request(app).get('/api/test');
     expect(response.statusCode).toBe(200);
