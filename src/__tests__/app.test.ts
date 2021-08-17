@@ -31,7 +31,6 @@ describe('Test the url', () => {
       originCity: 'Kota Surabaya',
       originSchool: 'SMA Negeri 5 Surabaya',
       originChurch: 'GBIS Damai Sejahtera',
-      parentName: 'Orang Tua',
       parentPhone: '0811234567890',
       parentRelationship: 'AYAH',
       discipleshipId: 1,
@@ -58,7 +57,6 @@ describe('Test the url', () => {
       originCity: 'Kota Surabaya',
       originSchool: 'SMA Negeri 5 Surabaya',
       originChurch: 'GBIS Damai Sejahtera',
-      parentName: 'Orang Tua',
       parentPhone: '0811234567890',
       parentRelationship: 'AYAH',
       discipleshipId: 1,
@@ -98,7 +96,6 @@ describe('Test the url', () => {
       originCity: 'Kota Surabaya',
       originSchool: 'SMA Negeri 5 Surabaya',
       originChurch: 'GBIS Damai Sejahtera',
-      parentName: 'Orang Tua',
       parentPhone: '0811234567890',
       parentRelationship: 'AYAH',
       discipleshipId: 1,
@@ -110,6 +107,11 @@ describe('Test the url', () => {
     const response = await request(app).post('/api/members').send(data);
     expect(response.statusCode).toBe(400);
     expect(response.body.message).toBe(expectedFailMessage);
+  });
+
+  it('should response 200 when hit /api/mentors', async () => {
+    const response = await request(app).get('/api/test');
+    expect(response.statusCode).toBe(200);
   });
 
   it('should response 200 when hit /api/test', async () => {
