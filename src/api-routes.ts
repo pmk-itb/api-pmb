@@ -1,6 +1,6 @@
 import { Request, Response, Router } from 'express';
-import { PrismaClient } from '.prisma/client';
 import { apiKeyNeeded, validTokenNeeded } from './middlewares/auth.middleware';
+import { Member, PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 const router = Router();
@@ -19,47 +19,65 @@ router.get('/about', function (_req: Request, res: Response) {
 
 // Example API to get department
 router.get('/departments', async (_req: Request, res: Response) => {
-  console.log('GET /api/departments');
-  const departments = await prisma.department.findMany({
+  // aliasing with majors which name starts with TPB
+  const majors = await prisma.major.findMany({
     select: {
+      id: true,
       name: true,
-      majors: {
+    },
+    where: {
+      name: {
+        startsWith: 'TPB',
+      },
+    },
+  });
+  res.json(majors);
+});
+
+// router.get('/relationships', async (_req: Request, res: Response) => {
+//   res.json(Object.getOwnPropertyNames(Relationship));
+// });
+
+router.get('/mentors', async (_req: Request, res: Response) => {
+  const nonItbMentors = (await prisma.discipleship.findMany({
+    select: {
+      id: true,
+      leaderName: true,
+    },
+    where: {
+      leaderId: null,
+    },
+  })) as {
+    id: number;
+    leaderName: string;
+  }[];
+
+  const itbMentorsRaw = await prisma.discipleship.findMany({
+    select: {
+      id: true,
+      leader: {
         select: {
           name: true,
         },
       },
     },
-  });
-  res.json(departments);
-});
-
-// Example API endpoint to create department
-router.post('/departments', async (req: Request, res: Response) => {
-  console.log('POST /api/departments');
-  // console.log(req.body);
-  const { code, name, location } = req.body;
-  const post = await prisma.department.create({
-    data: {
-      code,
-      name,
-      // location will be string at first and then changed to enum automatically
-      location,
+    where: {
+      leaderName: null,
     },
   });
-  res.json(post);
+
+  const itbMentors = itbMentorsRaw.map((obj) => {
+    const leader = obj.leader as Member;
+    return {
+      id: obj.id,
+      leaderName: leader.name,
+    };
+  });
+
+  res.json(nonItbMentors.concat(itbMentors));
 });
 
 router.get('/test', async (_req: Request, res: Response) => {
-  console.log('GET /api/test');
-  // try to plucking all depts
-  // const allDepartments = await prisma.department.findMany({});
-  // let selectHTML = '<select>';
-  // allDepartments.forEach((element) => {
-  //   selectHTML += '<option value=' + element.id + '>' + element.name + '</option>';
-  // });
-  // selectHTML += '</select>';
-  // res.send(selectHTML);
-
   const variable = await prisma.member.findMany({
     where: {
       birthDate: {
@@ -71,6 +89,73 @@ router.get('/test', async (_req: Request, res: Response) => {
     },
   });
   res.json(variable);
+});
+
+// Endpoint to create member
+router.post('/members', async (req, res) => {
+  /** Format penamaan elemen di html snake case or camel case? */
+  const {
+    nim,
+    name,
+    nickname,
+    majorId,
+    gender,
+    birthDate,
+    line,
+    phone,
+    email,
+    originProvince,
+    originCity,
+    originSchool,
+    originChurch,
+    parentPhone,
+    parentRelationship,
+    discipleshipId,
+  } = req.body;
+
+  const createParent = await prisma.parent.upsert({
+    where: {
+      phone: parentPhone,
+    },
+    update: {},
+    create: {
+      phone: parentPhone,
+      relationship: parentRelationship,
+    },
+  });
+
+  try {
+    const member = await prisma.member.create({
+      data: {
+        nim,
+        tpbNim: nim,
+        name,
+        nickname,
+        major: { connect: { id: majorId } },
+        gender,
+        birthDate,
+        year: 2021,
+        line,
+        phone,
+        email,
+        originProvince,
+        originCity,
+        originSchool,
+        currentChurch: originChurch,
+        originChurch,
+        parent: { connect: { id: createParent.id } },
+        discipleship: { connect: { id: discipleshipId } },
+      },
+    });
+    res.status(201).json({
+      message: 'Created a member.',
+      data: member,
+    });
+  } catch (e) {
+    res.status(400).json({
+      message: e.message,
+    });
+  }
 });
 
 export { router, prisma };
