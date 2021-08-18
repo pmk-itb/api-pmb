@@ -170,6 +170,23 @@ describe('Test the url', () => {
     expect(response.statusCode).toBe(200);
   });
 
+  /* /api/mentors GET route */
+  it('should response 401 when hit /api/mentors without token', () => {
+    return request(app).get('/api/mentors').expect(401);
+  });
+  it('should response 403 when hit /api/mentors using incorrect token', () => {
+    const key = {
+      Authorization: 'Bearer incorrectToken123',
+    };
+    return request(app).get('/api/mentors').set(key).expect(403);
+  });
+  it('should response 200 when hit /api/mentors', () => {
+    const key = {
+      Authorization: 'Bearer ' + process.env.API_KEY,
+    };
+    return request(app).get('/api/mentors').set(key).expect(200);
+  });
+
   /* /api/test GET route */
   it('should response 401 when hit /api/test without token', () => {
     return request(app).get('/api/test').expect(401);
