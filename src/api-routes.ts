@@ -1,6 +1,7 @@
 import { Request, Response, Router } from 'express';
 import { apiKeyNeeded, validTokenNeeded } from './middlewares/auth.middleware';
 import { Member, PrismaClient } from '@prisma/client';
+import { sanitizeData } from './middlewares/sanitization.middleware';
 
 const prisma = new PrismaClient();
 const router = Router();
@@ -92,70 +93,73 @@ router.get('/test', async (_req: Request, res: Response) => {
 });
 
 // Endpoint to create member
-router.post('/members', async (req, res) => {
-  /** Format penamaan elemen di html snake case or camel case? */
-  const {
-    nim,
-    name,
-    nickname,
-    majorId,
-    gender,
-    birthDate,
-    line,
-    phone,
-    email,
-    originProvince,
-    originCity,
-    originSchool,
-    originChurch,
-    parentPhone,
-    parentRelationship,
-    discipleshipId,
-  } = req.body;
+router.post('/members', [
+  sanitizeData,
+  async (req: Request, res: Response) => {
+    /** Format penamaan elemen di html snake case or camel case? */
+    const {
+      nim,
+      name,
+      nickname,
+      majorId,
+      gender,
+      birthDate,
+      line,
+      phone,
+      email,
+      originProvince,
+      originCity,
+      originSchool,
+      originChurch,
+      parentPhone,
+      parentRelationship,
+      discipleshipId,
+    } = req.body;
 
-  const createParent = await prisma.parent.upsert({
-    where: {
-      phone: parentPhone,
-    },
-    update: {},
-    create: {
-      phone: parentPhone,
-      relationship: parentRelationship,
-    },
-  });
-
-  try {
-    const member = await prisma.member.create({
-      data: {
-        nim,
-        tpbNim: nim,
-        name,
-        nickname,
-        major: { connect: { id: majorId } },
-        gender,
-        birthDate,
-        year: 2021,
-        line,
-        phone,
-        email,
-        originProvince,
-        originCity,
-        originSchool,
-        currentChurch: originChurch,
-        originChurch,
-        parent: { connect: { id: createParent.id } },
-        discipleship: { connect: { id: discipleshipId } },
+    const createParent = await prisma.parent.upsert({
+      where: {
+        phone: parentPhone,
+      },
+      update: {},
+      create: {
+        phone: parentPhone,
+        relationship: parentRelationship,
       },
     });
-    res.status(201).json({
-      message: 'Created a member.',
-      data: member,
-    });
-  } catch (e) {
-    res.status(400).json({
-      message: e.message,
-    });
-  }
-});
+
+    try {
+      const member = await prisma.member.create({
+        data: {
+          nim,
+          tpbNim: nim,
+          name,
+          nickname,
+          major: { connect: { id: majorId } },
+          gender,
+          birthDate,
+          year: 2021,
+          line,
+          phone,
+          email,
+          originProvince,
+          originCity,
+          originSchool,
+          currentChurch: originChurch,
+          originChurch,
+          parent: { connect: { id: createParent.id } },
+          discipleship: { connect: { id: discipleshipId } },
+        },
+      });
+      res.status(201).json({
+        message: 'Created a member.',
+        data: member,
+      });
+    } catch (e) {
+      res.status(400).json({
+        message: e.message,
+      });
+    }
+  },
+]);
 
 export { router, prisma };
