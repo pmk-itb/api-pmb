@@ -1,6 +1,6 @@
 // import { format } from "path/posix"
 
-export const formatName = (inputName: string) => {
+export const formatName = (inputName: string): string => {
   const names = inputName.split(' ');
   let formattedName = '';
   //capitalize each word
@@ -10,7 +10,7 @@ export const formatName = (inputName: string) => {
   return formattedName.trim();
 };
 
-export const formatTelp = (no_telp: string) => {
+export const formatTelp = (no_telp: string): string => {
   let telp = '';
   if (String(no_telp).includes('+')) {
     //replace +62 with 0
@@ -21,7 +21,7 @@ export const formatTelp = (no_telp: string) => {
   return telp;
 };
 
-export const formatSekolah = (sekolah: string) => {
+export const formatSekolah = (sekolah: string): string => {
   const nama_sekolah = sekolah.split(' ');
   let formatted_nama_sekolah = '';
 
@@ -47,7 +47,7 @@ export const formatSekolah = (sekolah: string) => {
   return formatted_nama_sekolah;
 };
 
-export const formatGereja = (gereja: string) => {
+export const formatGereja = (gereja: string): string => {
   const nama_gereja = gereja.split(' ');
   let formatted_nama_gereja = '';
 
