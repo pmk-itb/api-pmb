@@ -1,14 +1,16 @@
 [
-  { "id": "1401", "nama": "KAB. KAMPAR" },
-  { "id": "1402", "nama": "KAB. INDRAGIRI HULU" },
-  { "id": "1403", "nama": "KAB. BENGKALIS" },
-  { "id": "1404", "nama": "KAB. INDRAGIRI HILIR" },
-  { "id": "1405", "nama": "KAB. PELALAWAN" },
-  { "id": "1406", "nama": "KAB. ROKAN HULU" },
-  { "id": "1407", "nama": "KAB. ROKAN HILIR" },
-  { "id": "1408", "nama": "KAB. SIAK" },
-  { "id": "1409", "nama": "KAB. KUANTAN SINGINGI" },
-  { "id": "1410", "nama": "KAB. KEPULAUAN MERANTI" },
-  { "id": "1471", "nama": "KOTA PEKANBARU" },
-  { "id": "1472", "nama": "KOTA DUMAI" }
+  { "id": "1401", "nama": "KAB. KOTAWARINGIN BARAT" },
+  { "id": "1402", "nama": "KAB. KOTAWARINGIN TIMUR" },
+  { "id": "1403", "nama": "KAB. KAPUAS" },
+  { "id": "1404", "nama": "KAB. BARITO SELATAN" },
+  { "id": "1405", "nama": "KAB. BARITO UTARA" },
+  { "id": "1406", "nama": "KAB. KATINGAN" },
+  { "id": "1407", "nama": "KAB. SERUYAN" },
+  { "id": "1408", "nama": "KAB. SUKAMARA" },
+  { "id": "1409", "nama": "KAB. LAMANDAU" },
+  { "id": "1410", "nama": "KAB. GUNUNG MAS" },
+  { "id": "1411", "nama": "KAB. PULANG PISAU" },
+  { "id": "1412", "nama": "KAB. MURUNG RAYA" },
+  { "id": "1413", "nama": "KAB. BARITO TIMUR" },
+  { "id": "1471", "nama": "KOTA PALANGKARAYA" }
 ]

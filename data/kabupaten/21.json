@@ -1,9 +1,13 @@
 [
-  { "id": "2101", "nama": "KAB. BINTAN" },
-  { "id": "2102", "nama": "KAB. KARIMUN" },
-  { "id": "2103", "nama": "KAB. NATUNA" },
-  { "id": "2104", "nama": "KAB. LINGGA" },
-  { "id": "2105", "nama": "KAB. KEPULAUAN ANAMBAS" },
-  { "id": "2171", "nama": "KOTA BATAM" },
-  { "id": "2172", "nama": "KOTA TANJUNG PINANG" }
+  { "id": "2101", "nama": "KAB. MALUKU TENGAH" },
+  { "id": "2102", "nama": "KAB. MALUKU TENGGARA" },
+  { "id": "2103", "nama": "KAB. MALUKU TENGGARA BARAT" },
+  { "id": "2104", "nama": "KAB. BURU" },
+  { "id": "2105", "nama": "KAB. SERAM BAGIAN TIMUR" },
+  { "id": "2106", "nama": "KAB. SERAM BAGIAN BARAT" },
+  { "id": "2107", "nama": "KAB. KEPULAUAN ARU" },
+  { "id": "2108", "nama": "KAB. MALUKU BARAT DAYA" },
+  { "id": "2109", "nama": "KAB. BURU SELATAN" },
+  { "id": "2171", "nama": "KOTA AMBON" },
+  { "id": "2172", "nama": "KOTA TUAL" }
 ]
