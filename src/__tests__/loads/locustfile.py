@@ -13,12 +13,10 @@ class FormPMBUser(HttpUser):
         }
 
     @task
-    def get_departments_and_mentors(self):
-        self.client.get('/departments')
+    def get_mentors(self):
         self.client.get('/mentors')
 
-    @task
-    def create_member(self):
+    def generate_fake_data(self):
         faker = Faker(['id_ID'])
         data = {
             'nim': faker.random.randint(16521001, 16521600),
@@ -38,4 +36,9 @@ class FormPMBUser(HttpUser):
             'parentRelationship': 'AYAH',
             'discipleshipId': faker.random.randint(1, 85)
         }
+        return data
+
+    @task
+    def create_member(self):
+        data = self.generate_fake_data()
         self.client.post(url='/members', json=data)
