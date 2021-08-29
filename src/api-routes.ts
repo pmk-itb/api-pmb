@@ -166,4 +166,6 @@ router.use(regionalDataRouter);
 
 router.use(regionalDataRouter);
 
+router.use(regionalDataRouter);
+
 export { router, prisma };
