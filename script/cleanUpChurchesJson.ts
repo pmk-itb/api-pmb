@@ -2,6 +2,7 @@ import { getProvincesData } from '../src/repository/provinces/index';
 import { getCitiesData } from '../src/repository/kabupaten/index';
 import { writeFile } from 'fs/promises';
 import path from 'path';
+import allChurchesData from '../data/churches/all.json';
 
 export const printAll = async (): Promise<void> => {
   const { default: rawData } = await import('../data/cleaned_churches.json');
@@ -96,8 +97,30 @@ export const changeRegencyCode = async (province: {
   return newData;
 };
 
-changeAllRegencyCode().then(async (response) => {
-  await writeFile(path.join(__dirname, '../data/churches/all.json'), JSON.stringify(response), {
+const writeAll = async () => {
+  const newData = [] as {
+    id: string;
+    churches: string[];
+  }[];
+  allChurchesData.forEach((value) => {
+    value.listKabupaten.forEach((value) => {
+      const data = {
+        id: value.kabupaten,
+        churches: value.gereja,
+      };
+      newData.push(data);
+    });
+  });
+
+  await writeFile(path.join(__dirname, '../data/churches/fixed.json'), JSON.stringify(newData), {
     encoding: 'utf-8',
   });
-});
+};
+
+writeAll();
+
+// changeAllRegencyCode().then(async (response) => {
+//   await writeFile(path.join(__dirname, '../data/churches/all.json'), JSON.stringify(response), {
+//     encoding: 'utf-8',
+//   });
+// });
