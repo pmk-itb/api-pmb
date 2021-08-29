@@ -211,7 +211,7 @@ def main():
 
   newData = cleanData(data, listCoret)
 
-  dumpJSON(newData, 'cleaned_churces.json')
+  dumpJSON(newData, 'cleaned_churches.json')
   
 
 if __name__ == "__main__":
