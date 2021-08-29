@@ -1,7 +1,7 @@
 [
   {
     "idProvinsi": "1",
-    "provinsi": "Nanggroe Aceh Darussalam",
+    "provinsi": "Aceh",
     "listKabupaten": [
       {
         "kabupaten": "Kab. Aceh Barat",
@@ -576,7 +576,7 @@
   },
   {
     "idProvinsi": "9",
-    "provinsi": "Kep Bangka Belitung",
+    "provinsi": "Kepulauan Bangka Belitung",
     "listKabupaten": [
       {
         "kabupaten": "Kab. Bangka",

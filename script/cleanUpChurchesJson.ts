@@ -1,5 +1,7 @@
 import { getProvincesData } from '../src/repository/provinces/index';
 import { getCitiesData } from '../src/repository/kabupaten/index';
+import { writeFile } from 'fs/promises';
+import path from 'path';
 
 export const printAll = async (): Promise<void> => {
   const { default: rawData } = await import('../data/cleaned_churches.json');
@@ -34,22 +36,39 @@ export const changeProvinceCode = async (): Promise<
 > => {
   const { default: rawData } = await import('../data/cleaned_churches.json');
 
-  rawData.map(async (value) => {
-    const province = await getProvinceByName(value.provinsi);
-    if (province) {
-      console.log(province.id);
-      value.idProvinsi = province.id;
-    }
-  });
-  return rawData;
+  const newData = await Promise.all(
+    rawData.map(async (value) => {
+      const province = await getProvinceByName(value.provinsi);
+      if (province) {
+        console.log(province.id);
+        value.idProvinsi = province.id;
+      }
+      return value;
+    }),
+  );
+  return newData;
 };
 
-export const changeAllRegencyCode = async (): Promise<void> => {
+export const changeAllRegencyCode = async (): Promise<
+  {
+    idProvinsi: string;
+    provinsi: string;
+    listKabupaten: {
+      kabupaten: string;
+      gereja: string[];
+    }[];
+  }[]
+> => {
   const provinceCodeChanged = await changeProvinceCode();
-  provinceCodeChanged.forEach((value) => {
-    changeRegencyCode(value);
-  });
-  console.log(provinceCodeChanged);
+
+  const newData = await Promise.all(
+    provinceCodeChanged.map(async (value) => {
+      value.listKabupaten = await changeRegencyCode(value);
+
+      return value;
+    }),
+  );
+  return newData;
 };
 
 export const changeRegencyCode = async (province: {
@@ -59,13 +78,26 @@ export const changeRegencyCode = async (province: {
     kabupaten: string;
     gereja: string[];
   }[];
-}): Promise<void> => {
-  province.listKabupaten.forEach(async (value) => {
-    const regency = await getRegencyByName(province.idProvinsi, value.kabupaten);
-    if (regency) {
-      value.kabupaten = regency.id;
-    }
-  });
+}): Promise<
+  {
+    kabupaten: string;
+    gereja: string[];
+  }[]
+> => {
+  const newData = await Promise.all(
+    province.listKabupaten.map(async (value) => {
+      const regency = await getRegencyByName(province.idProvinsi, value.kabupaten);
+      if (regency) {
+        value.kabupaten = regency.id;
+      }
+      return value;
+    }),
+  );
+  return newData;
 };
 
-changeAllRegencyCode();
+changeAllRegencyCode().then(async (response) => {
+  await writeFile(path.join(__dirname, '../data/churches/all.json'), JSON.stringify(response), {
+    encoding: 'utf-8',
+  });
+});
