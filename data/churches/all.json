@@ -14,12 +14,11 @@
       { "kabupaten": "060400", "gereja": [] },
       { "kabupaten": "060300", "gereja": [] },
       { "kabupaten": "061900", "gereja": [] },
-      { "kabupaten": "Kab. Bireun", "gereja": [] },
+      { "kabupaten": "061200", "gereja": [] },
       { "kabupaten": "061800", "gereja": [] },
-      { "kabupaten": "Kab. Nagan Jaya", "gereja": [] },
+      { "kabupaten": "061500", "gereja": [] },
       { "kabupaten": "060200", "gereja": [] },
       { "kabupaten": "061100", "gereja": [] },
-      { "kabupaten": "Kab. Tengah", "gereja": [] },
       { "kabupaten": "066100", "gereja": [] },
       { "kabupaten": "066300", "gereja": [] },
       { "kabupaten": "066200", "gereja": [] },
@@ -31,76 +30,51 @@
     "provinsi": "Sumatera Utara",
     "listKabupaten": [
       { "kabupaten": "070600", "gereja": [] },
-      { "kabupaten": "070500", "gereja": ["GKPI", "HKBP 1 Sidikalang", "HKBP Panji Porsea"] },
-      { "kabupaten": "070100", "gereja": ["Gereja Methodist Indonesia"] },
-      { "kabupaten": "071900", "gereja": ["HKBP Siononompu", "Gereja Huria Kristen Indonesia"] },
+      { "kabupaten": "070500", "gereja": ["HKBP 1 Sidikalang", "HKBP Panji Porsea"] },
+      { "kabupaten": "070100", "gereja": [] },
+      { "kabupaten": "071900", "gereja": ["HKBP Siononompu"] },
       { "kabupaten": "070300", "gereja": [] },
-      { "kabupaten": "Kab. Labuhan Batu", "gereja": ["GMI", "HKBP Sei Tawar"] },
+      { "kabupaten": "070700", "gereja": ["HKBP Sei Tawar"] },
       { "kabupaten": "070200", "gereja": [] },
       { "kabupaten": "071500", "gereja": [] },
       { "kabupaten": "071100", "gereja": [] },
       { "kabupaten": "071700", "gereja": [] },
-      { "kabupaten": "Kab. Pakpak Barat", "gereja": [] },
+      { "kabupaten": "071800", "gereja": [] },
       { "kabupaten": "072000", "gereja": ["HKBP Tuk Tuk"] },
-      { "kabupaten": "072100", "gereja": ["GPIB"] },
+      { "kabupaten": "072100", "gereja": [] },
       { "kabupaten": "070400", "gereja": ["GKPS Tigarunggu"] },
-      { "kabupaten": "071000", "gereja": ["GKPA"] },
+      { "kabupaten": "071000", "gereja": [] },
       { "kabupaten": "070900", "gereja": ["HKBP Sibuluan"] },
       {
         "kabupaten": "070800",
-        "gereja": ["HKBP Pearaja Tarutung", "HKBP Tarutung Kota", "HKI", "Huria Kristen Indonesia"]
+        "gereja": ["HKBP Pearaja Tarutung", "HKBP Tarutung Kota"]
       },
       {
         "kabupaten": "071600",
-        "gereja": [
-          "HKBP Balige",
-          "GBKP",
-          "HKBP Tambunan Baruara",
-          "HKBP Soposurung",
-          "GKPI",
-          "HKBP Paronan Nagodang",
-          "Gereja Kristen Protestan Indonesia"
-        ]
+        "gereja": ["HKBP Balige", "HKBP Tambunan Baruara", "HKBP Soposurung", "HKBP Paronan Nagodang"]
       },
-      { "kabupaten": "076100", "gereja": ["Gereja Kristus Yesus"] },
+      { "kabupaten": "076100", "gereja": [] },
       {
         "kabupaten": "076000",
         "gereja": [
           "GKPI Medan Kota",
           "Gereja Kristen Protestan Pakpak Dairi",
-          "Gereja Kristen Protestan Simalungun",
           "HKBP Sri Gunting Indah",
-          "Tidak Ada",
-          "Gereja Mawar Sharon",
-          "Gereja Batak Karo Protestan",
           "Chapel Usu",
           "HKBP Sudirman Medan",
           "HKBP Riau",
           "HKBP Uskup Agung Sugiopranoto Medan",
           "GBKP Medan",
           "Gereja Methodist Indonesia Mu En",
-          "Gereja Pentakosta Di Indonesia",
-          "Gereja Protestan Di Indonesia Bagian Barat (gpib)",
           "Gereja Gratia Methodist",
-          "HBKP",
           "GBKP Km.8 Medan",
-          "Gereja Kristen Protestan Indonesia",
-          "GPIB",
-          "HKBP Polonia",
-          "Gereja Methodist Indonesia"
+          "HKBP Polonia"
         ]
       },
-      { "kabupaten": "Kota Padang Sidempuan", "gereja": ["Gereja Kristen Protestan Indonesia"] },
+      { "kabupaten": "076600", "gereja": [] },
       {
-        "kabupaten": "Kota Pematang Siantar",
-        "gereja": [
-          "GKPS",
-          "Gereja Methodist Indonesia",
-          "Gereja Kristen Protestan Simalungun",
-          "HKBP Sipinggol-pinggol",
-          "HKBP Martoba Pematangsiantar",
-          "Huria Kristen Indonesia"
-        ]
+        "kabupaten": "076300",
+        "gereja": ["HKBP Sipinggol-pinggol", "HKBP Martoba Pematangsiantar"]
       },
       { "kabupaten": "076500", "gereja": [] },
       { "kabupaten": "076400", "gereja": [] },
@@ -120,15 +94,14 @@
       { "kabupaten": "081300", "gereja": [] },
       { "kabupaten": "080400", "gereja": [] },
       { "kabupaten": "081100", "gereja": [] },
-      { "kabupaten": "Kab. Sw.lunto", "gereja": [] },
+      { "kabupaten": "086300", "gereja": [] },
       { "kabupaten": "080700", "gereja": [] },
-      { "kabupaten": "Kab.pesisir Selatan", "gereja": [] },
+      { "kabupaten": "080600", "gereja": [] },
       { "kabupaten": "086000", "gereja": [] },
       { "kabupaten": "086100", "gereja": [] },
       { "kabupaten": "086200", "gereja": [] },
       { "kabupaten": "086600", "gereja": [] },
       { "kabupaten": "086500", "gereja": [] },
-      { "kabupaten": "Kota Sawhlunto", "gereja": [] },
       { "kabupaten": "086400", "gereja": [] }
     ]
   },
@@ -138,33 +111,20 @@
     "listKabupaten": [
       {
         "kabupaten": "090200",
-        "gereja": [
-          "HKBP Simpang Padang",
-          "HKBP Duri Ressort Duri",
-          "Huria Kristen Indonesia",
-          "Gereja Protestan Indonesia Bagian Barat"
-        ]
+        "gereja": ["HKBP Simpang Padang", "HKBP Duri Ressort Duri"]
       },
       { "kabupaten": "090500", "gereja": [] },
       { "kabupaten": "090400", "gereja": [] },
       { "kabupaten": "090100", "gereja": [] },
       { "kabupaten": "091400", "gereja": [] },
-      { "kabupaten": "090800", "gereja": ["GPDI", "Gereja Batak Karo Protestan (gbkp)"] },
+      { "kabupaten": "090800", "gereja": [] },
       { "kabupaten": "091000", "gereja": [] },
       { "kabupaten": "090900", "gereja": ["HKBP Ressot Estomihi"] },
       { "kabupaten": "091100", "gereja": [] },
-      { "kabupaten": "096200", "gereja": ["Gereja Methodist Indonesia"] },
+      { "kabupaten": "096200", "gereja": [] },
       {
-        "kabupaten": "Kota Pekan Baru",
-        "gereja": [
-          "Gereja Pantekosta Di Indonesia",
-          "Gereja Batak Karo Protestant",
-          "HKBP Hangtuah Pekanbaru",
-          "Gereja Kristen Kalam Kudus",
-          "Gereja Mawar Sharon",
-          "GPIB Immanuel Pekanbaru",
-          "HKBP Pekanbaru Kota"
-        ]
+        "kabupaten": "096000",
+        "gereja": ["HKBP Hangtuah Pekanbaru", "GPIB Immanuel Pekanbaru", "HKBP Pekanbaru Kota"]
       }
     ]
   },
@@ -196,11 +156,9 @@
       { "kabupaten": "111000", "gereja": [] },
       { "kabupaten": "110200", "gereja": [] },
       { "kabupaten": "110300", "gereja": [] },
-      { "kabupaten": "Kab. Oku Selatan", "gereja": [] },
-      { "kabupaten": "Kab. Oku Timur", "gereja": [] },
       { "kabupaten": "116200", "gereja": [] },
       { "kabupaten": "116300", "gereja": [] },
-      { "kabupaten": "116000", "gereja": ["Gereja Baptis Palembang", "Gereja Kristus Yesus"] },
+      { "kabupaten": "116000", "gereja": [] },
       { "kabupaten": "116100", "gereja": ["HKBP Kasih Prabumulih"] }
     ]
   },
@@ -216,7 +174,7 @@
       { "kabupaten": "260400", "gereja": [] },
       { "kabupaten": "260200", "gereja": [] },
       { "kabupaten": "260800", "gereja": [] },
-      { "kabupaten": "266000", "gereja": ["Gereja Methodist Indonesia", "GKII Bengkulu"] }
+      { "kabupaten": "266000", "gereja": ["GKII Bengkulu"] }
     ]
   },
   {
@@ -246,8 +204,7 @@
       { "kabupaten": "290400", "gereja": [] },
       { "kabupaten": "290500", "gereja": [] },
       { "kabupaten": "290300", "gereja": [] },
-      { "kabupaten": "Kab. Bangka Timur", "gereja": [] },
-      { "kabupaten": "290200", "gereja": ["Gepekris"] },
+      { "kabupaten": "290200", "gereja": [] },
       { "kabupaten": "296000", "gereja": [] }
     ]
   },
@@ -255,12 +212,11 @@
     "idProvinsi": "10",
     "provinsi": "Kep Riau",
     "listKabupaten": [
-      { "kabupaten": "Kab. Karimun", "gereja": [] },
-      { "kabupaten": "Kab. Kepulauan Riau", "gereja": [] },
-      { "kabupaten": "Kab. Lingga", "gereja": [] },
-      { "kabupaten": "Kab. Natuna", "gereja": [] },
+      { "kabupaten": "310200", "gereja": [] },
+      { "kabupaten": "310400", "gereja": [] },
+      { "kabupaten": "310300", "gereja": [] },
       {
-        "kabupaten": "Kota Batam",
+        "kabupaten": "316100",
         "gereja": [
           "GBI Tabgha",
           "Gereja Pantekosta di Indonesia",
@@ -270,16 +226,16 @@
           "Gereja Kristen Oikoumene Indonesia"
         ]
       },
-      { "kabupaten": "Kota Tanjung Pinang", "gereja": ["GKB Kahal"] }
+      { "kabupaten": "316100", "gereja": ["GKB Kahal"] }
     ]
   },
   {
     "idProvinsi": "01",
     "provinsi": "DKI Jakarta",
     "listKabupaten": [
-      { "kabupaten": "Kab.adm.kep.seribu", "gereja": [] },
+      { "kabupaten": "010100", "gereja": [] },
       {
-        "kabupaten": "Kodya Jakarta Barat",
+        "kabupaten": "016200",
         "gereja": [
           "Gereja Kristus Yesus Pluit",
           "GKY Puri",
@@ -287,35 +243,28 @@
           "GBI Kasih Kristus",
           "GKY Citra",
           "GBI Rem Jakarta",
-          "Gereja Yesus Sejati",
-          "Abbalove",
           "Gereja Bethel Indonesia Taman Semanan Indah",
           "GKI Puri Indah",
-          "Gereja Kristen Indonesia (gki Nurdin)",
+          "Gereja Kristen Indonesia Nurdin",
           "GPIB Shalom",
-          "Gereja Pantekosta Di Indonesia",
           "NDC Nafiri",
           "GKI Surya Utama",
           "NDC Central Park",
           "HKBP Kebun Jeruk",
           "Gereja Kristus Yesus Jemaat Greenville",
           "Gereja Kristus Bojong Indah",
-          "Gereja Kalam Kudus",
           "GBI Gatot Subroto",
-          "ECC Jakarta",
           "Nafiri Discipleship Church",
           "GKI Citra 1",
           "GSRI Jembatan 5",
           "GMI Imanuel",
-          "GKDI",
           "JPCC",
           "GPDI Sahabat Allah"
         ]
       },
       {
-        "kabupaten": "Kodya Jakarta Pusat",
+        "kabupaten": "016100",
         "gereja": [
-          "Gereja Kristen Karunia Injili",
           "Gereja Kemah Abraham",
           "GBI Prj",
           "GPIB Pniel",
@@ -327,11 +276,9 @@
         ]
       },
       {
-        "kabupaten": "Kodya Jakarta Selatan",
+        "kabupaten": "016300",
         "gereja": [
-          "Gereja Batak Karo Protestan",
           "GKI Pondok Indah",
-          "Gereja Kristen Pasundan",
           "GKP Bekasi",
           "GKI Keb. Lama",
           "HKBP Menteng",
@@ -341,14 +288,11 @@
           "GPIB Bukit Moria",
           "Gereja Kristen Indonesia Pondok Indah",
           "GPDI Barito",
-          "Gereja Kemah Tabernakel",
-          "Gereja Duta Injil",
-          "Gereja Injili Kasih Indonesia",
           "GKI Kebayoran Baru"
         ]
       },
       {
-        "kabupaten": "Kodya Jakarta Timur",
+        "kabupaten": "016400",
         "gereja": [
           "GKI Raya Hankam",
           "Gereja Bethel Indonesia Prj (praise Revival For Jesus)",
@@ -356,11 +300,8 @@
           "HKBP Pondok Bambu",
           "Gereja Bala Keselamatan",
           "HKBP Tebet",
-          "Jatiwangi",
           "GPIB Menara Iman",
-          "Gereja Kristen Baptis Jakarta",
           "HKBP Kramat Jati",
-          "Huria Kristen Batak Protestan (hkbp)",
           "GKJ Gandaria",
           "GBI Tamini Square - Rayon 1i",
           "HKBP Cipayung Cilangkap",
@@ -371,28 +312,20 @@
           "GKPI Rawamangun",
           "GKI Cipinang Indah",
           "HKBP Perumnas Klender",
-          "Huria Kristen Indonesia",
           "HKBP Kayu Putih",
           "HKBP Rawamangun",
           "Gereja HKBP Jatinegara"
         ]
       },
       {
-        "kabupaten": "Kodya Jakarta Utara",
+        "kabupaten": "016100",
         "gereja": [
-          "Gereja Kristus di Indonesia",
-          "Tiberias",
-          "Abbalove Industri",
           "GBI Gilgal",
-          "GJKI",
-          "Gereja Kemah Tabernakel",
           "GKI Sunter",
           "GBI Tampak Siring",
           "GBI Moi",
-          "Gereja Tiberias Indonesia",
           "GKY Pluit",
           "GBI Prj",
-          "Abbalove",
           "JPCC",
           "GPDI Bethlehem",
           "HKBP Immanuel Kelapa Gading"
@@ -410,12 +343,8 @@
           "GII Hok Im Tong Holis",
           "Gereja Kristen Kalam Kudus Bandung",
           "Gereja Kristen Kalam Kudus Tki",
-          "Gereja Kristen Kalam Kudus",
-          "Gmahk Pondok Mas",
           "GII Hit Taman Rahayu",
           "GBI Sukawarna",
-          "GPIB",
-          "Tiberias",
           "GKJ Bandung",
           "Gspdi Filadelfia"
         ]
@@ -423,7 +352,6 @@
       {
         "kabupaten": "022200",
         "gereja": [
-          "Gereja Tiberias Indonesia",
           "Gereja Kristen Indonesia (wahid Hasyim)",
           "GKPB Mdc Lippo Cikarang",
           "GPDI Cikarang Utara",
@@ -431,7 +359,6 @@
           "GKPB Fajar Pengharapan Mdc",
           "Gereja Bethel Indonesia Rayon 8",
           "GPIB Immanuel Bekasi",
-          "Gereja Batak Karo Protestan",
           "Tiberias Moi",
           "Gereja Isa Almasih Rajawali",
           "GBI Jl. Gatot Subroto"
@@ -442,20 +369,18 @@
         "gereja": [
           "GKI Kota Wisata",
           "JPCC",
-          "Gereja Kristus Yesus",
-          "Gereja Masehi Advent Hari Ketujuh",
           "HKBP Sudirman Jakarta",
           "Gereja HKBP Jatiasih",
           "Gereja Kristen Indonesia Kota Wisata"
         ]
       },
       { "kabupaten": "021400", "gereja": [] },
-      { "kabupaten": "020700", "gereja": ["Gereja Yesus Sejati"] },
+      { "kabupaten": "020700", "gereja": [] },
       { "kabupaten": "021700", "gereja": ["GKI Jamblang", "GPIB Bethel Bandung"] },
-      { "kabupaten": "021100", "gereja": ["Gereja Injili Indonesia"] },
+      { "kabupaten": "021100", "gereja": [] },
       { "kabupaten": "021800", "gereja": [] },
       { "kabupaten": "022100", "gereja": ["GPDI Resinda", "GBI Sion Karawang"] },
-      { "kabupaten": "021500", "gereja": ["Gereja Kristen Kemah Daud", "Gereja Pantekosta Di Indonesia"] },
+      { "kabupaten": "021500", "gereja": [] },
       { "kabupaten": "021600", "gereja": [] },
       { "kabupaten": "022000", "gereja": ["GKJ Margoyudan Solo"] },
       { "kabupaten": "021900", "gereja": [] },
@@ -466,58 +391,40 @@
         "kabupaten": "026000",
         "gereja": [
           "Gereja Injili Indonesia Dago",
-          "Gereja Kristen Kemah Daud",
           "CLCC",
           "GII Hok Im Tong Gardujati",
           "GKI Cibunut",
-          "Gereja Kristen Perjanjian Baru",
           "GBI Aruna",
           "GKI Gading Serpong",
           "GBI Prj",
           "GII Hok Im Tong Bandung",
           "GIA Taman Kopo Indah",
-          "Gereja Rehobth",
           "GKI Guntur",
           "GII Hok Im Tong",
           "GGP Shalom Bandung",
           "GKPB Fajar Pengharapan",
-          "GMI",
-          "Gereja Sidang Jemaat Kristus",
           "Gereja Baptis Independent Indonesia Anugerah",
           "GKKD Cimahi",
           "GKIM Amanat Kristus",
           "GKI Taman Cibunut",
-          "Elshadai Creative Community (ecc)",
+          "Elshadai Creative Community",
           "GKJ Kiaracondong",
           "GKI Kebon Jati 100",
-          "BFA",
-          "HKBP",
           "HKBP Bandung Timur",
-          "Gereja HKBP Tarakan",
+          "HKBP Tarakan",
           "HKBP Riau Martadinata Bandung",
           "GKMI Bandung",
-          "GPK",
-          "Gereja Mawar Sharon",
-          "Gereja Kristen Protestan Simalungun",
           "GBI Sport Center Harapan Indah",
-          "Bethesda",
           "GBI Sunter Mall",
-          "Gkkkb",
           "GBI Stairway From Heaven",
           "GBI Emunah Solo Baru",
-          "Huria Kristen Batak Protestan",
-          "Gereja Kristen Indonesia",
           "GII Hok Im Tong Rahayu",
-          "Gereja Kristen Simalungun Protestan",
-          "GBI",
           "HKI Dame Bandung",
-          "GKI Kebo Jati",
           "GII Hok Im Tong Setrasari",
           "GKPO Imanuel",
           "HKBP Riau",
           "Gereja Kristen Pasundan Jemaat Bandung",
           "Gereja Injil Indonesia",
-          "GKPB Fp",
           "GII Dago",
           "GKI Anugerah",
           "GBI Sumber Sari",
@@ -525,14 +432,11 @@
           "GKJ Bandung",
           "GKIM Ka Im Tong",
           "Gereja Gerakan Pentakosta Shalom Bandung",
-          "Gereja Injili Karo Indonesia",
-          "GKKD",
           "GII Kebon Jati",
           "GKIM Hosanna",
           "GBI Ppl",
           "GKP Awiligar",
-          "Gereja Kristen Indonesia Anugerah, Bandung",
-          "Gereja Bethel Tabernacle Cisokan",
+          "Gereja Kristen Indonesia Anugerah",
           "GJKI Penuaian",
           "GII Kebonjati",
           "Gereja Kristen Indonesia Kebonjati",
@@ -550,25 +454,20 @@
           "GKO Bekasi 1",
           "HKBP Setia Mekar",
           "GBI Tampak Siring",
-          "Gereja HKBP Kemang Pratama",
+          "HKBP Kemang Pratama",
           "GKI Agus Salim",
           "HKBP Jatiwaringin",
           "GBI Baranangsiang",
           "HKBP Taman Wisma Asri",
           "GKI Kemang Pratama",
-          "Abbalove",
           "GKI Raya Hankam",
-          "Gereja Pentakosta Sion Indonesia",
           "HKBP Ujung Menteng",
-          "Gereja Sidang Jemaat Kristus",
           "GBI Rehobot",
-          "GBKP",
           "Gereja Isa Almasih Pegangsaan",
           "HLBP Pejuang Ressort Palmarum",
           "GKI Layur",
           "GPI Petra",
-          "GKPS Salemba",
-          "Gereja Protestan Indonesia Di Bagian Barat"
+          "GKPS Salemba"
         ]
       },
       {
@@ -580,16 +479,13 @@
           "GKI Kotawisata",
           "GKI Pengadilan",
           "Gereja Beritakan Injil Bogor",
-          "GBI Jemaat Induk Senayan",
-          "Gereja Tiberias"
+          "GBI Jemaat Induk Senayan"
         ]
       },
       {
         "kabupaten": "026700",
         "gereja": [
-          "Baptist Cimahi",
           "GKI Cimahi",
-          "Gereja Kristen Perjanjian Baru",
           "GKJ Bandung",
           "GPDI Padalarang",
           "GKPB Fajar Pengharapan",
@@ -600,8 +496,7 @@
       {
         "kabupaten": "026600",
         "gereja": [
-          "Gereja GKI Maulana Yusuf",
-          "Gereja Protestan Indonesia Bagian Barat",
+          "GKI Maulana Yusuf",
           "Gereja Kristen Indonesia Depok",
           "GKI Pondok Indah",
           "HKBP Depok Timur",
@@ -631,18 +526,18 @@
       { "kabupaten": "031300", "gereja": [] },
       { "kabupaten": "030500", "gereja": [] },
       { "kabupaten": "032400", "gereja": [] },
-      { "kabupaten": "031000", "gereja": ["GKJ Wonosari", "GKI Klaten", "Gereja Kristen Jawa"] },
+      { "kabupaten": "031000", "gereja": ["GKJ Wonosari", "GKI Klaten"] },
       { "kabupaten": "031900", "gereja": [] },
       { "kabupaten": "030800", "gereja": ["GKI Muntilan"] },
       { "kabupaten": "031800", "gereja": ["Gereja Bethany Indonesia Banyutowo", "GITJ Juwana", "GITJ Margorejo"] },
       { "kabupaten": "032600", "gereja": [] },
       { "kabupaten": "032700", "gereja": [] },
       { "kabupaten": "030300", "gereja": ["GKI Gatot Subroto Purwokerto"] },
-      { "kabupaten": "030600", "gereja": ["GMS"] },
+      { "kabupaten": "030600", "gereja": [] },
       { "kabupaten": "031700", "gereja": [] },
       {
         "kabupaten": "032200",
-        "gereja": ["GOOD News CITY Church", "JKI Higer Than Ever", "GKI Beringin Semarang", "Jemaat Kristen Indonesia"]
+        "gereja": ["GOOD News CITY Church", "JKI Higer Than Ever", "GKI Beringin Semarang"]
       },
       { "kabupaten": "031400", "gereja": [] },
       { "kabupaten": "031100", "gereja": ["GKJ Sukoharjo"] },
@@ -652,31 +547,31 @@
       { "kabupaten": "030700", "gereja": [] },
       { "kabupaten": "036000", "gereja": ["GKJ Magelang"] },
       { "kabupaten": "036400", "gereja": [] },
-      { "kabupaten": "036200", "gereja": ["Gereja Jemaat Kristus Indonesia", "GKJ Ampel"] },
+      { "kabupaten": "036200", "gereja": ["GKJ Ampel"] },
       { "kabupaten": "036300", "gereja": [] },
       {
         "kabupaten": "036100",
-        "gereja": ["GBIKA Surakarta, Jawa Tengah", "JKI Maranatha Ungaran", "Gereja Kristen Jawa", "GKJ Karanganyar"]
+        "gereja": ["GBIKA Surakarta", "JKI Maranatha Ungaran", "GKJ Karanganyar"]
       },
-      { "kabupaten": "036500", "gereja": ["GSJA"] }
+      { "kabupaten": "036500", "gereja": [] }
     ]
   },
   {
     "idProvinsi": "14",
     "provinsi": "DI Yogyakarta",
     "listKabupaten": [
-      { "kabupaten": "Kab. Bantul", "gereja": [] },
-      { "kabupaten": "Kab. Gunung Kidul", "gereja": [] },
-      { "kabupaten": "Kab. Kulon Progo", "gereja": [] },
-      { "kabupaten": "Kab. Sleman", "gereja": [] },
-      { "kabupaten": "Kota Yogyakarta", "gereja": ["GPDI Hayam Wuruo", "GKI Ngupasan"] }
+      { "kabupaten": "040100", "gereja": [] },
+      { "kabupaten": "040300", "gereja": [] },
+      { "kabupaten": "040400", "gereja": [] },
+      { "kabupaten": "040200", "gereja": [] },
+      { "kabupaten": "046000", "gereja": ["GPDI Hayam Wuruk", "GKI Ngupasan"] }
     ]
   },
   {
     "idProvinsi": "05",
     "provinsi": "Jawa Timur",
     "listKabupaten": [
-      { "kabupaten": "Batu", "gereja": [] },
+      { "kabupaten": "056800", "gereja": [] },
       { "kabupaten": "052900", "gereja": [] },
       { "kabupaten": "052500", "gereja": [] },
       { "kabupaten": "051500", "gereja": [] },
@@ -693,21 +588,21 @@
       { "kabupaten": "051800", "gereja": [] },
       { "kabupaten": "050300", "gereja": [] },
       { "kabupaten": "051400", "gereja": [] },
-      { "kabupaten": "050900", "gereja": ["Gereja Utusan Pantekosta El-shaddai"] },
+      { "kabupaten": "050900", "gereja": ["Gereja Utusan Pantekosta El-Shaddai"] },
       { "kabupaten": "051200", "gereja": [] },
       { "kabupaten": "052600", "gereja": [] },
       { "kabupaten": "051900", "gereja": [] },
       { "kabupaten": "051100", "gereja": [] },
       { "kabupaten": "052000", "gereja": [] },
       { "kabupaten": "052700", "gereja": [] },
-      { "kabupaten": "050200", "gereja": ["Gereja Kristen Protestan Simalungun", "Gereja Kristen Injili Nusantara"] },
+      { "kabupaten": "050200", "gereja": [] },
       { "kabupaten": "052300", "gereja": [] },
       { "kabupaten": "052800", "gereja": [] },
       { "kabupaten": "051700", "gereja": [] },
       { "kabupaten": "050600", "gereja": [] },
       { "kabupaten": "051600", "gereja": [] },
       { "kabupaten": "056500", "gereja": [] },
-      { "kabupaten": "056300", "gereja": ["Gereja Utusan Pantekosta"] },
+      { "kabupaten": "056300", "gereja": [] },
       { "kabupaten": "056200", "gereja": [] },
       { "kabupaten": "056100", "gereja": ["GKI Batu", "GKI Bromo"] },
       { "kabupaten": "056400", "gereja": [] },
@@ -717,13 +612,10 @@
         "kabupaten": "056000",
         "gereja": [
           "Gereja Bethany Nginden Surabaya",
-          "Gereja Kalam Kudus",
           "GTI Bukit Zaitun",
           "Gereja Bethany Nginden",
-          "Mawar Sharon",
           "Gereja Kristen Indonesia Merisi Indah",
           "GSKI Jemaat Bethany Manyar",
-          "Gereja Bethany Indonesia",
           "GKJW Wiyung",
           "YHS",
           "GKA Gloria",
@@ -742,16 +634,12 @@
       {
         "kabupaten": "280300",
         "gereja": [
-          "Gereja Mawar Sharon",
-          "Gereja Kristen Sangkakala Indonesia",
           "GKI Gading Serpong",
-          "Cross Harvest Church",
           "Abbalove Ministries Gading Serpong",
           "GBI Basilea Christ Cathedral",
           "HKBP Serpong",
           "GKI Serpong",
-          "Gereja Injili Indonesia (semanggi)",
-          "NDC Ministry"
+          "GII Semanggi"
         ]
       },
       { "kabupaten": "286000", "gereja": [] },
@@ -760,21 +648,13 @@
         "gereja": [
           "Gereja Kristus Sarua Permai",
           "GBI Modernland",
-          "Gereja Kristen Indonesia Pamulang",
           "GKI Kota Modern",
-          "Gereja Methodist Indonesia",
-          "GKY",
           "GKI Pamulang",
-          "Gereja Injili Indonesia (gii) Hok Im Tong",
           "GKI Serpong",
-          "Christ Cathedral",
           "HKBP Perumnas",
-          "Gereja Bethel Indonesia Modernland",
           "GBI Fatmawati",
-          "NDC",
           "Gereja Kristen Indonesia Serpong",
-          "GBI Pasar Baru Tangerang",
-          "Gereja Injili Indonesia (gii Hok Im Tong)"
+          "GBI Pasar Baru Tangerang"
         ]
       }
     ]
@@ -783,11 +663,11 @@
     "idProvinsi": "22",
     "provinsi": "Bali",
     "listKabupaten": [
-      { "kabupaten": "220400", "gereja": ["Gereja Kristen Indonesia (gki)"] },
+      { "kabupaten": "220400", "gereja": [] },
       { "kabupaten": "220700", "gereja": [] },
       { "kabupaten": "220100", "gereja": [] },
       { "kabupaten": "220500", "gereja": [] },
-      { "kabupaten": "Kab. Jembarana", "gereja": [] },
+      { "kabupaten": "220200", "gereja": [] },
       { "kabupaten": "220800", "gereja": [] },
       { "kabupaten": "220600", "gereja": [] },
       { "kabupaten": "220300", "gereja": [] },
@@ -845,7 +725,7 @@
       { "kabupaten": "130300", "gereja": [] },
       { "kabupaten": "131000", "gereja": [] },
       { "kabupaten": "130400", "gereja": [] },
-      { "kabupaten": "136000", "gereja": ["Gereja Isa Almasih Indonesia"] },
+      { "kabupaten": "136000", "gereja": [] },
       { "kabupaten": "136100", "gereja": [] }
     ]
   },
@@ -866,7 +746,7 @@
       { "kabupaten": "141100", "gereja": [] },
       { "kabupaten": "140700", "gereja": [] },
       { "kabupaten": "140800", "gereja": [] },
-      { "kabupaten": "146000", "gereja": ["Gereja Mawar Sharon", "GKE"] }
+      { "kabupaten": "146000", "gereja": [] }
     ]
   },
   {
@@ -900,7 +780,7 @@
       { "kabupaten": "161100", "gereja": [] },
       { "kabupaten": "166100", "gereja": ["GBIS Sangkakala", "GBI Rock Balikpapan", "GBI Antiokhia"] },
       { "kabupaten": "166300", "gereja": [] },
-      { "kabupaten": "166000", "gereja": ["Gereja Kemah Injil Indonesia"] }
+      { "kabupaten": "166000", "gereja": [] }
     ]
   },
   {
@@ -911,30 +791,25 @@
       { "kabupaten": "340100", "gereja": [] },
       { "kabupaten": "340500", "gereja": [] },
       { "kabupaten": "340300", "gereja": [] },
-      { "kabupaten": "346000", "gereja": ["Gereja Toraja Jemaat Juata Tarakan", "GKKA"] }
+      { "kabupaten": "346000", "gereja": ["Gereja Toraja Jemaat Juata Tarakan"] }
     ]
   },
   {
     "idProvinsi": "17",
     "provinsi": "Sulawesi Utara",
     "listKabupaten": [
-      { "kabupaten": "Kab. Bolaang Mangondow", "gereja": [] },
+      { "kabupaten": "170100", "gereja": [] },
       { "kabupaten": "170300", "gereja": [] },
       { "kabupaten": "170400", "gereja": [] },
       { "kabupaten": "170200", "gereja": [] },
       { "kabupaten": "170500", "gereja": [] },
       { "kabupaten": "170600", "gereja": [] },
-      { "kabupaten": "176100", "gereja": ["Gereja Pantekosta Di Indonesia Victory"] },
+      { "kabupaten": "176100", "gereja": ["GPdI Victory"] },
       {
         "kabupaten": "176000",
-        "gereja": [
-          "GPDI Agathos",
-          "Gmahk Kairagi Pioneer",
-          "Gereja Masehi Injili Di Minahasa (gmim)",
-          "GMIM Bukit Moria Rike"
-        ]
+        "gereja": ["GPDI Agathos", "Gmahk Kairagi Pioneer", "GMIM Bukit Moria Rike"]
       },
-      { "kabupaten": "176200", "gereja": ["Gereja Masehi Injili Di Minahasa"] }
+      { "kabupaten": "176200", "gereja": [] }
     ]
   },
   {
@@ -947,10 +822,10 @@
       { "kabupaten": "180200", "gereja": [] },
       { "kabupaten": "180700", "gereja": [] },
       { "kabupaten": "180800", "gereja": [] },
-      { "kabupaten": "180300", "gereja": ["GKST"] },
+      { "kabupaten": "180300", "gereja": [] },
       { "kabupaten": "180900", "gereja": [] },
       { "kabupaten": "180600", "gereja": [] },
-      { "kabupaten": "186000", "gereja": ["Gereja Kristus Tuhan", "Gereja Protestan Indonesia Donggala"] }
+      { "kabupaten": "186000", "gereja": ["Gereja Protestan Indonesia Donggala"] }
     ]
   },
   {
@@ -975,7 +850,7 @@
       { "kabupaten": "191200", "gereja": [] },
       { "kabupaten": "190900", "gereja": [] },
       { "kabupaten": "190400", "gereja": [] },
-      { "kabupaten": "191800", "gereja": ["GPT Kristus Gembala Rantepao", "Gereja Toraja"] },
+      { "kabupaten": "191800", "gereja": ["GPT Kristus Gembala Rantepao"] },
       { "kabupaten": "190800", "gereja": [] },
       { "kabupaten": "196000", "gereja": ["Gereja Toraja Jemaat Pniel Perumnas"] },
       { "kabupaten": "196200", "gereja": [] },
@@ -994,7 +869,7 @@
       { "kabupaten": "200500", "gereja": [] },
       { "kabupaten": "200200", "gereja": [] },
       { "kabupaten": "200600", "gereja": [] },
-      { "kabupaten": "206100", "gereja": ["Gereja Sidang Jemaat Kristus"] },
+      { "kabupaten": "206100", "gereja": [] },
       { "kabupaten": "206000", "gereja": [] }
     ]
   },
@@ -1026,12 +901,12 @@
     "listKabupaten": [
       { "kabupaten": "210300", "gereja": [] },
       { "kabupaten": "210700", "gereja": [] },
-      { "kabupaten": "210100", "gereja": ["Gereja Protestan Maluku"] },
+      { "kabupaten": "210100", "gereja": [] },
       { "kabupaten": "210200", "gereja": [] },
       { "kabupaten": "210400", "gereja": [] },
       { "kabupaten": "210500", "gereja": [] },
       { "kabupaten": "210600", "gereja": [] },
-      { "kabupaten": "216000", "gereja": ["Gereja Protestan Maluku", "GBI Rock"] }
+      { "kabupaten": "216000", "gereja": [] }
     ]
   },
   {
@@ -1071,22 +946,22 @@
       { "kabupaten": "252600", "gereja": [] },
       { "kabupaten": "251600", "gereja": [] },
       { "kabupaten": "250300", "gereja": [] },
-      { "kabupaten": "256000", "gereja": ["GKI Petrus", "Gereja Pantekosta Di Indonesia (gpdi)"] }
+      { "kabupaten": "256000", "gereja": ["GKI Petrus"] }
     ]
   },
   {
     "idProvinsi": "32",
     "provinsi": "Papua Barat",
     "listKabupaten": [
-      { "kabupaten": "320100", "gereja": ["Gereja Kristen Injili Di Tanah Papua"] },
-      { "kabupaten": "Kab. Kaima", "gereja": [] },
+      { "kabupaten": "320100", "gereja": [] },
+      { "kabupaten": "320200", "gereja": [] },
       { "kabupaten": "320500", "gereja": [] },
       { "kabupaten": "320800", "gereja": [] },
       { "kabupaten": "320700", "gereja": [] },
       { "kabupaten": "320600", "gereja": [] },
       { "kabupaten": "320400", "gereja": [] },
       { "kabupaten": "320300", "gereja": [] },
-      { "kabupaten": "326000", "gereja": ["Gereja Sidang Jemaat Kristus"] }
+      { "kabupaten": "326000", "gereja": [] }
     ]
   }
 ]
