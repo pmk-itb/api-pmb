@@ -14,14 +14,9 @@ import { getChurchesData } from '../repository/churches';
 // export { getSchools };
 
 const getChurches = async (req: Request, res: Response): Promise<void> => {
-  try {
-    const { city_id } = req.query;
-    const data = await getChurchesData(city_id as string);
-    res.status(200).json({ data });
-  } catch (error) {
-    const data = [] as string[];
-    res.status(200).json({ data });
-  }
+  const { city_id } = req.query;
+  const data = await getChurchesData(city_id as string);
+  data ? res.status(200).json({ data: data.churches }) : res.status(200).json({ data: [] });
 };
 
 export { getChurches };
