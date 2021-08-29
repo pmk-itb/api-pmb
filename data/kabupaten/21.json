@@ -1,13 +1,13 @@
 [
-  { "id": "2101", "nama": "KAB. MALUKU TENGAH" },
-  { "id": "2102", "nama": "KAB. MALUKU TENGGARA" },
-  { "id": "2103", "nama": "KAB. MALUKU TENGGARA BARAT" },
-  { "id": "2104", "nama": "KAB. BURU" },
-  { "id": "2105", "nama": "KAB. SERAM BAGIAN TIMUR" },
-  { "id": "2106", "nama": "KAB. SERAM BAGIAN BARAT" },
-  { "id": "2107", "nama": "KAB. KEPULAUAN ARU" },
-  { "id": "2108", "nama": "KAB. MALUKU BARAT DAYA" },
-  { "id": "2109", "nama": "KAB. BURU SELATAN" },
-  { "id": "2171", "nama": "KOTA AMBON" },
-  { "id": "2172", "nama": "KOTA TUAL" }
+  { "id": "210100", "nama": "KAB. MALUKU TENGAH" },
+  { "id": "210200", "nama": "KAB. MALUKU TENGGARA" },
+  { "id": "210400", "nama": "KAB. MALUKU TENGGARA BARAT" },
+  { "id": "210300", "nama": "KAB. BURU" },
+  { "id": "210600", "nama": "KAB. SERAM BAGIAN TIMUR" },
+  { "id": "210500", "nama": "KAB. SERAM BAGIAN BARAT" },
+  { "id": "210700", "nama": "KAB. KEPULAUAN ARU" },
+  { "id": "210800", "nama": "KAB. MALUKU BARAT DAYA" },
+  { "id": "210900", "nama": "KAB. BURU SELATAN" },
+  { "id": "216000", "nama": "KOTA AMBON" },
+  { "id": "216100", "nama": "KOTA TUAL" }
 ]

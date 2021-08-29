@@ -1,12 +1,12 @@
 [
-  { "id": "2301", "nama": "KAB. LOMBOK BARAT" },
-  { "id": "2302", "nama": "KAB. LOMBOK TENGAH" },
-  { "id": "2303", "nama": "KAB. LOMBOK TIMUR" },
-  { "id": "2304", "nama": "KAB. SUMBAWA" },
-  { "id": "2305", "nama": "KAB. DOMPU" },
-  { "id": "2306", "nama": "KAB. BIMA" },
-  { "id": "2307", "nama": "KAB. SUMBAWA BARAT" },
-  { "id": "2308", "nama": "KAB. LOMBOK UTARA" },
-  { "id": "2371", "nama": "KOTA MATARAM" },
-  { "id": "2372", "nama": "KOTA BIMA" }
+  { "id": "230100", "nama": "KAB. LOMBOK BARAT" },
+  { "id": "230200", "nama": "KAB. LOMBOK TENGAH" },
+  { "id": "230300", "nama": "KAB. LOMBOK TIMUR" },
+  { "id": "230400", "nama": "KAB. SUMBAWA" },
+  { "id": "230500", "nama": "KAB. DOMPU" },
+  { "id": "230600", "nama": "KAB. BIMA" },
+  { "id": "230700", "nama": "KAB. SUMBAWA BARAT" },
+  { "id": "230800", "nama": "KAB. LOMBOK UTARA" },
+  { "id": "236000", "nama": "KOTA MATARAM" },
+  { "id": "236100", "nama": "KOTA BIMA" }
 ]

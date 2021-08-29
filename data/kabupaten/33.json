@@ -1,8 +1,8 @@
 [
-  { "id": "3301", "nama": "KAB. MAMUJU UTARA" },
-  { "id": "3302", "nama": "KAB. MAMUJU" },
-  { "id": "3303", "nama": "KAB. MAMASA" },
-  { "id": "3304", "nama": "KAB. POLEWALI MANDAR" },
-  { "id": "3305", "nama": "KAB. MAJENE" },
-  { "id": "3306", "nama": "KAB. MAMUJU TENGAH" }
+  { "id": "330200", "nama": "KAB. MAMUJU UTARA" },
+  { "id": "330100", "nama": "KAB. MAMUJU" },
+  { "id": "330400", "nama": "KAB. MAMASA" },
+  { "id": "330300", "nama": "KAB. POLEWALI MANDAR" },
+  { "id": "330500", "nama": "KAB. MAJENE" },
+  { "id": "330600", "nama": "KAB. MAMUJU TENGAH" }
 ]

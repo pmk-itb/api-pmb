@@ -1,11 +1,11 @@
 [
-  { "id": "2201", "nama": "KAB. JEMBRANA" },
-  { "id": "2202", "nama": "KAB. TABANAN" },
-  { "id": "2203", "nama": "KAB. BADUNG" },
-  { "id": "2204", "nama": "KAB. GIANYAR" },
-  { "id": "2205", "nama": "KAB. KLUNGKUNG" },
-  { "id": "2206", "nama": "KAB. BANGLI" },
-  { "id": "2207", "nama": "KAB. KARANGASEM" },
-  { "id": "2208", "nama": "KAB. BULELENG" },
-  { "id": "2271", "nama": "KOTA DENPASAR" }
+  { "id": "220200", "nama": "KAB. JEMBRANA" },
+  { "id": "220300", "nama": "KAB. TABANAN" },
+  { "id": "220400", "nama": "KAB. BADUNG" },
+  { "id": "220500", "nama": "KAB. GIANYAR" },
+  { "id": "220600", "nama": "KAB. KLUNGKUNG" },
+  { "id": "220700", "nama": "KAB. BANGLI" },
+  { "id": "220800", "nama": "KAB. KARANGASEM" },
+  { "id": "220100", "nama": "KAB. BULELENG" },
+  { "id": "226000", "nama": "KOTA DENPASAR" }
 ]

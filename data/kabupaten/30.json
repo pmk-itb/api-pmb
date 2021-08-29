@@ -1,8 +1,8 @@
 [
-  { "id": "3001", "nama": "KAB. GORONTALO" },
-  { "id": "3002", "nama": "KAB. BOALEMO" },
-  { "id": "3003", "nama": "KAB. BONE BOLANGO" },
-  { "id": "3004", "nama": "KAB. PAHUWATO" },
-  { "id": "3005", "nama": "KAB. GORONTALO UTARA" },
-  { "id": "3071", "nama": "KOTA GORONTALO" }
+  { "id": "300200", "nama": "KAB. GORONTALO" },
+  { "id": "300100", "nama": "KAB. BOALEMO" },
+  { "id": "300400", "nama": "KAB. BONE BOLANGO" },
+  { "id": "300300", "nama": "KAB. PAHUWATO" },
+  { "id": "300500", "nama": "KAB. GORONTALO UTARA" },
+  { "id": "306000", "nama": "KOTA GORONTALO" }
 ]

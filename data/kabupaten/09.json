@@ -1,14 +1,14 @@
 [
-  { "id": "0901", "nama": "KAB. KAMPAR" },
-  { "id": "0902", "nama": "KAB. INDRAGIRI HULU" },
-  { "id": "0903", "nama": "KAB. BENGKALIS" },
-  { "id": "0904", "nama": "KAB. INDRAGIRI HILIR" },
-  { "id": "0905", "nama": "KAB. PELALAWAN" },
-  { "id": "0906", "nama": "KAB. ROKAN HULU" },
-  { "id": "0907", "nama": "KAB. ROKAN HILIR" },
-  { "id": "0908", "nama": "KAB. SIAK" },
-  { "id": "0909", "nama": "KAB. KUANTAN SINGINGI" },
-  { "id": "0910", "nama": "KAB. KEPULAUAN MERANTI" },
-  { "id": "0971", "nama": "KOTA PEKANBARU" },
-  { "id": "0972", "nama": "KOTA DUMAI" }
+  { "id": "090100", "nama": "KAB. KAMPAR" },
+  { "id": "090400", "nama": "KAB. INDRAGIRI HULU" },
+  { "id": "090200", "nama": "KAB. BENGKALIS" },
+  { "id": "090500", "nama": "KAB. INDRAGIRI HILIR" },
+  { "id": "090800", "nama": "KAB. PELALAWAN" },
+  { "id": "090900", "nama": "KAB. ROKAN HULU" },
+  { "id": "091000", "nama": "KAB. ROKAN HILIR" },
+  { "id": "091100", "nama": "KAB. SIAK" },
+  { "id": "091400", "nama": "KAB. KUANTAN SINGINGI" },
+  { "id": "091500", "nama": "KAB. KEPULAUAN MERANTI" },
+  { "id": "096000", "nama": "KOTA PEKANBARU" },
+  { "id": "096200", "nama": "KOTA DUMAI" }
 ]

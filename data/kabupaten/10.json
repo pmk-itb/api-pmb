@@ -1,13 +1,13 @@
 [
-  { "id": "1001", "nama": "KAB. KERINCI" },
-  { "id": "1002", "nama": "KAB. MERANGIN" },
-  { "id": "1003", "nama": "KAB. SAROLANGUN" },
-  { "id": "1004", "nama": "KAB. BATANGHARI" },
-  { "id": "1005", "nama": "KAB. MUARO JAMBI" },
-  { "id": "1006", "nama": "KAB. TANJUNG JABUNG BARAT" },
-  { "id": "1007", "nama": "KAB. TANJUNG JABUNG TIMUR" },
-  { "id": "1008", "nama": "KAB. BUNGO" },
-  { "id": "1009", "nama": "KAB. TEBO" },
-  { "id": "1071", "nama": "KOTA JAMBI" },
-  { "id": "1072", "nama": "KOTA SUNGAI PENUH" }
+  { "id": "100500", "nama": "KAB. KERINCI" },
+  { "id": "100900", "nama": "KAB. MERANGIN" },
+  { "id": "100300", "nama": "KAB. SAROLANGUN" },
+  { "id": "100100", "nama": "KAB. BATANGHARI" },
+  { "id": "100700", "nama": "KAB. MUARO JAMBI" },
+  { "id": "100400", "nama": "KAB. TANJUNG JABUNG BARAT" },
+  { "id": "100800", "nama": "KAB. TANJUNG JABUNG TIMUR" },
+  { "id": "100200", "nama": "KAB. BUNGO" },
+  { "id": "100600", "nama": "KAB. TEBO" },
+  { "id": "106000", "nama": "KOTA JAMBI" },
+  { "id": "106100", "nama": "KOTA SUNGAI PENUH" }
 ]

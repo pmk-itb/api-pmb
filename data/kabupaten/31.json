@@ -1,9 +1,9 @@
 [
-  { "id": "3101", "nama": "KAB. BINTAN" },
-  { "id": "3102", "nama": "KAB. KARIMUN" },
-  { "id": "3103", "nama": "KAB. NATUNA" },
-  { "id": "3104", "nama": "KAB. LINGGA" },
-  { "id": "3105", "nama": "KAB. KEPULAUAN ANAMBAS" },
-  { "id": "3171", "nama": "KOTA BATAM" },
-  { "id": "3172", "nama": "KOTA TANJUNG PINANG" }
+  { "id": "310100", "nama": "KAB. BINTAN" },
+  { "id": "310200", "nama": "KAB. KARIMUN" },
+  { "id": "310300", "nama": "KAB. NATUNA" },
+  { "id": "310400", "nama": "KAB. LINGGA" },
+  { "id": "310500", "nama": "KAB. KEPULAUAN ANAMBAS" },
+  { "id": "316000", "nama": "KOTA BATAM" },
+  { "id": "316100", "nama": "KOTA TANJUNG PINANG" }
 ]

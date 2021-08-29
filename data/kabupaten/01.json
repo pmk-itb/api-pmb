@@ -1,8 +1,8 @@
 [
-  { "id": "0101", "nama": "KAB. ADM. KEP. SERIBU" },
-  { "id": "0171", "nama": "KOTA ADM. JAKARTA PUSAT" },
-  { "id": "0172", "nama": "KOTA ADM. JAKARTA UTARA" },
-  { "id": "0173", "nama": "KOTA ADM. JAKARTA BARAT" },
-  { "id": "0174", "nama": "KOTA ADM. JAKARTA SELATAN" },
-  { "id": "0175", "nama": "KOTA ADM. JAKARTA TIMUR" }
+  { "id": "010100", "nama": "KAB. ADM. KEP. SERIBU" },
+  { "id": "016000", "nama": "KOTA ADM. JAKARTA PUSAT" },
+  { "id": "016100", "nama": "KOTA ADM. JAKARTA UTARA" },
+  { "id": "016200", "nama": "KOTA ADM. JAKARTA BARAT" },
+  { "id": "016300", "nama": "KOTA ADM. JAKARTA SELATAN" },
+  { "id": "016400", "nama": "KOTA ADM. JAKARTA TIMUR" }
 ]

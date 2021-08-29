@@ -1,15 +1,15 @@
 [
-  { "id": "1501", "nama": "KAB. TANAH LAUT" },
-  { "id": "1502", "nama": "KAB. KOTABARU" },
-  { "id": "1503", "nama": "KAB. BANJAR" },
-  { "id": "1504", "nama": "KAB. BARITO KUALA" },
-  { "id": "1505", "nama": "KAB. TAPIN" },
-  { "id": "1506", "nama": "KAB. HULU SUNGAI SELATAN" },
-  { "id": "1507", "nama": "KAB. HULU SUNGAI TENGAH" },
-  { "id": "1508", "nama": "KAB. HULU SUNGAI UTARA" },
-  { "id": "1509", "nama": "KAB. TABALONG" },
-  { "id": "1510", "nama": "KAB. TANAH BUMBU" },
-  { "id": "1511", "nama": "KAB. BALANGAN" },
-  { "id": "1571", "nama": "KOTA BANJARMASIN" },
-  { "id": "1572", "nama": "KOTA BANJARBARU" }
+  { "id": "150200", "nama": "KAB. TANAH LAUT" },
+  { "id": "150900", "nama": "KAB. KOTABARU" },
+  { "id": "150100", "nama": "KAB. BANJAR" },
+  { "id": "150300", "nama": "KAB. BARITO KUALA" },
+  { "id": "150400", "nama": "KAB. TAPIN" },
+  { "id": "150500", "nama": "KAB. HULU SUNGAI SELATAN" },
+  { "id": "150600", "nama": "KAB. HULU SUNGAI TENGAH" },
+  { "id": "150700", "nama": "KAB. HULU SUNGAI UTARA" },
+  { "id": "150800", "nama": "KAB. TABALONG" },
+  { "id": "151100", "nama": "KAB. TANAH BUMBU" },
+  { "id": "151000", "nama": "KAB. BALANGAN" },
+  { "id": "156000", "nama": "KOTA BANJARMASIN" },
+  { "id": "156100", "nama": "KOTA BANJARBARU" }
 ]

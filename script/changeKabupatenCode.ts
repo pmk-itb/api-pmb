@@ -1,4 +1,6 @@
 import { readdir, writeFile } from 'fs/promises';
+import jsonData from '../data/kabupaten/34.json';
+import schoolData from '../data/school.json';
 import path from 'path';
 
 const getListOfFiles = (): Promise<string[]> => {
@@ -27,4 +29,18 @@ const changeProvinceCode = async () => {
   });
 };
 
+const changeKabupatenCode = async () => {
+  const newData = jsonData.map((data) => {
+    const filteredSchoolData = schoolData.dataSekolah.find(
+      (school) => school.kabupaten_kota.toLowerCase() === data.nama.toLowerCase(),
+    );
+    data.id = filteredSchoolData?.kode_kab_kota ?? '0';
+    return data;
+  });
+  await writeFile(path.join(__dirname, '../data/kabupaten/34.json'), JSON.stringify(newData), {
+    encoding: 'utf-8',
+  });
+};
+
 changeProvinceCode();
+changeKabupatenCode();

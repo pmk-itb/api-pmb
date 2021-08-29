@@ -1,15 +1,15 @@
 [
-  { "id": "1801", "nama": "KAB. BANGGAI" },
-  { "id": "1802", "nama": "KAB. POSO" },
-  { "id": "1803", "nama": "KAB. DONGGALA" },
-  { "id": "1804", "nama": "KAB. TOLI TOLI" },
-  { "id": "1805", "nama": "KAB. BUOL" },
-  { "id": "1806", "nama": "KAB. MOROWALI" },
-  { "id": "1807", "nama": "KAB. BANGGAI KEPULAUAN" },
-  { "id": "1808", "nama": "KAB. PARIGI MOUTONG" },
-  { "id": "1809", "nama": "KAB. TOJO UNA UNA" },
-  { "id": "1810", "nama": "KAB. SIGI" },
-  { "id": "1811", "nama": "KAB. BANGGAI LAUT" },
-  { "id": "1812", "nama": "KAB. MOROWALI UTARA" },
-  { "id": "1871", "nama": "KOTA PALU" }
+  { "id": "180400", "nama": "KAB. BANGGAI" },
+  { "id": "180300", "nama": "KAB. POSO" },
+  { "id": "180200", "nama": "KAB. DONGGALA" },
+  { "id": "180600", "nama": "KAB. TOLI TOLI" },
+  { "id": "180500", "nama": "KAB. BUOL" },
+  { "id": "180700", "nama": "KAB. MOROWALI" },
+  { "id": "180100", "nama": "KAB. BANGGAI KEPULAUAN" },
+  { "id": "180800", "nama": "KAB. PARIGI MOUTONG" },
+  { "id": "180900", "nama": "KAB. TOJO UNA UNA" },
+  { "id": "181000", "nama": "KAB. SIGI" },
+  { "id": "181100", "nama": "KAB. BANGGAI LAUT" },
+  { "id": "181200", "nama": "KAB. MOROWALI UTARA" },
+  { "id": "186000", "nama": "KOTA PALU" }
 ]

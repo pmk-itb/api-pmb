@@ -1,12 +1,12 @@
 [
-  { "id": "2601", "nama": "KAB. BENGKULU SELATAN" },
-  { "id": "2602", "nama": "KAB. REJANG LEBONG" },
-  { "id": "2603", "nama": "KAB. BENGKULU UTARA" },
-  { "id": "2604", "nama": "KAB. KAUR" },
-  { "id": "2605", "nama": "KAB. SELUMA" },
-  { "id": "2606", "nama": "KAB. MUKO MUKO" },
-  { "id": "2607", "nama": "KAB. LEBONG" },
-  { "id": "2608", "nama": "KAB. KEPAHIANG" },
-  { "id": "2609", "nama": "KAB. BENGKULU TENGAH" },
-  { "id": "2671", "nama": "KOTA BENGKULU" }
+  { "id": "260300", "nama": "KAB. BENGKULU SELATAN" },
+  { "id": "260200", "nama": "KAB. REJANG LEBONG" },
+  { "id": "260100", "nama": "KAB. BENGKULU UTARA" },
+  { "id": "260700", "nama": "KAB. KAUR" },
+  { "id": "260800", "nama": "KAB. SELUMA" },
+  { "id": "260400", "nama": "KAB. MUKO MUKO" },
+  { "id": "260600", "nama": "KAB. LEBONG" },
+  { "id": "260500", "nama": "KAB. KEPAHIANG" },
+  { "id": "260900", "nama": "KAB. BENGKULU TENGAH" },
+  { "id": "266000", "nama": "KOTA BENGKULU" }
 ]

@@ -1,9 +1,9 @@
 [
-  { "id": "2901", "nama": "KAB. BANGKA" },
-  { "id": "2902", "nama": "KAB. BELITUNG" },
-  { "id": "2903", "nama": "KAB. BANGKA SELATAN" },
-  { "id": "2904", "nama": "KAB. BANGKA TENGAH" },
-  { "id": "2905", "nama": "KAB. BANGKA BARAT" },
-  { "id": "2906", "nama": "KAB. BELITUNG TIMUR" },
-  { "id": "2971", "nama": "KOTA PANGKAL PINANG" }
+  { "id": "290100", "nama": "KAB. BANGKA" },
+  { "id": "290200", "nama": "KAB. BELITUNG" },
+  { "id": "290500", "nama": "KAB. BANGKA SELATAN" },
+  { "id": "290300", "nama": "KAB. BANGKA TENGAH" },
+  { "id": "290400", "nama": "KAB. BANGKA BARAT" },
+  { "id": "290600", "nama": "KAB. BELITUNG TIMUR" },
+  { "id": "296000", "nama": "KOTA PANGKAL PINANG" }
 ]

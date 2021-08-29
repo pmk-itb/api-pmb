@@ -1,7 +1,7 @@
 [
-  { "id": "0401", "nama": "KAB. KULON PROGO" },
-  { "id": "0402", "nama": "KAB. BANTUL" },
-  { "id": "0403", "nama": "KAB. GUNUNGKIDUL" },
-  { "id": "0404", "nama": "KAB. SLEMAN" },
-  { "id": "0471", "nama": "KOTA YOGYAKARTA" }
+  { "id": "040400", "nama": "KAB. KULON PROGO" },
+  { "id": "040100", "nama": "KAB. BANTUL" },
+  { "id": "040300", "nama": "KAB. GUNUNGKIDUL" },
+  { "id": "040200", "nama": "KAB. SLEMAN" },
+  { "id": "046000", "nama": "KOTA YOGYAKARTA" }
 ]
