@@ -2,6 +2,7 @@ import { Request, Response, Router } from 'express';
 import { apiKeyNeeded, validTokenNeeded } from './middlewares/auth.middleware';
 import { Member, PrismaClient } from '@prisma/client';
 import { sanitizeData } from './middlewares/sanitization.middleware';
+import regionalDataRouter from './routes/regionalData';
 
 const prisma = new PrismaClient();
 const router = Router();
@@ -9,12 +10,10 @@ const router = Router();
 router.all('*', [apiKeyNeeded, validTokenNeeded]);
 
 router.get('/', function (_req: Request, res: Response) {
-  console.log('GET /api');
   res.send('This is home page');
 });
 
 router.get('/about', function (_req: Request, res: Response) {
-  console.log('GET /api/about');
   res.send('This is about');
 });
 
@@ -161,5 +160,10 @@ router.post('/members', [
     }
   },
 ]);
+router.use(regionalDataRouter);
+
+router.use(regionalDataRouter);
+
+router.use(regionalDataRouter);
 
 export { router, prisma };

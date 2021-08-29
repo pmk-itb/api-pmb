@@ -1,0 +1,967 @@
+[
+  {
+    "idProvinsi": "06",
+    "provinsi": "Aceh",
+    "listKabupaten": [
+      { "kabupaten": "060600", "gereja": [] },
+      { "kabupaten": "061700", "gereja": [] },
+      { "kabupaten": "060100", "gereja": [] },
+      { "kabupaten": "061600", "gereja": [] },
+      { "kabupaten": "060700", "gereja": [] },
+      { "kabupaten": "061300", "gereja": [] },
+      { "kabupaten": "061400", "gereja": [] },
+      { "kabupaten": "060800", "gereja": [] },
+      { "kabupaten": "060400", "gereja": [] },
+      { "kabupaten": "060300", "gereja": [] },
+      { "kabupaten": "061900", "gereja": [] },
+      { "kabupaten": "061200", "gereja": [] },
+      { "kabupaten": "061800", "gereja": [] },
+      { "kabupaten": "061500", "gereja": [] },
+      { "kabupaten": "060200", "gereja": [] },
+      { "kabupaten": "061100", "gereja": [] },
+      { "kabupaten": "066100", "gereja": [] },
+      { "kabupaten": "066300", "gereja": [] },
+      { "kabupaten": "066200", "gereja": [] },
+      { "kabupaten": "066000", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "07",
+    "provinsi": "Sumatera Utara",
+    "listKabupaten": [
+      { "kabupaten": "070600", "gereja": [] },
+      { "kabupaten": "070500", "gereja": ["HKBP 1 Sidikalang", "HKBP Panji Porsea"] },
+      { "kabupaten": "070100", "gereja": [] },
+      { "kabupaten": "071900", "gereja": ["HKBP Siononompu"] },
+      { "kabupaten": "070300", "gereja": [] },
+      { "kabupaten": "070700", "gereja": ["HKBP Sei Tawar"] },
+      { "kabupaten": "070200", "gereja": [] },
+      { "kabupaten": "071500", "gereja": [] },
+      { "kabupaten": "071100", "gereja": [] },
+      { "kabupaten": "071700", "gereja": [] },
+      { "kabupaten": "071800", "gereja": [] },
+      { "kabupaten": "072000", "gereja": ["HKBP Tuk Tuk"] },
+      { "kabupaten": "072100", "gereja": [] },
+      { "kabupaten": "070400", "gereja": ["GKPS Tigarunggu"] },
+      { "kabupaten": "071000", "gereja": [] },
+      { "kabupaten": "070900", "gereja": ["HKBP Sibuluan"] },
+      {
+        "kabupaten": "070800",
+        "gereja": ["HKBP Pearaja Tarutung", "HKBP Tarutung Kota"]
+      },
+      {
+        "kabupaten": "071600",
+        "gereja": ["HKBP Balige", "HKBP Tambunan Baruara", "HKBP Soposurung", "HKBP Paronan Nagodang"]
+      },
+      { "kabupaten": "076100", "gereja": [] },
+      {
+        "kabupaten": "076000",
+        "gereja": [
+          "GKPI Medan Kota",
+          "Gereja Kristen Protestan Pakpak Dairi",
+          "HKBP Sri Gunting Indah",
+          "Chapel Usu",
+          "HKBP Sudirman Medan",
+          "HKBP Riau",
+          "HKBP Uskup Agung Sugiopranoto Medan",
+          "GBKP Medan",
+          "Gereja Methodist Indonesia Mu En",
+          "Gereja Gratia Methodist",
+          "GBKP Km.8 Medan",
+          "HKBP Polonia"
+        ]
+      },
+      { "kabupaten": "076600", "gereja": [] },
+      {
+        "kabupaten": "076300",
+        "gereja": ["HKBP Sipinggol-pinggol", "HKBP Martoba Pematangsiantar"]
+      },
+      { "kabupaten": "076500", "gereja": [] },
+      { "kabupaten": "076400", "gereja": [] },
+      { "kabupaten": "076200", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "08",
+    "provinsi": "Sumatera Barat",
+    "listKabupaten": [
+      { "kabupaten": "080100", "gereja": [] },
+      { "kabupaten": "081200", "gereja": [] },
+      { "kabupaten": "081000", "gereja": [] },
+      { "kabupaten": "080300", "gereja": [] },
+      { "kabupaten": "080500", "gereja": [] },
+      { "kabupaten": "080200", "gereja": [] },
+      { "kabupaten": "081300", "gereja": [] },
+      { "kabupaten": "080400", "gereja": [] },
+      { "kabupaten": "081100", "gereja": [] },
+      { "kabupaten": "086300", "gereja": [] },
+      { "kabupaten": "080700", "gereja": [] },
+      { "kabupaten": "080600", "gereja": [] },
+      { "kabupaten": "086000", "gereja": [] },
+      { "kabupaten": "086100", "gereja": [] },
+      { "kabupaten": "086200", "gereja": [] },
+      { "kabupaten": "086600", "gereja": [] },
+      { "kabupaten": "086500", "gereja": [] },
+      { "kabupaten": "086400", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "09",
+    "provinsi": "Riau",
+    "listKabupaten": [
+      {
+        "kabupaten": "090200",
+        "gereja": ["HKBP Simpang Padang", "HKBP Duri Ressort Duri"]
+      },
+      { "kabupaten": "090500", "gereja": [] },
+      { "kabupaten": "090400", "gereja": [] },
+      { "kabupaten": "090100", "gereja": [] },
+      { "kabupaten": "091400", "gereja": [] },
+      { "kabupaten": "090800", "gereja": [] },
+      { "kabupaten": "091000", "gereja": [] },
+      { "kabupaten": "090900", "gereja": ["HKBP Ressot Estomihi"] },
+      { "kabupaten": "091100", "gereja": [] },
+      { "kabupaten": "096200", "gereja": [] },
+      {
+        "kabupaten": "096000",
+        "gereja": ["HKBP Hangtuah Pekanbaru", "GPIB Immanuel Pekanbaru", "HKBP Pekanbaru Kota"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "10",
+    "provinsi": "Jambi",
+    "listKabupaten": [
+      { "kabupaten": "100100", "gereja": [] },
+      { "kabupaten": "100200", "gereja": [] },
+      { "kabupaten": "100500", "gereja": [] },
+      { "kabupaten": "100900", "gereja": [] },
+      { "kabupaten": "100700", "gereja": [] },
+      { "kabupaten": "100300", "gereja": [] },
+      { "kabupaten": "100400", "gereja": [] },
+      { "kabupaten": "100800", "gereja": [] },
+      { "kabupaten": "100600", "gereja": [] },
+      { "kabupaten": "106000", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "11",
+    "provinsi": "Sumatera Selatan",
+    "listKabupaten": [
+      { "kabupaten": "110700", "gereja": [] },
+      { "kabupaten": "110500", "gereja": [] },
+      { "kabupaten": "110400", "gereja": [] },
+      { "kabupaten": "110100", "gereja": [] },
+      { "kabupaten": "110600", "gereja": [] },
+      { "kabupaten": "111000", "gereja": [] },
+      { "kabupaten": "110200", "gereja": [] },
+      { "kabupaten": "110300", "gereja": [] },
+      { "kabupaten": "116200", "gereja": [] },
+      { "kabupaten": "116300", "gereja": [] },
+      { "kabupaten": "116000", "gereja": [] },
+      { "kabupaten": "116100", "gereja": ["HKBP Kasih Prabumulih"] }
+    ]
+  },
+  {
+    "idProvinsi": "26",
+    "provinsi": "Bengkulu",
+    "listKabupaten": [
+      { "kabupaten": "260300", "gereja": [] },
+      { "kabupaten": "260100", "gereja": [] },
+      { "kabupaten": "260700", "gereja": [] },
+      { "kabupaten": "260500", "gereja": [] },
+      { "kabupaten": "260600", "gereja": [] },
+      { "kabupaten": "260400", "gereja": [] },
+      { "kabupaten": "260200", "gereja": [] },
+      { "kabupaten": "260800", "gereja": [] },
+      { "kabupaten": "266000", "gereja": ["GKII Bengkulu"] }
+    ]
+  },
+  {
+    "idProvinsi": "12",
+    "provinsi": "Lampung",
+    "listKabupaten": [
+      { "kabupaten": "120400", "gereja": [] },
+      { "kabupaten": "120100", "gereja": [] },
+      { "kabupaten": "120200", "gereja": [] },
+      { "kabupaten": "120700", "gereja": [] },
+      { "kabupaten": "120300", "gereja": [] },
+      { "kabupaten": "120600", "gereja": ["HKBP Pringsewu"] },
+      { "kabupaten": "120500", "gereja": [] },
+      { "kabupaten": "120800", "gereja": [] },
+      {
+        "kabupaten": "126000",
+        "gereja": ["GBI Kartini", "Gereja Pantekosta Di Indonesia 'ora Etlabora'", "JKI", "Gereja Mawar Sharon"]
+      },
+      { "kabupaten": "126100", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "29",
+    "provinsi": "Kepulauan Bangka Belitung",
+    "listKabupaten": [
+      { "kabupaten": "290100", "gereja": [] },
+      { "kabupaten": "290400", "gereja": [] },
+      { "kabupaten": "290500", "gereja": [] },
+      { "kabupaten": "290300", "gereja": [] },
+      { "kabupaten": "290200", "gereja": [] },
+      { "kabupaten": "296000", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "10",
+    "provinsi": "Kep Riau",
+    "listKabupaten": [
+      { "kabupaten": "310200", "gereja": [] },
+      { "kabupaten": "310400", "gereja": [] },
+      { "kabupaten": "310300", "gereja": [] },
+      {
+        "kabupaten": "316100",
+        "gereja": [
+          "GBI Tabgha",
+          "Gereja Pantekosta di Indonesia",
+          "HKBP Mahanaim",
+          "GSJA",
+          "GPIB",
+          "Gereja Kristen Oikoumene Indonesia"
+        ]
+      },
+      { "kabupaten": "316100", "gereja": ["GKB Kahal"] }
+    ]
+  },
+  {
+    "idProvinsi": "01",
+    "provinsi": "DKI Jakarta",
+    "listKabupaten": [
+      { "kabupaten": "010100", "gereja": [] },
+      {
+        "kabupaten": "016200",
+        "gereja": [
+          "Gereja Kristus Yesus Pluit",
+          "GKY Puri",
+          "GKY Greenville",
+          "GBI Kasih Kristus",
+          "GKY Citra",
+          "GBI Rem Jakarta",
+          "Gereja Bethel Indonesia Taman Semanan Indah",
+          "GKI Puri Indah",
+          "Gereja Kristen Indonesia Nurdin",
+          "GPIB Shalom",
+          "NDC Nafiri",
+          "GKI Surya Utama",
+          "NDC Central Park",
+          "HKBP Kebun Jeruk",
+          "Gereja Kristus Yesus Jemaat Greenville",
+          "Gereja Kristus Bojong Indah",
+          "GBI Gatot Subroto",
+          "Nafiri Discipleship Church",
+          "GKI Citra 1",
+          "GSRI Jembatan 5",
+          "GMI Imanuel",
+          "JPCC",
+          "GPDI Sahabat Allah"
+        ]
+      },
+      {
+        "kabupaten": "016100",
+        "gereja": [
+          "Gereja Kemah Abraham",
+          "GBI Prj",
+          "GPIB Pniel",
+          "GKI Gading Indah",
+          "GKI Kwitang",
+          "Gepembri Kelapa Gading",
+          "GBI CITY Tower",
+          "GKJ Pondok Gede"
+        ]
+      },
+      {
+        "kabupaten": "016300",
+        "gereja": [
+          "GKI Pondok Indah",
+          "GKP Bekasi",
+          "GKI Keb. Lama",
+          "HKBP Menteng",
+          "GBI Poins Square",
+          "GBI Gandaria City",
+          "NCH",
+          "GPIB Bukit Moria",
+          "Gereja Kristen Indonesia Pondok Indah",
+          "GPDI Barito",
+          "GKI Kebayoran Baru"
+        ]
+      },
+      {
+        "kabupaten": "016400",
+        "gereja": [
+          "GKI Raya Hankam",
+          "Gereja Bethel Indonesia Prj (praise Revival For Jesus)",
+          "Gereja Tiberias Indonesia",
+          "HKBP Pondok Bambu",
+          "Gereja Bala Keselamatan",
+          "HKBP Tebet",
+          "GPIB Menara Iman",
+          "HKBP Kramat Jati",
+          "GKJ Gandaria",
+          "GBI Tamini Square - Rayon 1i",
+          "HKBP Cipayung Cilangkap",
+          "Gereja Kristen Jawa Jakarta",
+          "GKI Kayu Putih",
+          "JPCC",
+          "GBKP Cililitan",
+          "GKPI Rawamangun",
+          "GKI Cipinang Indah",
+          "HKBP Perumnas Klender",
+          "HKBP Kayu Putih",
+          "HKBP Rawamangun",
+          "Gereja HKBP Jatinegara"
+        ]
+      },
+      {
+        "kabupaten": "016100",
+        "gereja": [
+          "GBI Gilgal",
+          "GKI Sunter",
+          "GBI Tampak Siring",
+          "GBI Moi",
+          "GKY Pluit",
+          "GBI Prj",
+          "JPCC",
+          "GPDI Bethlehem",
+          "HKBP Immanuel Kelapa Gading"
+        ]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "02",
+    "provinsi": "Jawa Barat",
+    "listKabupaten": [
+      {
+        "kabupaten": "020800",
+        "gereja": [
+          "GII Hok Im Tong Holis",
+          "Gereja Kristen Kalam Kudus Bandung",
+          "Gereja Kristen Kalam Kudus Tki",
+          "GII Hit Taman Rahayu",
+          "GBI Sukawarna",
+          "GKJ Bandung",
+          "Gspdi Filadelfia"
+        ]
+      },
+      {
+        "kabupaten": "022200",
+        "gereja": [
+          "Gereja Kristen Indonesia (wahid Hasyim)",
+          "GKPB Mdc Lippo Cikarang",
+          "GPDI Cikarang Utara",
+          "GKI Harapan Indah",
+          "GKPB Fajar Pengharapan Mdc",
+          "Gereja Bethel Indonesia Rayon 8",
+          "GPIB Immanuel Bekasi",
+          "Tiberias Moi",
+          "Gereja Isa Almasih Rajawali",
+          "GBI Jl. Gatot Subroto"
+        ]
+      },
+      {
+        "kabupaten": "020500",
+        "gereja": [
+          "GKI Kota Wisata",
+          "JPCC",
+          "HKBP Sudirman Jakarta",
+          "Gereja HKBP Jatiasih",
+          "Gereja Kristen Indonesia Kota Wisata"
+        ]
+      },
+      { "kabupaten": "021400", "gereja": [] },
+      { "kabupaten": "020700", "gereja": [] },
+      { "kabupaten": "021700", "gereja": ["GKI Jamblang", "GPIB Bethel Bandung"] },
+      { "kabupaten": "021100", "gereja": [] },
+      { "kabupaten": "021800", "gereja": [] },
+      { "kabupaten": "022100", "gereja": ["GPDI Resinda", "GBI Sion Karawang"] },
+      { "kabupaten": "021500", "gereja": [] },
+      { "kabupaten": "021600", "gereja": [] },
+      { "kabupaten": "022000", "gereja": ["GKJ Margoyudan Solo"] },
+      { "kabupaten": "021900", "gereja": [] },
+      { "kabupaten": "020600", "gereja": ["GKI Penginjil"] },
+      { "kabupaten": "021000", "gereja": [] },
+      { "kabupaten": "021200", "gereja": [] },
+      {
+        "kabupaten": "026000",
+        "gereja": [
+          "Gereja Injili Indonesia Dago",
+          "CLCC",
+          "GII Hok Im Tong Gardujati",
+          "GKI Cibunut",
+          "GBI Aruna",
+          "GKI Gading Serpong",
+          "GBI Prj",
+          "GII Hok Im Tong Bandung",
+          "GIA Taman Kopo Indah",
+          "GKI Guntur",
+          "GII Hok Im Tong",
+          "GGP Shalom Bandung",
+          "GKPB Fajar Pengharapan",
+          "Gereja Baptis Independent Indonesia Anugerah",
+          "GKKD Cimahi",
+          "GKIM Amanat Kristus",
+          "GKI Taman Cibunut",
+          "Elshadai Creative Community",
+          "GKJ Kiaracondong",
+          "GKI Kebon Jati 100",
+          "HKBP Bandung Timur",
+          "HKBP Tarakan",
+          "HKBP Riau Martadinata Bandung",
+          "GKMI Bandung",
+          "GBI Sport Center Harapan Indah",
+          "GBI Sunter Mall",
+          "GBI Stairway From Heaven",
+          "GBI Emunah Solo Baru",
+          "GII Hok Im Tong Rahayu",
+          "HKI Dame Bandung",
+          "GII Hok Im Tong Setrasari",
+          "GKPO Imanuel",
+          "HKBP Riau",
+          "Gereja Kristen Pasundan Jemaat Bandung",
+          "Gereja Injil Indonesia",
+          "GII Dago",
+          "GKI Anugerah",
+          "GBI Sumber Sari",
+          "Gereja Kristen Kalam Kudus",
+          "GKJ Bandung",
+          "GKIM Ka Im Tong",
+          "Gereja Gerakan Pentakosta Shalom Bandung",
+          "GII Kebon Jati",
+          "GKIM Hosanna",
+          "GBI Ppl",
+          "GKP Awiligar",
+          "Gereja Kristen Indonesia Anugerah",
+          "GJKI Penuaian",
+          "GII Kebonjati",
+          "Gereja Kristen Indonesia Kebonjati",
+          "Gereja Kalam Kudus Kopo Permai"
+        ]
+      },
+      { "kabupaten": "026900", "gereja": [] },
+      {
+        "kabupaten": "026500",
+        "gereja": [
+          "GSJA Imanuel",
+          "GBI Lippo Cikarang",
+          "GKI Camar",
+          "HKBP Jakasampurna",
+          "GKO Bekasi 1",
+          "HKBP Setia Mekar",
+          "GBI Tampak Siring",
+          "HKBP Kemang Pratama",
+          "GKI Agus Salim",
+          "HKBP Jatiwaringin",
+          "GBI Baranangsiang",
+          "HKBP Taman Wisma Asri",
+          "GKI Kemang Pratama",
+          "GKI Raya Hankam",
+          "HKBP Ujung Menteng",
+          "GBI Rehobot",
+          "Gereja Isa Almasih Pegangsaan",
+          "HLBP Pejuang Ressort Palmarum",
+          "GKI Layur",
+          "GPI Petra",
+          "GKPS Salemba"
+        ]
+      },
+      {
+        "kabupaten": "026100",
+        "gereja": [
+          "GPIB Jemaat Petra Bogor",
+          "JPCC",
+          "HKBP Villa Duta",
+          "GKI Kotawisata",
+          "GKI Pengadilan",
+          "Gereja Beritakan Injil Bogor",
+          "GBI Jemaat Induk Senayan"
+        ]
+      },
+      {
+        "kabupaten": "026700",
+        "gereja": [
+          "GKI Cimahi",
+          "GKJ Bandung",
+          "GPDI Padalarang",
+          "GKPB Fajar Pengharapan",
+          "GII Hok Im Tong - Gardujati"
+        ]
+      },
+      { "kabupaten": "026300", "gereja": ["GBI Pekiringan", "GBI Doulos", "GBI Sukawarna", "GKI Pengampon"] },
+      {
+        "kabupaten": "026600",
+        "gereja": [
+          "GKI Maulana Yusuf",
+          "Gereja Kristen Indonesia Depok",
+          "GKI Pondok Indah",
+          "HKBP Depok Timur",
+          "GSJA Cws Rajawali",
+          "GKI Pamulang",
+          "GBI Lewi Pondok Gede"
+        ]
+      },
+      { "kabupaten": "026200", "gereja": ["GII", "GKI Zaenal Zahse"] },
+      { "kabupaten": "026800", "gereja": ["Gereja Kristen Indonesia Veteran Tasikmalaya"] }
+    ]
+  },
+  {
+    "idProvinsi": "03",
+    "provinsi": "Jawa Tengah",
+    "listKabupaten": [
+      { "kabupaten": "030400", "gereja": [] },
+      { "kabupaten": "030200", "gereja": [] },
+      { "kabupaten": "032500", "gereja": [] },
+      { "kabupaten": "031600", "gereja": [] },
+      { "kabupaten": "030900", "gereja": [] },
+      { "kabupaten": "032900", "gereja": [] },
+      { "kabupaten": "030100", "gereja": ["HKBP Cilacap"] },
+      { "kabupaten": "032100", "gereja": [] },
+      { "kabupaten": "031500", "gereja": ["GKJ Purwodadi"] },
+      { "kabupaten": "032000", "gereja": [] },
+      { "kabupaten": "031300", "gereja": [] },
+      { "kabupaten": "030500", "gereja": [] },
+      { "kabupaten": "032400", "gereja": [] },
+      { "kabupaten": "031000", "gereja": ["GKJ Wonosari", "GKI Klaten"] },
+      { "kabupaten": "031900", "gereja": [] },
+      { "kabupaten": "030800", "gereja": ["GKI Muntilan"] },
+      { "kabupaten": "031800", "gereja": ["Gereja Bethany Indonesia Banyutowo", "GITJ Juwana", "GITJ Margorejo"] },
+      { "kabupaten": "032600", "gereja": [] },
+      { "kabupaten": "032700", "gereja": [] },
+      { "kabupaten": "030300", "gereja": ["GKI Gatot Subroto Purwokerto"] },
+      { "kabupaten": "030600", "gereja": [] },
+      { "kabupaten": "031700", "gereja": [] },
+      {
+        "kabupaten": "032200",
+        "gereja": ["GOOD News CITY Church", "JKI Higer Than Ever", "GKI Beringin Semarang"]
+      },
+      { "kabupaten": "031400", "gereja": [] },
+      { "kabupaten": "031100", "gereja": ["GKJ Sukoharjo"] },
+      { "kabupaten": "032800", "gereja": [] },
+      { "kabupaten": "032300", "gereja": [] },
+      { "kabupaten": "031200", "gereja": [] },
+      { "kabupaten": "030700", "gereja": [] },
+      { "kabupaten": "036000", "gereja": ["GKJ Magelang"] },
+      { "kabupaten": "036400", "gereja": [] },
+      { "kabupaten": "036200", "gereja": ["GKJ Ampel"] },
+      { "kabupaten": "036300", "gereja": [] },
+      {
+        "kabupaten": "036100",
+        "gereja": ["GBIKA Surakarta", "JKI Maranatha Ungaran", "GKJ Karanganyar"]
+      },
+      { "kabupaten": "036500", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "14",
+    "provinsi": "DI Yogyakarta",
+    "listKabupaten": [
+      { "kabupaten": "040100", "gereja": [] },
+      { "kabupaten": "040300", "gereja": [] },
+      { "kabupaten": "040400", "gereja": [] },
+      { "kabupaten": "040200", "gereja": [] },
+      { "kabupaten": "046000", "gereja": ["GPDI Hayam Wuruk", "GKI Ngupasan"] }
+    ]
+  },
+  {
+    "idProvinsi": "05",
+    "provinsi": "Jawa Timur",
+    "listKabupaten": [
+      { "kabupaten": "056800", "gereja": [] },
+      { "kabupaten": "052900", "gereja": [] },
+      { "kabupaten": "052500", "gereja": [] },
+      { "kabupaten": "051500", "gereja": [] },
+      { "kabupaten": "050500", "gereja": [] },
+      { "kabupaten": "052200", "gereja": [] },
+      { "kabupaten": "050100", "gereja": [] },
+      { "kabupaten": "052400", "gereja": [] },
+      { "kabupaten": "050400", "gereja": [] },
+      { "kabupaten": "051300", "gereja": [] },
+      { "kabupaten": "050700", "gereja": [] },
+      { "kabupaten": "052100", "gereja": [] },
+      { "kabupaten": "050800", "gereja": [] },
+      { "kabupaten": "051000", "gereja": [] },
+      { "kabupaten": "051800", "gereja": [] },
+      { "kabupaten": "050300", "gereja": [] },
+      { "kabupaten": "051400", "gereja": [] },
+      { "kabupaten": "050900", "gereja": ["Gereja Utusan Pantekosta El-Shaddai"] },
+      { "kabupaten": "051200", "gereja": [] },
+      { "kabupaten": "052600", "gereja": [] },
+      { "kabupaten": "051900", "gereja": [] },
+      { "kabupaten": "051100", "gereja": [] },
+      { "kabupaten": "052000", "gereja": [] },
+      { "kabupaten": "052700", "gereja": [] },
+      { "kabupaten": "050200", "gereja": [] },
+      { "kabupaten": "052300", "gereja": [] },
+      { "kabupaten": "052800", "gereja": [] },
+      { "kabupaten": "051700", "gereja": [] },
+      { "kabupaten": "050600", "gereja": [] },
+      { "kabupaten": "051600", "gereja": [] },
+      { "kabupaten": "056500", "gereja": [] },
+      { "kabupaten": "056300", "gereja": [] },
+      { "kabupaten": "056200", "gereja": [] },
+      { "kabupaten": "056100", "gereja": ["GKI Batu", "GKI Bromo"] },
+      { "kabupaten": "056400", "gereja": [] },
+      { "kabupaten": "056600", "gereja": [] },
+      { "kabupaten": "056700", "gereja": [] },
+      {
+        "kabupaten": "056000",
+        "gereja": [
+          "Gereja Bethany Nginden Surabaya",
+          "GTI Bukit Zaitun",
+          "Gereja Bethany Nginden",
+          "Gereja Kristen Indonesia Merisi Indah",
+          "GSKI Jemaat Bethany Manyar",
+          "GKJW Wiyung",
+          "YHS",
+          "GKA Gloria",
+          "GKI Pregbun"
+        ]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "28",
+    "provinsi": "Banten",
+    "listKabupaten": [
+      { "kabupaten": "280200", "gereja": [] },
+      { "kabupaten": "280100", "gereja": [] },
+      { "kabupaten": "280400", "gereja": ["GKI Serang"] },
+      {
+        "kabupaten": "280300",
+        "gereja": [
+          "GKI Gading Serpong",
+          "Abbalove Ministries Gading Serpong",
+          "GBI Basilea Christ Cathedral",
+          "HKBP Serpong",
+          "GKI Serpong",
+          "GII Semanggi"
+        ]
+      },
+      { "kabupaten": "286000", "gereja": [] },
+      {
+        "kabupaten": "286100",
+        "gereja": [
+          "Gereja Kristus Sarua Permai",
+          "GBI Modernland",
+          "GKI Kota Modern",
+          "GKI Pamulang",
+          "GKI Serpong",
+          "HKBP Perumnas",
+          "GBI Fatmawati",
+          "Gereja Kristen Indonesia Serpong",
+          "GBI Pasar Baru Tangerang"
+        ]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "22",
+    "provinsi": "Bali",
+    "listKabupaten": [
+      { "kabupaten": "220400", "gereja": [] },
+      { "kabupaten": "220700", "gereja": [] },
+      { "kabupaten": "220100", "gereja": [] },
+      { "kabupaten": "220500", "gereja": [] },
+      { "kabupaten": "220200", "gereja": [] },
+      { "kabupaten": "220800", "gereja": [] },
+      { "kabupaten": "220600", "gereja": [] },
+      { "kabupaten": "220300", "gereja": [] },
+      { "kabupaten": "226000", "gereja": ["GPT Baithani", "GBI Rock"] }
+    ]
+  },
+  {
+    "idProvinsi": "23",
+    "provinsi": "Nusa Tenggara Barat",
+    "listKabupaten": [
+      { "kabupaten": "230600", "gereja": [] },
+      { "kabupaten": "230500", "gereja": [] },
+      { "kabupaten": "230100", "gereja": [] },
+      { "kabupaten": "230200", "gereja": [] },
+      { "kabupaten": "230300", "gereja": [] },
+      { "kabupaten": "230400", "gereja": [] },
+      { "kabupaten": "230700", "gereja": [] },
+      { "kabupaten": "236100", "gereja": [] },
+      { "kabupaten": "236000", "gereja": ["GPIB Wr Supratman"] }
+    ]
+  },
+  {
+    "idProvinsi": "24",
+    "provinsi": "Nusa Tenggara Timur",
+    "listKabupaten": [
+      { "kabupaten": "240600", "gereja": [] },
+      { "kabupaten": "240500", "gereja": [] },
+      { "kabupaten": "240900", "gereja": [] },
+      { "kabupaten": "240700", "gereja": [] },
+      { "kabupaten": "240100", "gereja": [] },
+      { "kabupaten": "241400", "gereja": [] },
+      { "kabupaten": "241100", "gereja": [] },
+      { "kabupaten": "241600", "gereja": [] },
+      { "kabupaten": "241000", "gereja": [] },
+      { "kabupaten": "241500", "gereja": [] },
+      { "kabupaten": "240800", "gereja": [] },
+      { "kabupaten": "241300", "gereja": [] },
+      { "kabupaten": "241200", "gereja": [] },
+      { "kabupaten": "240300", "gereja": [] },
+      { "kabupaten": "240400", "gereja": [] },
+      { "kabupaten": "246000", "gereja": ["GMIT Moria Liliba"] }
+    ]
+  },
+  {
+    "idProvinsi": "13",
+    "provinsi": "Kalimantan Barat",
+    "listKabupaten": [
+      { "kabupaten": "130800", "gereja": [] },
+      { "kabupaten": "130500", "gereja": [] },
+      { "kabupaten": "130600", "gereja": [] },
+      { "kabupaten": "130900", "gereja": [] },
+      { "kabupaten": "131100", "gereja": [] },
+      { "kabupaten": "136000", "gereja": [] },
+      { "kabupaten": "130100", "gereja": [] },
+      { "kabupaten": "130300", "gereja": [] },
+      { "kabupaten": "131000", "gereja": [] },
+      { "kabupaten": "130400", "gereja": [] },
+      { "kabupaten": "136000", "gereja": [] },
+      { "kabupaten": "136100", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "14",
+    "provinsi": "Kalimantan Tengah",
+    "listKabupaten": [
+      { "kabupaten": "140200", "gereja": [] },
+      { "kabupaten": "141300", "gereja": [] },
+      { "kabupaten": "140300", "gereja": [] },
+      { "kabupaten": "141000", "gereja": [] },
+      { "kabupaten": "140100", "gereja": [] },
+      { "kabupaten": "140600", "gereja": [] },
+      { "kabupaten": "140500", "gereja": [] },
+      { "kabupaten": "140400", "gereja": [] },
+      { "kabupaten": "140900", "gereja": [] },
+      { "kabupaten": "141200", "gereja": [] },
+      { "kabupaten": "141100", "gereja": [] },
+      { "kabupaten": "140700", "gereja": [] },
+      { "kabupaten": "140800", "gereja": [] },
+      { "kabupaten": "146000", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "15",
+    "provinsi": "Kalimantan Selatan",
+    "listKabupaten": [
+      { "kabupaten": "151000", "gereja": [] },
+      { "kabupaten": "150100", "gereja": [] },
+      { "kabupaten": "150300", "gereja": [] },
+      { "kabupaten": "150500", "gereja": [] },
+      { "kabupaten": "150600", "gereja": [] },
+      { "kabupaten": "150700", "gereja": [] },
+      { "kabupaten": "150900", "gereja": [] },
+      { "kabupaten": "150800", "gereja": [] },
+      { "kabupaten": "151100", "gereja": [] },
+      { "kabupaten": "150200", "gereja": [] },
+      { "kabupaten": "150400", "gereja": [] },
+      { "kabupaten": "156100", "gereja": [] },
+      { "kabupaten": "156000", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "16",
+    "provinsi": "Kalimantan Timur",
+    "listKabupaten": [
+      { "kabupaten": "160300", "gereja": ["HKBP Tanjung Redeb"] },
+      { "kabupaten": "160900", "gereja": [] },
+      { "kabupaten": "160200", "gereja": [] },
+      { "kabupaten": "161000", "gereja": [] },
+      { "kabupaten": "160100", "gereja": [] },
+      { "kabupaten": "161100", "gereja": [] },
+      { "kabupaten": "166100", "gereja": ["GBIS Sangkakala", "GBI Rock Balikpapan", "GBI Antiokhia"] },
+      { "kabupaten": "166300", "gereja": [] },
+      { "kabupaten": "166000", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "34",
+    "provinsi": "Kalimantan Utara",
+    "listKabupaten": [
+      { "kabupaten": "340200", "gereja": [] },
+      { "kabupaten": "340100", "gereja": [] },
+      { "kabupaten": "340500", "gereja": [] },
+      { "kabupaten": "340300", "gereja": [] },
+      { "kabupaten": "346000", "gereja": ["Gereja Toraja Jemaat Juata Tarakan"] }
+    ]
+  },
+  {
+    "idProvinsi": "17",
+    "provinsi": "Sulawesi Utara",
+    "listKabupaten": [
+      { "kabupaten": "170100", "gereja": [] },
+      { "kabupaten": "170300", "gereja": [] },
+      { "kabupaten": "170400", "gereja": [] },
+      { "kabupaten": "170200", "gereja": [] },
+      { "kabupaten": "170500", "gereja": [] },
+      { "kabupaten": "170600", "gereja": [] },
+      { "kabupaten": "176100", "gereja": ["GPdI Victory"] },
+      {
+        "kabupaten": "176000",
+        "gereja": ["GPDI Agathos", "Gmahk Kairagi Pioneer", "GMIM Bukit Moria Rike"]
+      },
+      { "kabupaten": "176200", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "18",
+    "provinsi": "Sulawesi Tengah",
+    "listKabupaten": [
+      { "kabupaten": "180400", "gereja": [] },
+      { "kabupaten": "180100", "gereja": [] },
+      { "kabupaten": "180500", "gereja": [] },
+      { "kabupaten": "180200", "gereja": [] },
+      { "kabupaten": "180700", "gereja": [] },
+      { "kabupaten": "180800", "gereja": [] },
+      { "kabupaten": "180300", "gereja": [] },
+      { "kabupaten": "180900", "gereja": [] },
+      { "kabupaten": "180600", "gereja": [] },
+      { "kabupaten": "186000", "gereja": ["Gereja Protestan Indonesia Donggala"] }
+    ]
+  },
+  {
+    "idProvinsi": "19",
+    "provinsi": "Sulawesi Selatan",
+    "listKabupaten": [
+      { "kabupaten": "191000", "gereja": [] },
+      { "kabupaten": "190600", "gereja": [] },
+      { "kabupaten": "190700", "gereja": [] },
+      { "kabupaten": "191100", "gereja": [] },
+      { "kabupaten": "191600", "gereja": [] },
+      { "kabupaten": "190300", "gereja": [] },
+      { "kabupaten": "190500", "gereja": [] },
+      { "kabupaten": "191700", "gereja": [] },
+      { "kabupaten": "192600", "gereja": [] },
+      { "kabupaten": "192400", "gereja": [] },
+      { "kabupaten": "190100", "gereja": [] },
+      { "kabupaten": "190200", "gereja": [] },
+      { "kabupaten": "191400", "gereja": [] },
+      { "kabupaten": "191300", "gereja": [] },
+      { "kabupaten": "191500", "gereja": [] },
+      { "kabupaten": "191200", "gereja": [] },
+      { "kabupaten": "190900", "gereja": [] },
+      { "kabupaten": "190400", "gereja": [] },
+      { "kabupaten": "191800", "gereja": ["GPT Kristus Gembala Rantepao"] },
+      { "kabupaten": "190800", "gereja": [] },
+      { "kabupaten": "196000", "gereja": ["Gereja Toraja Jemaat Pniel Perumnas"] },
+      { "kabupaten": "196200", "gereja": [] },
+      { "kabupaten": "196100", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "20",
+    "provinsi": "Sulawesi Tenggara",
+    "listKabupaten": [
+      { "kabupaten": "200700", "gereja": [] },
+      { "kabupaten": "200300", "gereja": [] },
+      { "kabupaten": "200400", "gereja": [] },
+      { "kabupaten": "200800", "gereja": [] },
+      { "kabupaten": "200100", "gereja": [] },
+      { "kabupaten": "200500", "gereja": [] },
+      { "kabupaten": "200200", "gereja": [] },
+      { "kabupaten": "200600", "gereja": [] },
+      { "kabupaten": "206100", "gereja": [] },
+      { "kabupaten": "206000", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "30",
+    "provinsi": "Gorontalo",
+    "listKabupaten": [
+      { "kabupaten": "300100", "gereja": [] },
+      { "kabupaten": "300400", "gereja": [] },
+      { "kabupaten": "300200", "gereja": [] },
+      { "kabupaten": "300300", "gereja": [] },
+      { "kabupaten": "300600", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "33",
+    "provinsi": "Sulawesi Barat",
+    "listKabupaten": [
+      { "kabupaten": "330500", "gereja": [] },
+      { "kabupaten": "330400", "gereja": [] },
+      { "kabupaten": "330100", "gereja": [] },
+      { "kabupaten": "330200", "gereja": [] },
+      { "kabupaten": "330300", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "21",
+    "provinsi": "Maluku",
+    "listKabupaten": [
+      { "kabupaten": "210300", "gereja": [] },
+      { "kabupaten": "210700", "gereja": [] },
+      { "kabupaten": "210100", "gereja": [] },
+      { "kabupaten": "210200", "gereja": [] },
+      { "kabupaten": "210400", "gereja": [] },
+      { "kabupaten": "210500", "gereja": [] },
+      { "kabupaten": "210600", "gereja": [] },
+      { "kabupaten": "216000", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "27",
+    "provinsi": "Maluku Utara",
+    "listKabupaten": [
+      { "kabupaten": "270300", "gereja": [] },
+      { "kabupaten": "270500", "gereja": [] },
+      { "kabupaten": "270200", "gereja": [] },
+      { "kabupaten": "270600", "gereja": [] },
+      { "kabupaten": "270400", "gereja": [] },
+      { "kabupaten": "270700", "gereja": [] },
+      { "kabupaten": "276000", "gereja": [] },
+      { "kabupaten": "276100", "gereja": [] }
+    ]
+  },
+  {
+    "idProvinsi": "25",
+    "provinsi": "Papua",
+    "listKabupaten": [
+      { "kabupaten": "251500", "gereja": [] },
+      { "kabupaten": "250200", "gereja": [] },
+      { "kabupaten": "251300", "gereja": [] },
+      { "kabupaten": "250100", "gereja": [] },
+      { "kabupaten": "250800", "gereja": [] },
+      { "kabupaten": "252000", "gereja": [] },
+      { "kabupaten": "251400", "gereja": [] },
+      { "kabupaten": "250700", "gereja": [] },
+      { "kabupaten": "251200", "gereja": [] },
+      { "kabupaten": "250900", "gereja": [] },
+      { "kabupaten": "251000", "gereja": [] },
+      { "kabupaten": "251700", "gereja": [] },
+      { "kabupaten": "251100", "gereja": [] },
+      { "kabupaten": "251900", "gereja": [] },
+      { "kabupaten": "252700", "gereja": [] },
+      { "kabupaten": "251800", "gereja": [] },
+      { "kabupaten": "252600", "gereja": [] },
+      { "kabupaten": "251600", "gereja": [] },
+      { "kabupaten": "250300", "gereja": [] },
+      { "kabupaten": "256000", "gereja": ["GKI Petrus"] }
+    ]
+  },
+  {
+    "idProvinsi": "32",
+    "provinsi": "Papua Barat",
+    "listKabupaten": [
+      { "kabupaten": "320100", "gereja": [] },
+      { "kabupaten": "320200", "gereja": [] },
+      { "kabupaten": "320500", "gereja": [] },
+      { "kabupaten": "320800", "gereja": [] },
+      { "kabupaten": "320700", "gereja": [] },
+      { "kabupaten": "320600", "gereja": [] },
+      { "kabupaten": "320400", "gereja": [] },
+      { "kabupaten": "320300", "gereja": [] },
+      { "kabupaten": "326000", "gereja": [] }
+    ]
+  }
+]
