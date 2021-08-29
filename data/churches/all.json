@@ -826,7 +826,7 @@
       { "kabupaten": "240800", "gereja": [] },
       { "kabupaten": "241300", "gereja": [] },
       { "kabupaten": "241200", "gereja": [] },
-      { "kabupaten": "Kab. Timor Tengah Selatan", "gereja": [] },
+      { "kabupaten": "240300", "gereja": [] },
       { "kabupaten": "240400", "gereja": [] },
       { "kabupaten": "246000", "gereja": ["GMIT Moria Liliba"] }
     ]
@@ -840,7 +840,7 @@
       { "kabupaten": "130600", "gereja": [] },
       { "kabupaten": "130900", "gereja": [] },
       { "kabupaten": "131100", "gereja": [] },
-      { "kabupaten": "Kab. Pontianak", "gereja": [] },
+      { "kabupaten": "136000", "gereja": [] },
       { "kabupaten": "130100", "gereja": [] },
       { "kabupaten": "130300", "gereja": [] },
       { "kabupaten": "131000", "gereja": [] },
@@ -858,7 +858,7 @@
       { "kabupaten": "140300", "gereja": [] },
       { "kabupaten": "141000", "gereja": [] },
       { "kabupaten": "140100", "gereja": [] },
-      { "kabupaten": "Kab. Katingin", "gereja": [] },
+      { "kabupaten": "140600", "gereja": [] },
       { "kabupaten": "140500", "gereja": [] },
       { "kabupaten": "140400", "gereja": [] },
       { "kabupaten": "140900", "gereja": [] },
@@ -881,7 +881,7 @@
       { "kabupaten": "150700", "gereja": [] },
       { "kabupaten": "150900", "gereja": [] },
       { "kabupaten": "150800", "gereja": [] },
-      { "kabupaten": "Kab. Tanah Bambu", "gereja": [] },
+      { "kabupaten": "151100", "gereja": [] },
       { "kabupaten": "150200", "gereja": [] },
       { "kabupaten": "150400", "gereja": [] },
       { "kabupaten": "156100", "gereja": [] },
@@ -893,18 +893,14 @@
     "provinsi": "Kalimantan Timur",
     "listKabupaten": [
       { "kabupaten": "160300", "gereja": ["HKBP Tanjung Redeb"] },
-      { "kabupaten": "Kab. Bulungan", "gereja": [] },
       { "kabupaten": "160900", "gereja": [] },
-      { "kabupaten": "Kab. Kutai Kertanegara", "gereja": [] },
+      { "kabupaten": "160200", "gereja": [] },
       { "kabupaten": "161000", "gereja": [] },
-      { "kabupaten": "Kab. Malinau", "gereja": [] },
-      { "kabupaten": "Kab. Nunukan", "gereja": [] },
-      { "kabupaten": "Kab. Pasir", "gereja": [] },
+      { "kabupaten": "160100", "gereja": [] },
       { "kabupaten": "161100", "gereja": [] },
       { "kabupaten": "166100", "gereja": ["GBIS Sangkakala", "GBI Rock Balikpapan", "GBI Antiokhia"] },
       { "kabupaten": "166300", "gereja": [] },
-      { "kabupaten": "166000", "gereja": ["Gereja Kemah Injil Indonesia"] },
-      { "kabupaten": "Kota Tarakan", "gereja": ["Gereja Toraja Jemaat Juata Tarakan", "GKKA"] }
+      { "kabupaten": "166000", "gereja": ["Gereja Kemah Injil Indonesia"] }
     ]
   },
   {
@@ -915,7 +911,7 @@
       { "kabupaten": "340100", "gereja": [] },
       { "kabupaten": "340500", "gereja": [] },
       { "kabupaten": "340300", "gereja": [] },
-      { "kabupaten": "346000", "gereja": [] }
+      { "kabupaten": "346000", "gereja": ["Gereja Toraja Jemaat Juata Tarakan", "GKKA"] }
     ]
   },
   {
@@ -953,7 +949,7 @@
       { "kabupaten": "180800", "gereja": [] },
       { "kabupaten": "180300", "gereja": ["GKST"] },
       { "kabupaten": "180900", "gereja": [] },
-      { "kabupaten": "Kab. Toloi Toli", "gereja": [] },
+      { "kabupaten": "180600", "gereja": [] },
       { "kabupaten": "186000", "gereja": ["Gereja Kristus Tuhan", "Gereja Protestan Indonesia Donggala"] }
     ]
   },
@@ -967,21 +963,21 @@
       { "kabupaten": "191100", "gereja": [] },
       { "kabupaten": "191600", "gereja": [] },
       { "kabupaten": "190300", "gereja": [] },
-      { "kabupaten": "Kab. Jeneponto.", "gereja": [] },
+      { "kabupaten": "190500", "gereja": [] },
       { "kabupaten": "191700", "gereja": [] },
       { "kabupaten": "192600", "gereja": [] },
       { "kabupaten": "192400", "gereja": [] },
       { "kabupaten": "190100", "gereja": [] },
-      { "kabupaten": "Kab. Pangkajene Kep.", "gereja": [] },
+      { "kabupaten": "190200", "gereja": [] },
       { "kabupaten": "191400", "gereja": [] },
-      { "kabupaten": "Kab. Selayar", "gereja": [] },
-      { "kabupaten": "Kab. Sidenreng Rapang", "gereja": [] },
+      { "kabupaten": "191300", "gereja": [] },
+      { "kabupaten": "191500", "gereja": [] },
       { "kabupaten": "191200", "gereja": [] },
       { "kabupaten": "190900", "gereja": [] },
       { "kabupaten": "190400", "gereja": [] },
       { "kabupaten": "191800", "gereja": ["GPT Kristus Gembala Rantepao", "Gereja Toraja"] },
       { "kabupaten": "190800", "gereja": [] },
-      { "kabupaten": "Kota Makasar", "gereja": ["Gereja Toraja Jemaat Pniel Perumnas"] },
+      { "kabupaten": "196000", "gereja": ["Gereja Toraja Jemaat Pniel Perumnas"] },
       { "kabupaten": "196200", "gereja": [] },
       { "kabupaten": "196100", "gereja": [] }
     ]
@@ -1003,14 +999,14 @@
     ]
   },
   {
-    "idProvinsi": "29",
-    "provinsi": "Gorontalo ",
+    "idProvinsi": "30",
+    "provinsi": "Gorontalo",
     "listKabupaten": [
-      { "kabupaten": "Kab. Boalemo", "gereja": [] },
-      { "kabupaten": "Kab. Bone Bolango", "gereja": [] },
-      { "kabupaten": "Kab. Gorontalo", "gereja": [] },
-      { "kabupaten": "Kab. Pahuwato", "gereja": [] },
-      { "kabupaten": "Kota Gorontalo", "gereja": [] }
+      { "kabupaten": "300100", "gereja": [] },
+      { "kabupaten": "300400", "gereja": [] },
+      { "kabupaten": "300200", "gereja": [] },
+      { "kabupaten": "300300", "gereja": [] },
+      { "kabupaten": "300600", "gereja": [] }
     ]
   },
   {
@@ -1021,7 +1017,7 @@
       { "kabupaten": "330400", "gereja": [] },
       { "kabupaten": "330100", "gereja": [] },
       { "kabupaten": "330200", "gereja": [] },
-      { "kabupaten": "Kab. Polowali Mamasa", "gereja": [] }
+      { "kabupaten": "330300", "gereja": [] }
     ]
   },
   {
@@ -1032,7 +1028,7 @@
       { "kabupaten": "210700", "gereja": [] },
       { "kabupaten": "210100", "gereja": ["Gereja Protestan Maluku"] },
       { "kabupaten": "210200", "gereja": [] },
-      { "kabupaten": "Kab. Maluku Tenggara Brt", "gereja": [] },
+      { "kabupaten": "210400", "gereja": [] },
       { "kabupaten": "210500", "gereja": [] },
       { "kabupaten": "210600", "gereja": [] },
       { "kabupaten": "216000", "gereja": ["Gereja Protestan Maluku", "GBI Rock"] }
@@ -1074,8 +1070,8 @@
       { "kabupaten": "251800", "gereja": [] },
       { "kabupaten": "252600", "gereja": [] },
       { "kabupaten": "251600", "gereja": [] },
-      { "kabupaten": "Kab. Yapen Waropen", "gereja": [] },
-      { "kabupaten": "256000", "gereja": ["GKI Petrus", "Gereja Pantekosta Di Indonesia (gpdi)", "GII Dago"] }
+      { "kabupaten": "250300", "gereja": [] },
+      { "kabupaten": "256000", "gereja": ["GKI Petrus", "Gereja Pantekosta Di Indonesia (gpdi)"] }
     ]
   },
   {
@@ -1088,7 +1084,7 @@
       { "kabupaten": "320800", "gereja": [] },
       { "kabupaten": "320700", "gereja": [] },
       { "kabupaten": "320600", "gereja": [] },
-      { "kabupaten": "Kab. Teluk Bentuni", "gereja": [] },
+      { "kabupaten": "320400", "gereja": [] },
       { "kabupaten": "320300", "gereja": [] },
       { "kabupaten": "326000", "gereja": ["Gereja Sidang Jemaat Kristus"] }
     ]
