@@ -134,6 +134,7 @@ enum Relationship {
   PAMAN
   KAKEK
   NENEK
+  OTHER
 }
 
 model Discipleship {
