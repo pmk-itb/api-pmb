@@ -10,12 +10,10 @@ const router = Router();
 router.all('*', [apiKeyNeeded, validTokenNeeded]);
 
 router.get('/', function (_req: Request, res: Response) {
-  console.log('GET /api');
   res.send('This is home page');
 });
 
 router.get('/about', function (_req: Request, res: Response) {
-  console.log('GET /api/about');
   res.send('This is about');
 });
 
