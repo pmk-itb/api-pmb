@@ -130,7 +130,11 @@ describe('Test Regional Data Routes', () => {
     const token = process.env.API_KEY as string;
     const { body, status } = await request(app).get('/api/churches?city_id=060500').auth(token, { type: 'bearer' });
 
+    const expectedData = {
+      data: [],
+    };
+
     expect(status).toBe(200);
-    expect(JSON.stringify(body)).toMatch(JSON.stringify([]));
+    expect(JSON.stringify(body)).toMatch(JSON.stringify(expectedData));
   });
 });
