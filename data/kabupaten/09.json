@@ -1,0 +1,14 @@
+[
+  { "id": "090100", "nama": "KAB. KAMPAR" },
+  { "id": "090400", "nama": "KAB. INDRAGIRI HULU" },
+  { "id": "090200", "nama": "KAB. BENGKALIS" },
+  { "id": "090500", "nama": "KAB. INDRAGIRI HILIR" },
+  { "id": "090800", "nama": "KAB. PELALAWAN" },
+  { "id": "090900", "nama": "KAB. ROKAN HULU" },
+  { "id": "091000", "nama": "KAB. ROKAN HILIR" },
+  { "id": "091100", "nama": "KAB. SIAK" },
+  { "id": "091400", "nama": "KAB. KUANTAN SINGINGI" },
+  { "id": "091500", "nama": "KAB. KEPULAUAN MERANTI" },
+  { "id": "096000", "nama": "KOTA PEKANBARU" },
+  { "id": "096200", "nama": "KOTA DUMAI" }
+]

@@ -1,0 +1,2350 @@
+[
+  {
+    "idProvinsi": "1",
+    "provinsi": "Aceh",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Aceh Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Aceh Barat Daya",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Aceh Besar",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Aceh Jaya",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Aceh Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Aceh Singkil",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Aceh Tamiang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Aceh Tenggara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Aceh Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Aceh Utara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bener Meriah",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bireun",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Gayo Lues",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Nagan Jaya",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pidie",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Simeulue",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tengah",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Banda Aceh",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Langsa",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Lhokseumawe",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Sabang",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "2",
+    "provinsi": "Sumatera Utara",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Asahan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Dairi",
+        "gereja": ["GKPI", "HKBP 1 Sidikalang", "HKBP Panji Porsea"]
+      },
+      {
+        "kabupaten": "Kab. Deli Serdang",
+        "gereja": ["Gereja Methodist Indonesia"]
+      },
+      {
+        "kabupaten": "Kab. Humbang Hasundutan",
+        "gereja": ["HKBP Siononompu", "Gereja Huria Kristen Indonesia"]
+      },
+      {
+        "kabupaten": "Kab. Karo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Labuhan Batu",
+        "gereja": ["GMI", "HKBP Sei Tawar"]
+      },
+      {
+        "kabupaten": "Kab. Langkat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Mandailing Natal",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Nias",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Nias Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pakpak Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Samosir",
+        "gereja": ["HKBP Tuk Tuk"]
+      },
+      {
+        "kabupaten": "Kab. Serdang Bedagai",
+        "gereja": ["GPIB"]
+      },
+      {
+        "kabupaten": "Kab. Simalungun",
+        "gereja": ["GKPS Tigarunggu"]
+      },
+      {
+        "kabupaten": "Kab. Tapanuli Selatan",
+        "gereja": ["GKPA"]
+      },
+      {
+        "kabupaten": "Kab. Tapanuli Tengah",
+        "gereja": ["HKBP Sibuluan"]
+      },
+      {
+        "kabupaten": "Kab. Tapanuli Utara",
+        "gereja": ["HKBP Pearaja Tarutung", "HKBP Tarutung Kota", "HKI", "Huria Kristen Indonesia"]
+      },
+      {
+        "kabupaten": "Kab. Toba Samosir",
+        "gereja": [
+          "HKBP Balige",
+          "GBKP",
+          "HKBP Tambunan Baruara",
+          "HKBP Soposurung",
+          "GKPI",
+          "HKBP Paronan Nagodang",
+          "Gereja Kristen Protestan Indonesia"
+        ]
+      },
+      {
+        "kabupaten": "Kota Binjai",
+        "gereja": ["Gereja Kristus Yesus"]
+      },
+      {
+        "kabupaten": "Kota Medan",
+        "gereja": [
+          "GKPI Medan Kota",
+          "Gereja Kristen Protestan Pakpak Dairi",
+          "Gereja Kristen Protestan Simalungun",
+          "HKBP Sri Gunting Indah",
+          "Tidak Ada",
+          "Gereja Mawar Sharon",
+          "Gereja Batak Karo Protestan",
+          "Chapel Usu",
+          "HKBP Sudirman Medan",
+          "HKBP Riau",
+          "HKBP Uskup Agung Sugiopranoto Medan",
+          "GBKP Medan",
+          "Gereja Methodist Indonesia Mu En",
+          "Gereja Pentakosta Di Indonesia",
+          "Gereja Protestan Di Indonesia Bagian Barat (gpib)",
+          "Gereja Gratia Methodist",
+          "HBKP",
+          "GBKP Km.8 Medan",
+          "Gereja Kristen Protestan Indonesia",
+          "GPIB",
+          "HKBP Polonia",
+          "Gereja Methodist Indonesia"
+        ]
+      },
+      {
+        "kabupaten": "Kota Padang Sidempuan",
+        "gereja": ["Gereja Kristen Protestan Indonesia"]
+      },
+      {
+        "kabupaten": "Kota Pematang Siantar",
+        "gereja": [
+          "GKPS",
+          "Gereja Methodist Indonesia",
+          "Gereja Kristen Protestan Simalungun",
+          "HKBP Sipinggol-pinggol",
+          "HKBP Martoba Pematangsiantar",
+          "Huria Kristen Indonesia"
+        ]
+      },
+      {
+        "kabupaten": "Kota Sibolga",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Tanjung Balai",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Tebing Tinggi",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "3",
+    "provinsi": "Sumatera Barat",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Agam",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Dharmasraya",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kepulauan Mentawai",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lima Puluh Kota",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Padang Pariaman",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pasaman",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pasaman Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Solok",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Solok Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sw.lunto",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tanah Datar",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab.pesisir Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Bukittinggi",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Padang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Padang Panjang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Pariaman",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Payakumbuh",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Sawhlunto",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Solok",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "4",
+    "provinsi": "Riau",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Bengkalis",
+        "gereja": [
+          "HKBP Simpang Padang",
+          "HKBP Duri Ressort Duri",
+          "Huria Kristen Indonesia",
+          "Gereja Protestan Indonesia Bagian Barat"
+        ]
+      },
+      {
+        "kabupaten": "Kab. Indragiri Hilir",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Indragiri Hulu",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kampar",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kuantan Singingi",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pelalawan",
+        "gereja": ["GPDI", "Gereja Batak Karo Protestan (gbkp)"]
+      },
+      {
+        "kabupaten": "Kab. Rokan Hilir",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Rokan Hulu",
+        "gereja": ["HKBP Ressot Estomihi"]
+      },
+      {
+        "kabupaten": "Kab. Siak",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Dumai",
+        "gereja": ["Gereja Methodist Indonesia"]
+      },
+      {
+        "kabupaten": "Kota Pekan Baru",
+        "gereja": [
+          "Gereja Pantekosta Di Indonesia",
+          "Gereja Batak Karo Protestant",
+          "HKBP Hangtuah Pekanbaru",
+          "Gereja Kristen Kalam Kudus",
+          "Gereja Mawar Sharon",
+          "GPIB Immanuel Pekanbaru",
+          "HKBP Pekanbaru Kota"
+        ]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "5",
+    "provinsi": "Jambi",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Batanghari",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bungo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kerinci",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Merangin",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Muaro Jambi",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sarolangun",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tanjung Jabung Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tanjung Jabung Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tebo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Jambi",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "6",
+    "provinsi": "Sumatera Selatan",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Banyuasin",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lahat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Muara Enim",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Musi Banyuasin",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Musi Rawas",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Ogan Ilir",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Ogan Komering Ilir",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Ogan Komering Ulu",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Oku Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Oku Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Lubuk Linggau",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Pagar Alam",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Palembang",
+        "gereja": ["Gereja Baptis Palembang", "Gereja Kristus Yesus"]
+      },
+      {
+        "kabupaten": "Kota Prabumulih",
+        "gereja": ["HKBP Kasih Prabumulih"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "7",
+    "provinsi": "Bengkulu",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Bengkulu Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bengkulu Utara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kaur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kepahiang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lebong",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Muko Muko",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Rejang Lebong",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Seluma",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Bengkulu",
+        "gereja": ["Gereja Methodist Indonesia", "GKII Bengkulu"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "8",
+    "provinsi": "Lampung",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Lampung Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lampung Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lampung Tengah",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lampung Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lampung Utara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tanggamus",
+        "gereja": ["HKBP Pringsewu"]
+      },
+      {
+        "kabupaten": "Kab. Tulang Bawang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Way Kanan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Bandar Lampung",
+        "gereja": ["GBI Kartini", "Gereja Pantekosta Di Indonesia 'ora Etlabora'", "JKI", "Gereja Mawar Sharon"]
+      },
+      {
+        "kabupaten": "Kota Metro",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "9",
+    "provinsi": "Kepulauan Bangka Belitung",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Bangka",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bangka Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bangka Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bangka Tengah",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bangka Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Belitung",
+        "gereja": ["Gepekris"]
+      },
+      {
+        "kabupaten": "Kota Pangkal Pinang",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "10",
+    "provinsi": "Kep Riau",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Karimun",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kepulauan Riau",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lingga",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Natuna",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Batam",
+        "gereja": [
+          "GBI Tabgha",
+          "Gereja Pantekosta di Indonesia",
+          "HKBP Mahanaim",
+          "GSJA",
+          "GPIB",
+          "Gereja Kristen Oikoumene Indonesia"
+        ]
+      },
+      {
+        "kabupaten": "Kota Tanjung Pinang",
+        "gereja": ["GKB Kahal"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "11",
+    "provinsi": "DKI Jakarta",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab.adm.kep.seribu",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kodya Jakarta Barat",
+        "gereja": [
+          "Gereja Kristus Yesus Pluit",
+          "GKY Puri",
+          "GKY Greenville",
+          "GBI Kasih Kristus",
+          "GKY Citra",
+          "GBI Rem Jakarta",
+          "Gereja Yesus Sejati",
+          "Abbalove",
+          "Gereja Bethel Indonesia Taman Semanan Indah",
+          "GKI Puri Indah",
+          "Gereja Kristen Indonesia (gki Nurdin)",
+          "GPIB Shalom",
+          "Gereja Pantekosta Di Indonesia",
+          "NDC Nafiri",
+          "GKI Surya Utama",
+          "NDC Central Park",
+          "HKBP Kebun Jeruk",
+          "Gereja Kristus Yesus Jemaat Greenville",
+          "Gereja Kristus Bojong Indah",
+          "Gereja Kalam Kudus",
+          "GBI Gatot Subroto",
+          "ECC Jakarta",
+          "Nafiri Discipleship Church",
+          "GKI Citra 1",
+          "GSRI Jembatan 5",
+          "GMI Imanuel",
+          "GKDI",
+          "JPCC",
+          "GPDI Sahabat Allah"
+        ]
+      },
+      {
+        "kabupaten": "Kodya Jakarta Pusat",
+        "gereja": [
+          "Gereja Kristen Karunia Injili",
+          "Gereja Kemah Abraham",
+          "GBI Prj",
+          "GPIB Pniel",
+          "GKI Gading Indah",
+          "GKI Kwitang",
+          "Gepembri Kelapa Gading",
+          "GBI CITY Tower",
+          "GKJ Pondok Gede"
+        ]
+      },
+      {
+        "kabupaten": "Kodya Jakarta Selatan",
+        "gereja": [
+          "Gereja Batak Karo Protestan",
+          "GKI Pondok Indah",
+          "Gereja Kristen Pasundan",
+          "GKP Bekasi",
+          "GKI Keb. Lama",
+          "HKBP Menteng",
+          "GBI Poins Square",
+          "GBI Gandaria City",
+          "NCH",
+          "GPIB Bukit Moria",
+          "Gereja Kristen Indonesia Pondok Indah",
+          "GPDI Barito",
+          "Gereja Kemah Tabernakel",
+          "Gereja Duta Injil",
+          "Gereja Injili Kasih Indonesia",
+          "GKI Kebayoran Baru"
+        ]
+      },
+      {
+        "kabupaten": "Kodya Jakarta Timur",
+        "gereja": [
+          "GKI Raya Hankam",
+          "Gereja Bethel Indonesia Prj (praise Revival For Jesus)",
+          "Gereja Tiberias Indonesia",
+          "HKBP Pondok Bambu",
+          "Gereja Bala Keselamatan",
+          "HKBP Tebet",
+          "Jatiwangi",
+          "GPIB Menara Iman",
+          "Gereja Kristen Baptis Jakarta",
+          "HKBP Kramat Jati",
+          "Huria Kristen Batak Protestan (hkbp)",
+          "GKJ Gandaria",
+          "GBI Tamini Square - Rayon 1i",
+          "HKBP Cipayung Cilangkap",
+          "Gereja Kristen Jawa Jakarta",
+          "GKI Kayu Putih",
+          "JPCC",
+          "GBKP Cililitan",
+          "GKPI Rawamangun",
+          "GKI Cipinang Indah",
+          "HKBP Perumnas Klender",
+          "Huria Kristen Indonesia",
+          "HKBP Kayu Putih",
+          "HKBP Rawamangun",
+          "Gereja HKBP Jatinegara"
+        ]
+      },
+      {
+        "kabupaten": "Kodya Jakarta Utara",
+        "gereja": [
+          "Gereja Kristus di Indonesia",
+          "Tiberias",
+          "Abbalove Industri",
+          "GBI Gilgal",
+          "GJKI",
+          "Gereja Kemah Tabernakel",
+          "GKI Sunter",
+          "GBI Tampak Siring",
+          "GBI Moi",
+          "Gereja Tiberias Indonesia",
+          "GKY Pluit",
+          "GBI Prj",
+          "Abbalove",
+          "JPCC",
+          "GPDI Bethlehem",
+          "HKBP Immanuel Kelapa Gading"
+        ]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "12",
+    "provinsi": "Jawa Barat",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Bandung",
+        "gereja": [
+          "GII Hok Im Tong Holis",
+          "Gereja Kristen Kalam Kudus Bandung",
+          "Gereja Kristen Kalam Kudus Tki",
+          "Gereja Kristen Kalam Kudus",
+          "Gmahk Pondok Mas",
+          "GII Hit Taman Rahayu",
+          "GBI Sukawarna",
+          "GPIB",
+          "Tiberias",
+          "GKJ Bandung",
+          "Gspdi Filadelfia"
+        ]
+      },
+      {
+        "kabupaten": "Kab. Bekasi",
+        "gereja": [
+          "Gereja Tiberias Indonesia",
+          "Gereja Kristen Indonesia (wahid Hasyim)",
+          "GKPB Mdc Lippo Cikarang",
+          "GPDI Cikarang Utara",
+          "GKI Harapan Indah",
+          "GKPB Fajar Pengharapan Mdc",
+          "Gereja Bethel Indonesia Rayon 8",
+          "GPIB Immanuel Bekasi",
+          "Gereja Batak Karo Protestan",
+          "Tiberias Moi",
+          "Gereja Isa Almasih Rajawali",
+          "GBI Jl. Gatot Subroto"
+        ]
+      },
+      {
+        "kabupaten": "Kab. Bogor",
+        "gereja": [
+          "GKI Kota Wisata",
+          "JPCC",
+          "Gereja Kristus Yesus",
+          "Gereja Masehi Advent Hari Ketujuh",
+          "HKBP Sudirman Jakarta",
+          "Gereja HKBP Jatiasih",
+          "Gereja Kristen Indonesia Kota Wisata"
+        ]
+      },
+      {
+        "kabupaten": "Kab. Ciamis",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Cianjur",
+        "gereja": ["Gereja Yesus Sejati"]
+      },
+      {
+        "kabupaten": "Kab. Cirebon",
+        "gereja": ["GKI Jamblang", "GPIB Bethel Bandung"]
+      },
+      {
+        "kabupaten": "Kab. Garut",
+        "gereja": ["Gereja Injili Indonesia"]
+      },
+      {
+        "kabupaten": "Kab. Indramayu",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Karawang",
+        "gereja": ["GPDI Resinda", "GBI Sion Karawang"]
+      },
+      {
+        "kabupaten": "Kab. Kuningan",
+        "gereja": ["Gereja Kristen Kemah Daud", "Gereja Pantekosta Di Indonesia"]
+      },
+      {
+        "kabupaten": "Kab. Majalengka",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Purwakarta",
+        "gereja": ["GKJ Margoyudan Solo"]
+      },
+      {
+        "kabupaten": "Kab. Subang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sukabumi",
+        "gereja": ["GKI Penginjil"]
+      },
+      {
+        "kabupaten": "Kab. Sumedang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tasikmalaya",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Bandung",
+        "gereja": [
+          "Gereja Injili Indonesia Dago",
+          "Gereja Kristen Kemah Daud",
+          "CLCC",
+          "GII Hok Im Tong Gardujati",
+          "GKI Cibunut",
+          "Gereja Kristen Perjanjian Baru",
+          "GBI Aruna",
+          "GKI Gading Serpong",
+          "GBI Prj",
+          "GII Hok Im Tong Bandung",
+          "GIA Taman Kopo Indah",
+          "Gereja Rehobth",
+          "GKI Guntur",
+          "GII Hok Im Tong",
+          "GGP Shalom Bandung",
+          "GKPB Fajar Pengharapan",
+          "GMI",
+          "Gereja Sidang Jemaat Kristus",
+          "Gereja Baptis Independent Indonesia Anugerah",
+          "GKKD Cimahi",
+          "GKIM Amanat Kristus",
+          "GKI Taman Cibunut",
+          "Elshadai Creative Community (ecc)",
+          "GKJ Kiaracondong",
+          "GKI Kebon Jati 100",
+          "BFA",
+          "HKBP",
+          "HKBP Bandung Timur",
+          "Gereja HKBP Tarakan",
+          "HKBP Riau Martadinata Bandung",
+          "GKMI Bandung",
+          "GPK",
+          "Gereja Mawar Sharon",
+          "Gereja Kristen Protestan Simalungun",
+          "GBI Sport Center Harapan Indah",
+          "Bethesda",
+          "GBI Sunter Mall",
+          "Gkkkb",
+          "GBI Stairway From Heaven",
+          "GBI Emunah Solo Baru",
+          "Huria Kristen Batak Protestan",
+          "Gereja Kristen Indonesia",
+          "GII Hok Im Tong Rahayu",
+          "Gereja Kristen Simalungun Protestan",
+          "GBI",
+          "HKI Dame Bandung",
+          "GKI Kebo Jati",
+          "GII Hok Im Tong Setrasari",
+          "GKPO Imanuel",
+          "HKBP Riau",
+          "Gereja Kristen Pasundan Jemaat Bandung",
+          "Gereja Injil Indonesia",
+          "GKPB Fp",
+          "GII Dago",
+          "GKI Anugerah",
+          "GBI Sumber Sari",
+          "Gereja Kristen Kalam Kudus",
+          "GKJ Bandung",
+          "GKIM Ka Im Tong",
+          "Gereja Gerakan Pentakosta Shalom Bandung",
+          "Gereja Injili Karo Indonesia",
+          "GKKD",
+          "GII Kebon Jati",
+          "GKIM Hosanna",
+          "GBI Ppl",
+          "GKP Awiligar",
+          "Gereja Kristen Indonesia Anugerah, Bandung",
+          "Gereja Bethel Tabernacle Cisokan",
+          "GJKI Penuaian",
+          "GII Kebonjati",
+          "Gereja Kristen Indonesia Kebonjati",
+          "Gereja Kalam Kudus Kopo Permai"
+        ]
+      },
+      {
+        "kabupaten": "Kota Banjar",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Bekasi",
+        "gereja": [
+          "GSJA Imanuel",
+          "GBI Lippo Cikarang",
+          "GKI Camar",
+          "HKBP Jakasampurna",
+          "GKO Bekasi 1",
+          "HKBP Setia Mekar",
+          "GBI Tampak Siring",
+          "Gereja HKBP Kemang Pratama",
+          "GKI Agus Salim",
+          "HKBP Jatiwaringin",
+          "GBI Baranangsiang",
+          "HKBP Taman Wisma Asri",
+          "GKI Kemang Pratama",
+          "Abbalove",
+          "GKI Raya Hankam",
+          "Gereja Pentakosta Sion Indonesia",
+          "HKBP Ujung Menteng",
+          "Gereja Sidang Jemaat Kristus",
+          "GBI Rehobot",
+          "GBKP",
+          "Gereja Isa Almasih Pegangsaan",
+          "HLBP Pejuang Ressort Palmarum",
+          "GKI Layur",
+          "GPI Petra",
+          "GKPS Salemba",
+          "Gereja Protestan Indonesia Di Bagian Barat"
+        ]
+      },
+      {
+        "kabupaten": "Kota Bogor",
+        "gereja": [
+          "GPIB Jemaat Petra Bogor",
+          "JPCC",
+          "HKBP Villa Duta",
+          "GKI Kotawisata",
+          "GKI Pengadilan",
+          "Gereja Beritakan Injil Bogor",
+          "GBI Jemaat Induk Senayan",
+          "Gereja Tiberias"
+        ]
+      },
+      {
+        "kabupaten": "Kota Cimahi",
+        "gereja": [
+          "Baptist Cimahi",
+          "GKI Cimahi",
+          "Gereja Kristen Perjanjian Baru",
+          "GKJ Bandung",
+          "GPDI Padalarang",
+          "GKPB Fajar Pengharapan",
+          "GII Hok Im Tong - Gardujati"
+        ]
+      },
+      {
+        "kabupaten": "Kota Cirebon",
+        "gereja": ["GBI Pekiringan", "GBI Doulos", "GBI Sukawarna", "GKI Pengampon"]
+      },
+      {
+        "kabupaten": "Kota Depok",
+        "gereja": [
+          "Gereja GKI Maulana Yusuf",
+          "Gereja Protestan Indonesia Bagian Barat",
+          "Gereja Kristen Indonesia Depok",
+          "GKI Pondok Indah",
+          "HKBP Depok Timur",
+          "GSJA Cws Rajawali",
+          "GKI Pamulang",
+          "GBI Lewi Pondok Gede"
+        ]
+      },
+      {
+        "kabupaten": "Kota Sukabumi",
+        "gereja": ["GII", "GKI Zaenal Zahse"]
+      },
+      {
+        "kabupaten": "Kota Tasikmalaya",
+        "gereja": ["Gereja Kristen Indonesia Veteran Tasikmalaya"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "13",
+    "provinsi": "Jawa Tengah",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Banjarnegara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Banyumas",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Batang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Blora",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Boyolali",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Brebes",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Cilacap",
+        "gereja": ["HKBP Cilacap"]
+      },
+      {
+        "kabupaten": "Kab. Demak",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Grobogan",
+        "gereja": ["GKJ Purwodadi"]
+      },
+      {
+        "kabupaten": "Kab. Jepara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Karanganyar",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kebumen",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kendal",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Klaten",
+        "gereja": ["GKJ Wonosari", "GKI Klaten", "Gereja Kristen Jawa"]
+      },
+      {
+        "kabupaten": "Kab. Kudus",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Magelang",
+        "gereja": ["GKI Muntilan"]
+      },
+      {
+        "kabupaten": "Kab. Pati",
+        "gereja": ["Gereja Bethany Indonesia Banyutowo", "GITJ Juwana", "GITJ Margorejo"]
+      },
+      {
+        "kabupaten": "Kab. Pekalongan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pemalang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Purbalingga",
+        "gereja": ["GKI Gatot Subroto Purwokerto"]
+      },
+      {
+        "kabupaten": "Kab. Purworejo",
+        "gereja": ["GMS"]
+      },
+      {
+        "kabupaten": "Kab. Rembang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Semarang",
+        "gereja": ["GOOD News CITY Church", "JKI Higer Than Ever", "GKI Beringin Semarang", "Jemaat Kristen Indonesia"]
+      },
+      {
+        "kabupaten": "Kab. Sragen",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sukoharjo",
+        "gereja": ["GKJ Sukoharjo"]
+      },
+      {
+        "kabupaten": "Kab. Tegal",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Temanggung",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Wonogiri",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Wonosobo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Magelang",
+        "gereja": ["GKJ Magelang"]
+      },
+      {
+        "kabupaten": "Kota Pekalongan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Salatiga",
+        "gereja": ["Gereja Jemaat Kristus Indonesia", "GKJ Ampel"]
+      },
+      {
+        "kabupaten": "Kota Semarang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Surakarta",
+        "gereja": ["GBIKA Surakarta, Jawa Tengah", "JKI Maranatha Ungaran", "Gereja Kristen Jawa", "GKJ Karanganyar"]
+      },
+      {
+        "kabupaten": "Kota Tegal",
+        "gereja": ["GSJA"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "14",
+    "provinsi": "DI Yogyakarta",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Bantul",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Gunung Kidul",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kulon Progo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sleman",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Yogyakarta",
+        "gereja": ["GPDI Hayam Wuruo", "GKI Ngupasan"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "15",
+    "provinsi": "Jawa Timur",
+    "listKabupaten": [
+      {
+        "kabupaten": "Batu",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bangkalan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Banyuwangi",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Blitar",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bojonegoro",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bondowoso",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Gresik",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Jember",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Jombang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kediri",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lamongan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lumajang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Madiun",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Magetan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Malang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Mojokerto",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Nganjuk",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Ngawi",
+        "gereja": ["Gereja Utusan Pantekosta El-shaddai"]
+      },
+      {
+        "kabupaten": "Kab. Pacitan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pamekasan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pasuruan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Ponorogo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Probolinggo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sampang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sidoarjo",
+        "gereja": ["Gereja Kristen Protestan Simalungun", "Gereja Kristen Injili Nusantara"]
+      },
+      {
+        "kabupaten": "Kab. Situbondo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sumenep",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Trenggalek",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tuban",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tulungagung",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Blitar",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Kediri",
+        "gereja": ["Gereja Utusan Pantekosta"]
+      },
+      {
+        "kabupaten": "Kota Madiun",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Malang",
+        "gereja": ["GKI Batu", "GKI Bromo"]
+      },
+      {
+        "kabupaten": "Kota Mojokerto",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Pasuruan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Probolinggo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Surabaya",
+        "gereja": [
+          "Gereja Bethany Nginden Surabaya",
+          "Gereja Kalam Kudus",
+          "GTI Bukit Zaitun",
+          "Gereja Bethany Nginden",
+          "Mawar Sharon",
+          "Gereja Kristen Indonesia Merisi Indah",
+          "GSKI Jemaat Bethany Manyar",
+          "Gereja Bethany Indonesia",
+          "GKJW Wiyung",
+          "YHS",
+          "GKA Gloria",
+          "GKI Pregbun"
+        ]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "16",
+    "provinsi": "Banten",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Lebak",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pandeglang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Serang",
+        "gereja": ["GKI Serang"]
+      },
+      {
+        "kabupaten": "Kab. Tangerang",
+        "gereja": [
+          "Gereja Mawar Sharon",
+          "Gereja Kristen Sangkakala Indonesia",
+          "GKI Gading Serpong",
+          "Cross Harvest Church",
+          "Abbalove Ministries Gading Serpong",
+          "GBI Basilea Christ Cathedral",
+          "HKBP Serpong",
+          "GKI Serpong",
+          "Gereja Injili Indonesia (semanggi)",
+          "NDC Ministry"
+        ]
+      },
+      {
+        "kabupaten": "Kota Cilegon",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Tangerang",
+        "gereja": [
+          "Gereja Kristus Sarua Permai",
+          "GBI Modernland",
+          "Gereja Kristen Indonesia Pamulang",
+          "GKI Kota Modern",
+          "Gereja Methodist Indonesia",
+          "GKY",
+          "GKI Pamulang",
+          "Gereja Injili Indonesia (gii) Hok Im Tong",
+          "GKI Serpong",
+          "Christ Cathedral",
+          "HKBP Perumnas",
+          "Gereja Bethel Indonesia Modernland",
+          "GBI Fatmawati",
+          "NDC",
+          "Gereja Kristen Indonesia Serpong",
+          "GBI Pasar Baru Tangerang",
+          "Gereja Injili Indonesia (gii Hok Im Tong)"
+        ]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "17",
+    "provinsi": "Bali",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Badung",
+        "gereja": ["Gereja Kristen Indonesia (gki)"]
+      },
+      {
+        "kabupaten": "Kab. Bangli",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Buleleng",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Gianyar",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Jembarana",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Karangasem",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Klungkung",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tabanan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Denpasar",
+        "gereja": ["GPT Baithani", "GBI Rock"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "18",
+    "provinsi": "Nusa Tenggara Barat",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Bima",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Dompu",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lombok Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lombok Tengah",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lombok Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sumbawa",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sumbawa Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Bima",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Mataram",
+        "gereja": ["GPIB Wr Supratman"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "19",
+    "provinsi": "Nusa Tenggara Timur",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Alor",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Belu",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Ende",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Flores Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kupang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lembata",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Manggarai",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Manggarai Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Ngada",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Rote Ndao",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sikka",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sumba Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sumba Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Timor Tengah Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Timor Tengah Utara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Kupang",
+        "gereja": ["GMIT Moria Liliba"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "20",
+    "provinsi": "Kalimantan Barat",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Bengkayang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kapuas Hulu",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Ketapang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Landak",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Melawi",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pontianak",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sambas",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sanggau",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sekadau",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sintang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Pontianak",
+        "gereja": ["Gereja Isa Almasih Indonesia"]
+      },
+      {
+        "kabupaten": "Kota Singkawang",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "21",
+    "provinsi": "Kalimantan Tengah",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Barito Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Barito Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Barito Utara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Gunung Mas",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kapuas",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Katingin",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kotawaringin Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kotawaringin Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Lamandau",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Murung Raya",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pulang Pisau",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Seruyan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sukamara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Palangkaraya",
+        "gereja": ["Gereja Mawar Sharon", "GKE"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "22",
+    "provinsi": "Kalimantan Selatan",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Balangan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Banjar",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Barito Kuala",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Hulu Sungai Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Hulu Sungai Tengah",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Hulu Sungai Utara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kotabaru",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tabalong",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tanah Bambu",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tanah Laut",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tapin",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Banjarbaru",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Banjarmasin",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "23",
+    "provinsi": "Kalimantan Timur",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Berau",
+        "gereja": ["HKBP Tanjung Redeb"]
+      },
+      {
+        "kabupaten": "Kab. Bulungan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kutai Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kutai Kertanegara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kutai Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Malinau",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Nunukan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pasir",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Penajam Paser Utara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Balikpapan",
+        "gereja": ["GBIS Sangkakala", "GBI Rock Balikpapan", "GBI Antiokhia"]
+      },
+      {
+        "kabupaten": "Kota Bontang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Samarinda",
+        "gereja": ["Gereja Kemah Injil Indonesia"]
+      },
+      {
+        "kabupaten": "Kota Tarakan",
+        "gereja": ["Gereja Toraja Jemaat Juata Tarakan", "GKKA"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "24",
+    "provinsi": "Kalimantan Utara",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Bulungan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Malinau",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Nunukan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tana Tidung",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Tarakan",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "25",
+    "provinsi": "Sulawesi Utara",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Bolaang Mangondow",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kepulauan Sangihe",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kepulauan Talaud",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Minahasa",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Minahasa Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Minahasa Utara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Bitung",
+        "gereja": ["Gereja Pantekosta Di Indonesia Victory"]
+      },
+      {
+        "kabupaten": "Kota Manado",
+        "gereja": [
+          "GPDI Agathos",
+          "Gmahk Kairagi Pioneer",
+          "Gereja Masehi Injili Di Minahasa (gmim)",
+          "GMIM Bukit Moria Rike"
+        ]
+      },
+      {
+        "kabupaten": "Kota Tomohon",
+        "gereja": ["Gereja Masehi Injili Di Minahasa"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "26",
+    "provinsi": "Sulawesi Tengah",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Banggai",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Banggai Kepulauan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Buol",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Donggala",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Morowali",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Parigi Moutong",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Poso",
+        "gereja": ["GKST"]
+      },
+      {
+        "kabupaten": "Kab. Tojo Una Una",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Toloi Toli",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Palu",
+        "gereja": ["Gereja Kristus Tuhan", "Gereja Protestan Indonesia Donggala"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "27",
+    "provinsi": "Sulawesi Selatan",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Bantaeng",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Barru",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bone",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bulukumba",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Enrekang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Gowa",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Jeneponto.",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Luwu",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Luwu Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Luwu Utara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Maros",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pangkajene Kep.",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pinrang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Selayar",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sidenreng Rapang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sinjai",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Soppeng",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Takalar",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tana Toraja",
+        "gereja": ["GPT Kristus Gembala Rantepao", "Gereja Toraja"]
+      },
+      {
+        "kabupaten": "Kab. Wajo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Makasar",
+        "gereja": ["Gereja Toraja Jemaat Pniel Perumnas"]
+      },
+      {
+        "kabupaten": "Kota Palopo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Pare Pare",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "28",
+    "provinsi": "Sulawesi Tenggara",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Bombana",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Buton",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kolaka",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kolaka Utara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Konawe",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Konawe Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Muna",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Wakatobi",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Bau Bau",
+        "gereja": ["Gereja Sidang Jemaat Kristus"]
+      },
+      {
+        "kabupaten": "Kota Kendari",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "29",
+    "provinsi": "Gorontalo ",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Boalemo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Bone Bolango",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Gorontalo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pahuwato",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Gorontalo",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "30",
+    "provinsi": "Sulawesi Barat",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Majene",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Mamasa",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Mamuju",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Mamuju Utara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Polowali Mamasa",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "31",
+    "provinsi": "Maluku",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Buru",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kepulauan Aru",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Maluku Tengah",
+        "gereja": ["Gereja Protestan Maluku"]
+      },
+      {
+        "kabupaten": "Kab. Maluku Tenggara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Maluku Tenggara Brt",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Seram Bagian Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Seram Bagian Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Ambon",
+        "gereja": ["Gereja Protestan Maluku", "GBI Rock"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "32",
+    "provinsi": "Maluku Utara",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Halmahera Barat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Halmahera Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Halmahera Tengah",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Halmahera Timur",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Halmahera Utara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Kepulauan Sula",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Ternate",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Tidore Kepulauan",
+        "gereja": []
+      }
+    ]
+  },
+  {
+    "idProvinsi": "33",
+    "provinsi": "Papua",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Asmat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Biak Numfor",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Boven Digoel",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Jayapura",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Jayawijaya",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Keerom",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Mappi",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Merauke",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Mimika",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Nabire",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Paniai",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Pegunungan Bintang",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Puncak Jaya",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sarmi",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Supiori",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Tolikara",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Waropen",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Yahukimo",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Yapen Waropen",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Jayapura",
+        "gereja": ["GKI Petrus", "Gereja Pantekosta Di Indonesia (gpdi)", "GII Dago"]
+      }
+    ]
+  },
+  {
+    "idProvinsi": "34",
+    "provinsi": "Papua Barat",
+    "listKabupaten": [
+      {
+        "kabupaten": "Kab. Fak Fak",
+        "gereja": ["Gereja Kristen Injili Di Tanah Papua"]
+      },
+      {
+        "kabupaten": "Kab. Kaima",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Manokwari",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Raja Ampat",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sorong",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Sorong Selatan",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Teluk Bentuni",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kab. Teluk Wondama",
+        "gereja": []
+      },
+      {
+        "kabupaten": "Kota Sorong",
+        "gereja": ["Gereja Sidang Jemaat Kristus"]
+      }
+    ]
+  }
+]

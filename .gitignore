@@ -3,6 +3,8 @@ dist/
 .vscode/
 
 .env
+.env.development
+.env.test
 
 coverage
 *.log

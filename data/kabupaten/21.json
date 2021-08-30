@@ -1,0 +1,13 @@
+[
+  { "id": "210100", "nama": "KAB. MALUKU TENGAH" },
+  { "id": "210200", "nama": "KAB. MALUKU TENGGARA" },
+  { "id": "210400", "nama": "KAB. MALUKU TENGGARA BARAT" },
+  { "id": "210300", "nama": "KAB. BURU" },
+  { "id": "210600", "nama": "KAB. SERAM BAGIAN TIMUR" },
+  { "id": "210500", "nama": "KAB. SERAM BAGIAN BARAT" },
+  { "id": "210700", "nama": "KAB. KEPULAUAN ARU" },
+  { "id": "210800", "nama": "KAB. MALUKU BARAT DAYA" },
+  { "id": "210900", "nama": "KAB. BURU SELATAN" },
+  { "id": "216000", "nama": "KOTA AMBON" },
+  { "id": "216100", "nama": "KOTA TUAL" }
+]
