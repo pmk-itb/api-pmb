@@ -62,12 +62,12 @@ describe('Test the url', () => {
       Authorization: 'Bearer ' + process.env.API_KEY,
     };
     const data = {
-      nim: 16521225,
+      nim: '16521225',
       name: 'Stefanus Gusega Gunawan',
       nickname: 'Evan',
       majorId: 71,
       gender: 'MALE',
-      birthDate: '2000-09-02T00:00:00Z',
+      birthDate: '2000-09-02',
       line: 'stefanusline',
       phone: '0881234567890',
       email: 'stefanus@mail.com',
@@ -92,12 +92,12 @@ describe('Test the url', () => {
     };
 
     const data = {
-      nim: 16521226,
+      nim: '16521226',
       name: 'Stefanus Gusega Gunawan',
       nickname: 'Evan',
       majorId: 71,
       gender: 'MALE',
-      birthDate: '2000-09-02T00:00:00Z',
+      birthDate: '2000-09-02',
       line: 'stefanusline',
       phone: '0881234567890',
       email: 'stefanus@mail.com',
@@ -125,8 +125,8 @@ describe('Test the url', () => {
     expect(response.body.data.year).toBe(2021);
     expect(response.body.data.tpbNim).toBe(response.body.data.nim);
     expect(parent?.children.length).toBe(2);
-    expect(parent?.children[0].tpbNim).toBe(16521225);
-    expect(parent?.children[1].tpbNim).toBe(16521226);
+    expect(parent?.children[0].tpbNim).toBe('16521225');
+    expect(parent?.children[1].tpbNim).toBe('16521226');
   });
 
   it('should response 400 when hit /api/members, but with existing nim', async () => {
@@ -135,12 +135,12 @@ describe('Test the url', () => {
     };
 
     const data = {
-      nim: 16521225,
+      nim: '16521225',
       name: 'Stefanus Gusega Gunawan',
       nickname: 'Evan',
       majorId: 71,
       gender: 'MALE',
-      birthDate: '2000-09-02T00:00:00Z',
+      birthDate: '2000-09-02',
       line: 'stefanusline',
       phone: '0881234567890',
       email: 'stefanus@mail.com',

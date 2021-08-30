@@ -8,8 +8,8 @@ export async function seedMembers(): Promise<void> {
 
   for (let i = 0; i < 9; i++) {
     const data = {
-      nim: 13518001 + randomInt(0, 149),
-      tpbNim: 16518001 + randomInt(0, 400),
+      nim: String(13518001 + randomInt(0, 149)),
+      tpbNim: String(16518001 + randomInt(0, 400)),
       name: faker.name.findName(),
       nickname: faker.name.firstName(),
       majorId: i + 1,

@@ -39,7 +39,7 @@ model Major {
   code         String     @db.VarChar(7)
   // e.g.: Teknik Industri, Arsitektur
   name         String     @db.VarChar(255)
-  nimPrefix    Int
+  nimPrefix    String
   // major belongs to one department
   department   Department @relation(fields: [departmentId], references: [id])
   departmentId Int
@@ -55,8 +55,8 @@ model Member {
   id Int @id @default(autoincrement())
 
   // NIM aktif (== tpb_nim jika masih tpb)
-  nim            Int?      @unique
-  tpbNim         Int?      @unique
+  nim            String?      @unique
+  tpbNim         String?      @unique
   name           String
   nickname       String?
   // member belongs to one major
