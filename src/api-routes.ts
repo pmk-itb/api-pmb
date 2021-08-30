@@ -135,7 +135,7 @@ router.post('/members', [
           nickname,
           major: { connect: { id: majorId } },
           gender,
-          birthDate,
+          birthDate: new Date(birthDate),
           year: 2021,
           line,
           phone,
