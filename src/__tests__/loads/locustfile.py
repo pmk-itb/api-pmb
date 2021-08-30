@@ -19,12 +19,12 @@ class FormPMBUser(HttpUser):
     def generate_fake_data(self):
         faker = Faker(['id_ID'])
         data = {
-            'nim': faker.random.randint(16521001, 16521600),
+            'nim': str(faker.random.randint(16521001, 16521600)),
             'name': faker.name(),
             'nickname': faker.first_name(),
             'majorId': faker.random.randint(1, 77),
             'gender': 'MALE',
-            'birthDate': '2000-09-02T00:00:00Z',
+            'birthDate': '2000-09-02',
             'line': faker.user_name(),
             'phone': faker.phone_number(),
             'email': faker.email(),
