@@ -3,11 +3,11 @@ import path from 'path';
 import schoolData from '../data/school.json';
 
 const cleanUp = async () => {
-  console.log(Object.keys(schoolData));
   const newDataSekolah = schoolData.dataSekolah.map((data) => {
-    data.kode_prop = data.kode_prop.trim();
-    data.kode_kab_kota = data.kode_kab_kota.trim();
-    data.kode_kec = data.kode_kec.trim();
+    delete data.npsn;
+    delete data.alamat_jalan;
+    delete data.lintang;
+    delete data.bujur;
     return data;
   });
   const newData = {
