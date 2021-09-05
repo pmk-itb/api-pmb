@@ -74,7 +74,10 @@ router.get('/mentors', async (_req: Request, res: Response) => {
     };
   });
 
-  res.json(nonItbMentors.concat(itbMentors));
+  res.json({
+    message: 'Success',
+    data: nonItbMentors.concat(itbMentors),
+  });
 });
 
 router.get('/test', async (_req: Request, res: Response) => {
