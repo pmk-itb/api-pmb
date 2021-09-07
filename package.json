@@ -8,14 +8,15 @@
   "scripts": {
     "dev": "dotenv -e .env.development nodemon src/index.ts",
     "test": "dotenv -e .env.test -- jest --coverage",
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json && cp -r ./kabupaten ../dist/data",
     "prepare": "husky install",
     "dev:push": "dotenv -e .env.development -- prisma db push --force-reset",
     "test:push": "dotenv -e .env.test -- prisma db push --force-reset",
     "dev:seed": "dotenv -e .env.development -- prisma db seed --preview-feature",
     "test:seed": "dotenv -e .env.test -- prisma db seed --preview-feature",
     "heroku-postbuild": "tsc -p tsconfig.json",
-    "ts-node": "ts-node --compiler-options \"{\\\"module\\\":\\\"commonjs\\\"}\""
+    "ts-node": "ts-node --compiler-options \"{\\\"module\\\":\\\"commonjs\\\"}\"",
+    "start": "node dist/src/index.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
